@@ -1,0 +1,8 @@
+{
+  "label": "Veille et Conseils",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Retrouve les résultats de mes recherches et cherche les conseils qui t'intéressent"
+  }
+}
