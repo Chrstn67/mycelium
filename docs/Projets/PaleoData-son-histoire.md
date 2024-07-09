@@ -265,3 +265,332 @@ Des encadrés avec menant vers les pages du site, et puis surtout, un bandeau av
 ![Filtre des animaux, V2](./Images/PaleoData/Filtre-animaux-V2.png)
 
 Bon, là, je t'avais prévenu, pas de gros changements, si ce n'est que j'ai supprimé le choix d'afficher ou non les filtres. J'y ai mis un espacement différent, mais à part ça...
+
+### La carte d'identité de l'animal sélectionné
+
+💛Ma partie préférée💛
+
+![AnimalCard, V2](./Images/PaleoData/AnimalCard-V2.png)
+
+D'abord, il faut comprendre que les informations des animaux sont placées dans un fichier placé à part dans le projet.
+
+Pour un animal, cela ressemble à cela :
+
+```jsx
+{
+    nom: 'Acleistorhinus',
+    etymologie: 'Nez non-fermé',
+    image_url: './assets/images/Acleistorhinus.jpg',
+    taxonomie: {
+      règne: 'Animalia',
+      classe: 'Reptilia',
+      ordre: 'Procolophonomorpha',
+      famille: 'Acleistorhinidae',
+      genre: 'Acleistorhinus',
+      espèces: 'Acleistorhinus pteroticus',
+    },
+    regime_alimentaire: 'Insectivore',
+    habitat: 'Terre ferme',
+    geologie: {
+      ere: 'Paléozoïque',
+      periode: 'Permien',
+      epoque: 'Guadalupien',
+      stage: 'Roadien',
+      apparition: -273.6,
+      extinction: -271.6,
+    },
+    description:
+      "Acleistorhinus était caractérisé par son crâne court et large, son corps massif et ses membres robustes. Il possédait une carapace osseuse qui lui offrait une protection contre les prédateurs. Il se nourrissait probablement d'insectes et d'autres petits animaux. Acleistorhinus fait partie des nombreux reptiles qui ont vécu avant l'apparition des dinosaures.",
+    autres_infos: {
+      taille: {
+        longueur: '1,5 mètre',
+        hauteur: '0,5 mètre',
+      },
+      poids: '100 kilogrammes',
+    },
+    decouverte: {
+      date: '1969',
+      lieu: 'Afrique du Sud',
+    },
+  },
+```
+
+On ne dirait pas comme cela, mais les données sont rangées... dans un tableau 🫨... que l'on appelle un **_tableau de données_** ou **_tableau d'objet_**.
+
+Je t'explique simplement, sans trop entrer dans le détail :
+
+Dans mon projet, je vais relier toooout ce fichier avec tooooutes les informations de toooous les animaux. Ensuite, je vais les '_boucler_' de manière à avoir les informations que je souhaite afficher concernant un animal, dans un composant que j'avais appelé **_AnimalCard_** (Ça va😜?).
+
+Poursuivons, ça ira mieux 😛
+
+Bien que la partie de la taxonomie n'ait pas changée (non-visible sur l'image), je suis très content de cette mouture :
+
+- L'image et l'étymologie sont placées en haut à gauche.
+
+- La description est placée sur la longueur de la page, parce que certains animaux ont une description plus longue que d'autres. Le fait de la placer sur la longueur "économise" de la place sur la hauteur du texte. Il y a possibilité de scroller si le texte est toutefois trop long, ce qui mieux visible sur la version mobile.
+
+- Les informations de morphologie, d'habitat, de régime alimentaire et de découvertes sont alignées et disposées en carré, avec une meilleure lecture des infos.
+
+Le plus intéressant est l'affichage des informations géologiques... J'en ai fait un composant **_GeoInfo_** que j'ai trouvé très intéressant à faire.
+Plutôt que de disposer les données dans des colonnes insipides, j'ai voulu faire un affichage alternatif.
+
+Toutes les 5 secondes, s'affichent respectivement les infos géologiques de l'animal :
+
+```jsx
+geologie: {
+      ere: 'Paléozoïque',
+      periode: 'Permien',
+      epoque: 'Guadalupien',
+      stage: 'Roadien',
+      apparition: -273.6,
+      extinction: -271.6,
+    },
+```
+
+Dans cet extrait du **_tableau de données_**, on constate une petite chose... Les données de l'ère, de la période, de l'époque et de l'étage sont placés entre guillemets (simples ou doubles, cela ne change rien ici).
+
+Mais les données d'apparition et de disparition sont inscrites sans guillemets...
+
+Pourquoi 🤔 ?
+
+Ce qui est entre guillemets, ce sont des **_strings_**, c'est-à-dire des **_chaines de caractères_**. Sans guillemets, ce sont des **_integer_**, des **_nombres_**. Inscrire les nombres de cette manière est plus pratique pour la suite...
+
+Tu remarques que lorsqu'on parle de géologie, de dinosaures etc, on s'exprime en _Millions d'années_ (Ma, pour les intimes), sauf que c'est trop long d'écrire "-273600000 Ma" en **_string_**...
+
+Donc on va simplifier, écrire -273.6 en **_integer_** et passer par une conversion dans le code :
+
+```js
+const formatMillionsYears = (number) => {
+  if (number > 0) {
+    return number;
+  }
+
+  const absNumber = Math.abs(number);
+  const million = 1000000;
+
+  if (absNumber >= 1) {
+    const formattedNumber = absNumber * million;
+    const numberString = formattedNumber.toString();
+    const lastIndex = numberString.length - 6;
+    const formattedString = `${numberString.slice(
+      0,
+      lastIndex
+    )} ${numberString.slice(lastIndex, lastIndex + 3)} ${numberString.slice(
+      lastIndex + 3
+    )}`;
+    return `${formattedString} d'années`;
+  }
+
+  const formattedNumber = absNumber * million;
+  const formattedString = Math.floor(formattedNumber).toString();
+  const lastIndex = formattedString.length - 3;
+  const finalFormattedString = `${formattedString.slice(
+    0,
+    lastIndex
+  )} ${formattedString.slice(lastIndex)}`;
+  return `${finalFormattedString} ans`;
+};
+```
+
+Dans ce code :
+
+1. La fonction prend un nombre en paramètre. Si ce nombre est supérieur à zéro, elle le renvoie tel quel.
+2. Si le nombre est inférieur ou égal à zéro, elle calcule sa valeur absolue (c'est-à-dire qu'elle le rend positif) et la stocke dans la variable _absNumber_.
+3. Elle définit ensuite une variable **million** qui vaut 1,000,000.
+4. Si _absNumber_ est supérieur ou égal à 1, elle multiplie _absNumber_ par **million** pour obtenir le nombre d'années, puis formatte ce nombre en ajoutant des espaces pour séparer les millions, les milliers et les unités. Le résultat est renvoyé avec la mention "d'années".
+5. Si _absNumber_ est inférieur à 1, elle multiplie _absNumber_ par **million** pour obtenir le nombre d'années, puis arrondit ce nombre à l'entier inférieur et le formatte en ajoutant un espace pour séparer les milliers des unités. Le résultat est renvoyé avec la mention "ans".
+
+Tout cela fera qu'à l'affichage on aura, non pas _-273.6_, mais bien _-273 600 000 Millions d'années_.
+
+Autre point intéressant : _Comment faire pour afficher TOUTES les données géologiques dans l'ordre, les unes après les autres, et à l'infini ?_
+
+1. On va créer _geoInfosArray_ et _geoInfosTypes_, deux **arrays** créés à partir de l'objet _geologie_, que l'on retrouve dans le tableau de données. On utilise la logique conditionnelle pour vérifier si certaines propriétés de _geologie_ existent, et si oui, ils ajoutent une chaîne de caractères correspondante au tableau. La méthode _filter(Boolean)_ est utilisée pour supprimer les valeurs _undefind_ ou _null_ du tableau.
+
+2. On utilise ensuite un **Hook** (un état) de React qui stocke un index courant et une fonction pour le mettre à jour. L'index courant est initialement défini à 0, soit _const [currentIndex, setCurrentIndex] = useState(0);_.
+
+3. _useEffect_ est un autre **Hook** de React qui est utilisé pour gérer les effets secondaires dans les composants fonctionnels. Dans notre cas, on va l'utiliser pour créer un intervalle qui met à jour _currentIndex_ toutes les 5 secondes (5000 millisecondes). L'index est incrémenté de 1 à chaque fois (on ajoute +1), et le symbole % (modulo) est utilisé pour s'assurer que l'index revient à 0 une fois qu'il a atteint la longueur de geoInfosArray.
+
+4. La fonction _clearInterval_ est retournée dans _useEffect_ pour nettoyer l'intervalle lorsque le composant est démonté ou que _geoInfosArray_ change.
+
+5. Enfin, le code retourne un élément JSX qui affiche le type d'information géologique correspondant à l'index courant dans le tableau _geoInfosTypes_.
+
+Je sais, si tu débutes, je comprends que ce soit un peu flou. Mais une une fois que tu as compris comment cela fonctionne, ça ira tout seul, ne t'en fais pas😊😉.
+
+Voici le code du composant **_GeoInfo_**, qui permet d'avoir l'affichage des données géologiques:
+
+```jsx
+import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
+import "./GeoInfo.scss";
+
+const GeoInfo = ({ geologie }) => {
+  const formatMillionsYears = (number) => {
+    if (number > 0) {
+      return number;
+    }
+
+    const absNumber = Math.abs(number);
+    const million = 1000000;
+
+    if (absNumber >= 1) {
+      const formattedNumber = absNumber * million;
+      const numberString = formattedNumber.toString();
+      const lastIndex = numberString.length - 6;
+      const formattedString = `${numberString.slice(
+        0,
+        lastIndex
+      )} ${numberString.slice(lastIndex, lastIndex + 3)} ${numberString.slice(
+        lastIndex + 3
+      )}`;
+      return `${formattedString} d'années`;
+    }
+
+    const formattedNumber = absNumber * million;
+    const formattedString = Math.floor(formattedNumber).toString();
+    const lastIndex = formattedString.length - 3;
+    const finalFormattedString = `${formattedString.slice(
+      0,
+      lastIndex
+    )} ${formattedString.slice(lastIndex)}`;
+    return `${finalFormattedString} ans`;
+  };
+
+  const geoInfoArray = [
+    geologie.apparition && `${formatMillionsYears(geologie.apparition)}<br />`,
+    geologie.ere && `${geologie.ere}`,
+    geologie.periode && `${geologie.periode}`,
+    geologie.epoque && `${geologie.epoque}`,
+    geologie.stage && `${geologie.stage}`,
+    geologie.extinction && `${formatMillionsYears(geologie.extinction)}<br />`,
+  ].filter(Boolean);
+
+  const geoInfoTypes = [
+    geologie.apparition && "Apparition",
+    geologie.ere && "Ère",
+    geologie.periode && "Période",
+    geologie.epoque && "Époque",
+    geologie.stage && "Étage",
+    geologie.extinction && "Disparition",
+  ].filter(Boolean);
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % geoInfoArray.length);
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, [geoInfoArray]);
+
+  return (
+    <section className="animal-geologie">
+      <h3>Géologie</h3>
+      <div className="geo-info-container">
+        <p className="geo-info-type">{geoInfoTypes[currentIndex]}</p>
+        <p
+          className="time-info"
+          dangerouslySetInnerHTML={{ __html: geoInfoArray[currentIndex] }}
+        />
+      </div>
+    </section>
+  );
+};
+
+export default GeoInfo;
+```
+
+> **_NB_**: `import ./GeoInfo.scss;` permet de relier le code SCSS de stylisation du composant (couleurs, tailles des éléments, etc...)
+
+Autre petite chose : La possibilité de partager un animal avec tes amis !
+
+Je te donne le code tout prêt :
+
+```jsx
+const shareLink = async (animal) => {
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: `Découvre des informations sur ${animal.nom}.`,
+        text: `Découvre des informations sur ${animal.nom}.`,
+        url: `${window.location.origin}/PaleoData/#/animal/${encodeURIComponent(
+          animal.nom
+        )}`,
+      });
+    } catch (error) {
+      console.error("Erreur lors du partage :", error);
+    }
+  }
+};
+```
+
+Ainsi, tes amis auront les infos sur l'animal que tu envoies. Cela ne les empêche de visiter le site, par la suite.
+
+### L'échelle des temps (Timeline)
+
+La timeline, un autre morceau. Je vais te faire grâce du code. Mais j'ai utilisé la librarie React `react-vertical-timeline-component` que j'ai ensuite stylisé à ma manière.
+
+[react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
+
+![Timeline, V2](./Images/PaleoData/Timeline-V2.png)
+
+Par contre, j'attire ton attention sur les couleurs... Je ne suis pas web-designer, qui est un métier vraiment à part, mais très passionnant.
+
+Quand on conçoit un cahier des charges, il est important de savoir que pour un site web, on ne devrait, pour ne pas dire "on doit", utiliser que 4 couleurs MAXIMUM... Il y en a plus sur mon site (9 en tout + le blanc et noir) mais l'important est d'avoir une **_identité visuelle_**. Et très clairement, sur la première version de l'échelle des temps, il n'y avait aucune identité visuelle🫣...
+
+### Les modales d'informations des éléments de la frise
+
+C'est bon le changement... Mais pas ici... C'est toujours la même version🙂
+
+### Étymologie
+
+Avoue que cela change du tableau de la première version😁!
+
+En _format-mobile_, les "post-it" sont en colonne.
+
+J'y ajouté la racine ayant donné le mot...
+
+![Etymologie, V2](./Images/PaleoData/Etymologie-V2.png)
+
+### Documentation
+
+Alors ici, c'est drastique...
+
+J'ai fini par opter par ce qu'on pourrait appeler une "_page d'accueil de documentation_". En fait, plutôt que d'avoir une liste interminable des informations, autant avoir chaque thème sur une page à part.
+
+Donc, quand tu cliques sur un lien, tu auras la listes des informations du thème choisi.
+
+![Documentation, V2](./Images/PaleoData/Documentation-V2.png)
+
+Sur les pages de chaque thème, les informations sont présentées de la même manière.
+
+Je te montre la page **_Gisements de fossiles_** qui est plus significative :
+
+![Page Gisement, V2](./Images/PaleoData/Page-Gisement-V2.png)
+
+J'ai intégré une carte Leaflet.
+
+Quand tu cliques sur une pastille correspondante à un gisement de fossiles, une explication s'affiche en dessous de la carte. À gauche, une image et à droite, une explication. Toutes les autres pages de la documentation sont basées sur le même modèle d'affichage des informations.
+
+(Pour mieux comprendre comme fonctionne Leaflet et comment l'utiliser, rends-toi sur un article que j'ai écrit là-dessus :
+[Article Leaflet](https://www.linkedin.com/pulse/tutoriel-sur-lutilisation-de-leaflet-avec-react-christian-humbert-qoyhe/?trackingId=1WH8vJuh2AzW%2FFlIf88%2FgA%3D%3D)
+
+## Conclusion
+
+Bon alors ? Que penses-tu de **PaleoData V2** ?
+
+Je serais vraiment intéressé d'avoir ton retour🤗.
+
+Tu as des idées de fonctionnalités supplémentaires ? Ou as-tu constaté un bug ou une erreur durant ta visite ?
+
+Contacte-moi 🙂! Tu as des manière de le faire dans le footer du site😊!
+
+En tout cas, ce projet m'a appris plusieurs choses :
+
+- Il est important de faire un Cahier des Charges AVANT de coder
+- Il est aussi important de concevoir sa charte graphique avant de ploger dans le code. En cas de refonte pour plus tard, cela facilitera grandement le travail.
+- On apprend par l'erreur : J'ai réappris certaines choses et j'ai pu rendre **PaleoData** plus attrayant
+
+N'hésite pas si tu veux en savoir plus !!!
+
+> **NB** : Au moment où tu lis ces lignes, il es probable qu'il y ait eu quelques changements mineurs depuis, une petite retouche ça-et-là ou une modification suite à divers retours des utilisateurs 😉
