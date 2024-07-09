@@ -76,15 +76,23 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Veille et Conseils",
-            to: "/veille-et-conseils",
+            label: "Sondages",
+            to: "/sondages",
           },
 
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Mes articles",
+            label: "Tutoriels",
+            to: "/tutoriels",
+          },
+
+          {
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Articles",
             to: "/articles",
           },
 
@@ -92,8 +100,16 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Projets et découvertes",
-            to: "/projets-et-découverte",
+            label: "Projets",
+            to: "/projets",
+          },
+
+          {
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Astuces",
+            to: "/actuces",
           },
 
           {
@@ -106,17 +122,34 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Veille et Conseils",
-                to: "/veille-et-conseils",
-              },
-            ],
-          },
+          // {
+          //   title: "Docs",
+          //   items: [
+          //     {
+          //       label: "Sondages",
+          //       to: "/sondages",
+          //     },
+          //     {
+          //       label: "Tutoriels",
+          //       to: "/tutoriels",
+          //     },
+          //     {
+          //       label: "Articles",
+          //       to: "/articles",
+          //     },
+          //     {
+          //       label: "Projets",
+          //       to: "/projets",
+          //     },
+          //     {
+          //       label: "Astuces",
+          //       to: "/astuces",
+          //     },
+          //   ],
+          // },
           {
             title: "Réseaux",
+
             items: [
               {
                 label: "Discord",
