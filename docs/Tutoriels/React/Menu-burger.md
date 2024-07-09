@@ -287,7 +287,7 @@ Il te suffit de la rajouter :
 </li>
 ```
 
-_onClick={toggleMenu}_ signifie qu'au click sur cet onglet, la fonction est appelée pour fermer le menu si il est ouvert.
+_`onClick={toggleMenu}`_ signifie qu'au click sur cet onglet, la fonction est appelée pour fermer le menu si il est ouvert.
 
 Et grande nouvelle :
 **_Tu as fini ta navbar et ton menu burger 💪👏🤩 !!_**
