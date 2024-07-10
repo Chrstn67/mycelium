@@ -1,0 +1,13 @@
+{
+  "position": 5,
+  "label": "Projets React",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Listes des Projets React"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

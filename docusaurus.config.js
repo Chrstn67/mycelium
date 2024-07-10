@@ -76,16 +76,8 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Sondages",
-            to: "/sondages",
-          },
-
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutoriels",
-            to: "/tutoriels",
+            label: "Portfolio",
+            to: "/docs/portfolio",
           },
 
           {
@@ -93,7 +85,7 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Articles",
-            to: "/articles",
+            to: "/docs/category/articles",
           },
 
           {
@@ -101,7 +93,23 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Projets",
-            to: "/projets",
+            to: "/docs/category/projets",
+          },
+
+          {
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Sondages",
+            to: "/docs/category/sondages",
+          },
+
+          {
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Tutoriels",
+            to: "/docs/category/tutoriels",
           },
 
           {
@@ -109,7 +117,7 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Astuces",
-            to: "/actuces",
+            to: "/docs/category/astuces",
           },
 
           {
@@ -175,7 +183,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT, avec Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,

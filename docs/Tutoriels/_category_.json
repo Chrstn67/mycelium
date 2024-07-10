@@ -1,0 +1,13 @@
+{
+  "position": 5.5,
+  "label": "Tutoriels",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Listes des Tutoriels"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
