@@ -7,6 +7,8 @@ sidebar_position: 1
 Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu 'touche-à-tout', je m'intéresse au développement web depuis 2021. Je souhaite acquérir de nouvelles compétences, connaitre l'évolution de la technologie informatique et partager mes acquis à d'autres.
 J'ai également l'habitude de donner des conférences, j'apprécie de donner des conseils et techniques oratoires.
 
+##### 📖 [L'histoire de mon premier projet web (et de mes débuts dans le dev)](https://www.linkedin.com/pulse/lhistoire-de-mon-premier-projet-web-et-mes-d%C3%A9buts-dans-humbert-yqxwe/)
+
 <img src="https://media.licdn.com/dms/image/D4E03AQG37et6KTEyfA/profile-displayphoto-shrink_800_800/0/1718639795142?e=1726099200&v=beta&t=3_w5y0IZhe9jJr3hFZ2pu5H5PqgWZR14fvsBVLU1hQE" alt="Photo de profil" width="200" height="200" />
 
 ## Langues

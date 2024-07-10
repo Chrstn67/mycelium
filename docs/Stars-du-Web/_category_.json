@@ -1,0 +1,13 @@
+{
+  "position": 6,
+  "label": "Stars du Web",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Stars du Web"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

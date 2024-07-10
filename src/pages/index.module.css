@@ -3,16 +3,33 @@
  * and scoped locally.
  */
 
+.container {
+  background-color: red;
+  z-index: 99999;
+}
 .heroBanner {
-  padding: 4rem 0;
+  background-image: url(bannerLinkedIn.png);
+  background-size: cover;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 60vh;
+  width: 100%;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1000px) {
   .heroBanner {
-    padding: 2rem;
+    background-image: url(Logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 60vh;
+    width: 100%;
   }
 }
 
@@ -20,4 +37,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 7em;
+}
+
+@media screen and (max-width: 1000px) {
+  .buttons {
+    top: 8em;
+  }
 }

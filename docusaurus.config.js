@@ -73,7 +73,6 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Portfolio",
@@ -81,7 +80,6 @@ const config = {
           },
 
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Articles",
@@ -89,7 +87,6 @@ const config = {
           },
 
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Projets",
@@ -97,7 +94,6 @@ const config = {
           },
 
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Sondages",
@@ -105,7 +101,6 @@ const config = {
           },
 
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutoriels",
@@ -113,11 +108,16 @@ const config = {
           },
 
           {
-            type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Astuces",
             to: "/docs/category/astuces",
+          },
+          {
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Stars du Web",
+            to: "/docs/category/stars-du-web",
           },
 
           {
@@ -183,7 +183,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT, avec Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT`,
       },
       prism: {
         theme: prismThemes.github,

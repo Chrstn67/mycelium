@@ -26,7 +26,7 @@ const FeatureList = [
     description: (
       <>
         J'aime découvrir et partager des projets. Que ce soient les miens ou
-        d'autres, les secrets du web est une mine d'or !
+        d'autres, chaque secret du web est une mine d'or !
       </>
     ),
   },
