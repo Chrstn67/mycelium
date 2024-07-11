@@ -16,7 +16,9 @@ Un _Titre Professionnel (TP)_ est une certification professionnelle délivrée p
 
 - **Accessibilité** : Les Titres Professionnels sont accessibles à un large public, y compris aux demandeurs d'emploi, aux salariés en reconversion professionnelle, et à toute personne souhaitant valider son expérience professionnelle.
 
-> Le Titre Professionnel Développeur Web et Web Mobile (TP-DWWM ou TP D2WM) est reconnu RNCP Niveau 5 (Bac+2).
+:::note
+Le Titre Professionnel Développeur Web et Web Mobile (TP-DWWM ou TP D2WM) est reconnu RNCP Niveau 5 (Bac+2).
+:::
 
 ## S'organiser durant sa formation
 

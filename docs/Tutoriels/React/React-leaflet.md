@@ -42,46 +42,52 @@ import { iconMappings, townMarker } from "./constantes";
 import "./LeafletInfos.scss";
 ```
 
-> **_React_** : Importe le module principal de React pour la création de composants.
+:::note
 
-> **_useState_** : Hook de React pour gérer l'état dans les composants fonctionnels.
+- **_React_** : Importe le module principal de React pour la création de composants.
 
-> **_MapContainer, TileLayer, Marker, Popup_** : Composants fournis par react-leaflet pour construire la carte.
+- **_useState_** : Hook de React pour gérer l'état dans les composants fonctionnels.
 
-> **_Icon_** : Permet de définir des icônes personnalisées pour les marqueurs.
+- **_MapContainer, TileLayer, Marker, Popup_** : Composants fournis par react-leaflet pour construire la carte.
 
-> **_MarkerClusterGroup_** : Composant pour regrouper les marqueurs dans des clusters.
+- **_Icon_** : Permet de définir des icônes personnalisées pour les marqueurs.
 
-> **_leaflet/dist/leaflet.css_** : Fournit les styles CSS pour Leaflet.
+- **_MarkerClusterGroup_** : Composant pour regrouper les marqueurs dans des clusters.
 
-> **_iconMappings, townMarker_** : Importe des données et des constantes définies ailleurs dans le projet.
+- **_leaflet/dist/leaflet.css_** : Fournit les styles CSS pour Leaflet.
 
-> **_LeafletInfos.scss_** : Un fichier CSS pour les styles spécifiques à cette composante (facultatif, selon les besoin de styles voulus).
+- **_iconMappings, townMarker_** : Importe des données et des constantes définies ailleurs dans le projet.
+
+- **_LeafletInfos.scss_** : Un fichier CSS pour les styles spécifiques à cette composante (facultatif, selon les besoin de styles voulus).
+  :::
 
 ---
 
 ### Fonction principale (Composant LeafletInfos, fichier LeafletInfos.jsx)
 
-````jsx
+```jsx
 const LeafletInfo = () => {
-// ... (voir la suite dans le code)
-};```
+  // ... (voir la suite dans le code)
+};
+```
 
-> **_LeafletInfo_** : C'est la fonction principale qui constitue le composant Leaflet dans notre application React.
-
-
+:::info
+**_LeafletInfo_** : C'est la fonction principale qui constitue le composant Leaflet dans notre application React.
+:::
 
 ### État et fonctions
 
 ```jsx
 const [mapCenter, setMapCenter] = useState([48.5613977, 7.5024652]);
-````
+```
 
-> **_mapCenter_** : Stocke les coordonnées du centre initial de la carte.
+:::info
+**_mapCenter_** : Stocke les coordonnées du centre initial de la carte.
+:::
 
 ---
 
-- **_TIPS_** :
+#### **_TIPS_** :
 
 Pour trouver les coordonnées d'un lieu, tu peux te rendre sur le site
 https://nominatim.openstreetmap.org/ui/search.html
@@ -103,7 +109,9 @@ _Cherche le lieu qui t'intéresse. Fait un clique-droit, puis clique-gauche sur 
 const [selectedType, setSelectedType] = useState("Tous");
 ```
 
-> **_selectedType_** : Stocke le type de marqueurs à afficher sur la carte.
+:::info
+**_selectedType_** : Stocke le type de marqueurs à afficher sur la carte.
+:::
 
 ```jsx
 const getCustomIcon = (type) => {
@@ -111,7 +119,9 @@ const getCustomIcon = (type) => {
 };
 ```
 
-> **_getCustomIcon_** : Fonction qui renvoie une icône personnalisée en fonction du type de marqueur. Elle utilise les iconMappings définis dans le fichier constantes.
+:::info
+**_getCustomIcon_** : Fonction qui renvoie une icône personnalisée en fonction du type de marqueur. Elle utilise les iconMappings définis dans le fichier constantes.
+:::
 
 ---
 
@@ -188,7 +198,9 @@ const filteredMarkers = townMarker.filter(
 );
 ```
 
-> **_filteredMarkers_** : Un tableau filtré de marqueurs en fonction du type sélectionné.
+:::info
+**_filteredMarkers_** : Un tableau filtré de marqueurs en fonction du type sélectionné.
+:::
 
 ### Gestion des changements de type
 
@@ -198,7 +210,9 @@ const handleTypeChange = (e) => {
 };
 ```
 
-> **_handleTypeChange_** : Fonction qui met à jour le type sélectionné lorsqu'il y a un changement dans le menu déroulant.
+:::info
+**_handleTypeChange_** : Fonction qui met à jour le type sélectionné lorsqu'il y a un changement dans le menu déroulant.
+:::
 
 Le reste du code concerne le rendu de l'interface utilisateur en utilisant JSX, la syntaxe de balisage utilisée par React.
 
@@ -214,7 +228,9 @@ Le reste du code concerne le rendu de l'interface utilisateur en utilisant JSX, 
 </MapContainer>
 ```
 
-> **_MapContainer_** : Le composant principal qui crée le conteneur de la carte. Il prend en charge des propriétés telles que center et zoom.
+:::info
+**_MapContainer_** : Le composant principal qui crée le conteneur de la carte. Il prend en charge des propriétés telles que center et zoom.
+:::
 
 ### Fond de carte
 
@@ -226,7 +242,9 @@ Le reste du code concerne le rendu de l'interface utilisateur en utilisant JSX, 
 />
 ```
 
-> **_TileLayer_** : Définit le fond de carte en utilisant une URL de fournisseur de tuiles OpenStreetMap.
+:::info
+**_TileLayer_** : Définit le fond de carte en utilisant une URL de fournisseur de tuiles OpenStreetMap.
+:::
 
 ### Marqueurs sur la carte
 
@@ -236,9 +254,12 @@ Le reste du code concerne le rendu de l'interface utilisateur en utilisant JSX, 
 </Marker>
 ```
 
-> **Marker** : Place un marqueur à la position spécifiée avec une icône personnalisée.
+:::info
 
-> **_Popup_** : Affiche une boîte de dialogue lorsque le marqueur est cliqué.
+- **Marker** : Place un marqueur à la position spécifiée avec une icône personnalisée.
+- **_Popup_** : Affiche une boîte de dialogue lorsque le marqueur est cliqué.
+
+:::
 
 ### Regroupement de marqueurs
 
@@ -252,7 +273,9 @@ Le reste du code concerne le rendu de l'interface utilisateur en utilisant JSX, 
 </MarkerClusterGroup>
 ```
 
-> **_MarkerClusterGroup_** : Regroupe les marqueurs pour éviter un encombrement visuel.
+:::info
+**_MarkerClusterGroup_** : Regroupe les marqueurs pour éviter un encombrement visuel.
+:::
 
 ### Boucle à travers les marqueurs filtrés
 

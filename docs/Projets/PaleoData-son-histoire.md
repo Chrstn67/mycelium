@@ -35,7 +35,9 @@ Tu veux connaitre quelques coulisses de ce projet ? Comment je l'ai réalisé ? 
 Je vais te montrer des images de la _Version 1_, sans m'attarder sur les codes, et je les comparerai avec la _Version 2_ où je te montrerai 2-3 trucs intéressants😋
 Je généralise aussi : Je te montre le rendu seulement en version desktop (ordinateur). En mobile, tout est pratiquement placé en colonne.
 
-> Autre précision avant de poursuivre : Ce projet est _100% frontend_, toutes les infos du site sont tapées à la main... Je n'utilise ni backend, ni API, ni base de données... Ne m'en veux pas, c'est un choix voulu et assumé. Merci de le respecter 😊
+:::note
+Autre précision avant de poursuivre : Ce projet est _100% frontend_, toutes les infos du site sont tapées à la main... Je n'utilise ni backend, ni API, ni base de données... Ne m'en veux pas, c'est un choix voulu et assumé. Merci de le respecter 😊
+:::
 
 ---
 
@@ -60,7 +62,9 @@ Ce temps de "repos" m'a permis de réfléchir un peu plus précisément à ce qu
 - La liste des étymologies (car les animaux ont des noms qui trouvent leurs origines dans les langues anciennes)
 - Une page de documentation
 
-> Là, j'ai commis une erreur (de p'tit nouveau) qui se répercutera très nettement plus tard🤨🧐...
+:::note
+Là, j'ai commis une erreur (de p'tit nouveau) qui se répercutera très nettement plus tard🤨🧐...
+:::
 
 Ayant compris les concepts de **React**, je m'attaque enfin au projet à proprement parler ! 🥳
 
@@ -96,9 +100,16 @@ J'y ai fini par y trouver une sorte de lassitude, un côté trop old-school... C
 
 ---
 
-> **_NB_** : Le RGPD est un règlement européen entré en vigueur le 25 mai 2018 qui vise à renforcer la protection des données personnelles des citoyens de l'Union européenne. Ses principaux objectifs sont : 1) Protéger la vie privée des citoyens européens en encadrant de manière plus stricte la collecte et l'utilisation de leurs données personnelles. 2) Responsabiliser les organismes publics et privés qui traitent ces données et les sanctionner en cas de manquement. 3) Répondre à une demande citoyenne de plus de transparence et de contrôle sur l'utilisation de leurs données. 4) Protéger les personnes vulnérables.
+:::info
+Le RGPD est un règlement européen entré en vigueur le 25 mai 2018 qui vise à renforcer la protection des données personnelles des citoyens de l'Union européenne. Ses principaux objectifs sont :
 
-> La loi RGPD s'applique à tout organisme, quelle que soit sa taille ou son activité, qui collecte ou traite des données personnelles de citoyens européens, que l'entreprise soit établie en Europe ou non. Il accorde de nouveaux droits aux individus, comme le droit d'accès, de rectification, d'effacement, de portabilité de leurs données, ainsi que le droit d'être informé en cas de violation. À l'inverse, le RGPD interdit la collecte de certaines catégories de données dites "sensibles" comme les opinions politiques ou l'orientation sexuelle. Les organismes doivent être en mesure de prouver à tout moment leur conformité au RGPD, notamment en tenant un registre des activités de traitement.. Des sanctions financières lourdes peuvent être appliquées en cas de non-respect.
+1.  Protéger la vie privée des citoyens européens en encadrant de manière plus stricte la collecte et l'utilisation de leurs données personnelles.
+2.  Responsabiliser les organismes publics et privés qui traitent ces données et les sanctionner en cas de manquement.
+3.  Répondre à une demande citoyenne de plus de transparence et de contrôle sur l'utilisation de leurs données.
+4.  Protéger les personnes vulnérables.
+
+La loi RGPD s'applique à tout organisme, quelle que soit sa taille ou son activité, qui collecte ou traite des données personnelles de citoyens européens, que l'entreprise soit établie en Europe ou non. Il accorde de nouveaux droits aux individus, comme le droit d'accès, de rectification, d'effacement, de portabilité de leurs données, ainsi que le droit d'être informé en cas de violation. À l'inverse, le RGPD interdit la collecte de certaines catégories de données dites "sensibles" comme les opinions politiques ou l'orientation sexuelle. Les organismes doivent être en mesure de prouver à tout moment leur conformité au RGPD, notamment en tenant un registre des activités de traitement.. Des sanctions financières lourdes peuvent être appliquées en cas de non-respect.
+:::
 
 ---
 
@@ -214,7 +225,9 @@ Le gros de changement de composant est en _format-mobile_ : la NavBar se trouve 
 
 (Dans l'article que je t'évoquais plus haut concernant le menu-burger, en format-mobile, ce menu se situait... **_en haut_**...)
 
-> C'est une question d' "_expérience utilisateur_" : Si tu prends ton téléphone d'une seule main, tu auras du mal à accéder au menu si il se situe en haut. Alors qu'en bas, ce sera nettement plus facile de cliquer sur les icônes ou onglets qui t'intéressent... Cette manière de faire commence à se démocratiser : Si tu utilises LinkedIn ou WhatsApp, tu as dû le constater récemment... Consulte ce site, si tu veux plus de renseignements à ce sujet : https://www.olybop.fr/dossier-ux-mobile-navigation-bottom/
+:::info
+C'est une question d' "_expérience utilisateur_" : Si tu prends ton téléphone d'une seule main, tu auras du mal à accéder au menu si il se situe en haut. Alors qu'en bas, ce sera nettement plus facile de cliquer sur les icônes ou onglets qui t'intéressent... Cette manière de faire commence à se démocratiser : Si tu utilises LinkedIn ou WhatsApp, tu as dû le constater récemment... Consulte ce site, si tu veux plus de renseignements à ce sujet : https://www.olybop.fr/dossier-ux-mobile-navigation-bottom/
+:::
 
 Donc, de mon côté, je me suis arrangé pour que ma NavBar soit placée **_en bas_**.
 
@@ -500,7 +513,9 @@ const GeoInfo = ({ geologie }) => {
 export default GeoInfo;
 ```
 
-> **_NB_**: `import ./GeoInfo.scss;` permet de relier le code SCSS de stylisation du composant (couleurs, tailles des éléments, etc...)
+:::note
+`import ./GeoInfo.scss;` permet de relier le code SCSS de stylisation du composant (couleurs, tailles des éléments, etc...)
+:::
 
 Autre petite chose : La possibilité de partager un animal avec tes amis !
 
@@ -530,7 +545,7 @@ Ainsi, tes amis auront les infos sur l'animal que tu envoies. Cela ne les empêc
 
 La timeline, un autre morceau. Je vais te faire grâce du code. Mais j'ai utilisé la librarie React `react-vertical-timeline-component` que j'ai ensuite stylisé à ma manière.
 
-[react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
+Pour plus d'infos, regarde ici : [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
 
 ![Timeline, V2](./Images/PaleoData/Timeline-V2.png)
 
@@ -573,7 +588,7 @@ J'ai intégré une carte Leaflet.
 Quand tu cliques sur une pastille correspondante à un gisement de fossiles, une explication s'affiche en dessous de la carte. À gauche, une image et à droite, une explication. Toutes les autres pages de la documentation sont basées sur le même modèle d'affichage des informations.
 
 (Pour mieux comprendre comme fonctionne Leaflet et comment l'utiliser, rends-toi sur un article que j'ai écrit là-dessus :
-[Article Leaflet](https://www.linkedin.com/pulse/tutoriel-sur-lutilisation-de-leaflet-avec-react-christian-humbert-qoyhe/?trackingId=1WH8vJuh2AzW%2FFlIf88%2FgA%3D%3D)
+[Article Leaflet](https://chrstn67.github.io/mycelium/docs/Tutoriels/React/React-leaflet)
 
 ## Conclusion
 
@@ -593,4 +608,6 @@ En tout cas, ce projet m'a appris plusieurs choses :
 
 N'hésite pas si tu veux en savoir plus !!!
 
-> **NB** : Au moment où tu lis ces lignes, il es probable qu'il y ait eu quelques changements mineurs depuis, une petite retouche ça-et-là ou une modification suite à divers retours des utilisateurs 😉
+:::info
+Au moment où tu lis ces lignes, il es probable qu'il y ait eu quelques changements depuis, une petite retouche ça-et-là, une modification suite à divers retours des utilisateurs ou même de nouvelles fonctionnalités 😉
+:::

@@ -18,7 +18,9 @@ Mais la raison pour laquelle Kasner est nettement plus connu est toute autre...
 
 1️⃣ suivi de 1️⃣0️⃣0️⃣ zéros...
 
-> 10 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000...
+:::note
+10 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000...
+:::
 
 Le petit lui a alors répondu :
 
@@ -31,9 +33,11 @@ S'écrivant aussi **_10^100_**, il équivaut à '**_dix sexdécilliards_**'.
 
 Pour donner une idée :
 
-> En comptant à partir de 1️⃣, et en ajoutant une unité par seconde pour arriver à un gogol, il faudrait :
->
-> **13,8 milliards d'années** 🤖
+:::info
+En comptant à partir de 1️⃣, et en ajoutant une unité par seconde pour arriver à un gogol, il faudrait :
+
+**13,8 milliards d'années** 🤖
+:::
 
 Pour encore plus de vertiges, le garçon proposa un autre nom pour un nombre encore plus grand : "**_Gogolplex_**".
 

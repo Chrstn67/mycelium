@@ -19,7 +19,9 @@ En 2019, ils avaient déjà réussi à calculer 31,4 𝐦𝐢𝐥𝐥𝐞 𝐦�
 Ils ont battu ce record en calculant Pi avec une précision de...
 **_100 000 𝐦𝐢𝐥𝐥𝐢𝐚𝐫𝐝𝐬 𝐝𝐞 𝐜𝐡𝐢𝐟𝐟𝐫𝐞𝐬_** après la virgule ! 🤯
 
-> Pour te donner une idée de l'immensité de ce nombre, à raison de 1️⃣ décimale par seconde, il te faudrait _3̳ ̳1̳6̳8̳ ̳9̳2̳0̳ ̳8̳0̳0̳ ̳a̳n̳s̳_ pour arriver à la cent mille milliardième 🤯
+:::note
+Pour te donner une idée de l'immensité de ce nombre, à raison de 1️⃣ décimale par seconde, il te faudrait _3̳ ̳1̳6̳8̳ ̳9̳2̳0̳ ̳8̳0̳0̳ ̳a̳n̳s̳_ pour arriver à la cent mille milliardième 🤯
+:::
 
 Pour arriver à nombre astronomique, les développeurs ont employé un système informatique composé :
 

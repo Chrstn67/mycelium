@@ -38,7 +38,9 @@ D'un autre côté, les humains ne sont pas toujours parfaits ou rationnels, donc
 
 Dans tous les cas, nous venons d'assister à la naissance de l'IA 🐣
 
-> **_Ce n'est qu'en 1956 que le terme "Intelligence Artificielle" a été officiellement utilisé lors d'une conférence à Dartmouth, aux États-Unis. Les chercheurs présents à cette conférence étaient optimistes quant à la possibilité de créer une machine dotée d'une intelligence similaire à celle d'un humain._**
+:::note
+**_Ce n'est qu'en 1956 que le terme "Intelligence Artificielle" a été officiellement utilisé lors d'une conférence à Dartmouth, aux États-Unis. Les chercheurs présents à cette conférence étaient optimistes quant à la possibilité de créer une machine dotée d'une intelligence similaire à celle d'un humain._**
+:::
 
 ## Comment fonctionne une IA ?
 
@@ -54,7 +56,9 @@ Dans les deux cas, l'IA fonctionne en ajustant ses paramètres internes pour min
 
 Tu connais peut-être le jeu du Go, un jeu japonais. Il existe des compétitions internationales. Il s'agit d'un jeu bien plus complexe que les échecs du fait d'un plus grand nombre de possibilités. Bref, un sport comme un autre...
 
-> **_En 2014, est né AlphaGo, un robot capable de jouer au go. En octobre 2015, il devient le premier programme à battre un joueur pro. Il s'agit d'une étape symboliquement forte puisque le programme 'joueur' de go est alors un défi complexe. En mars 2016, il bat l'un des meilleurs joueurs mondiaux. Le 27 mai 2017, il bat le champion du monde en titre et cette victoire signe la retraite du logiciel._**
+:::note
+**_En 2014, est né AlphaGo, un robot capable de jouer au go. En octobre 2015, il devient le premier programme à battre un joueur pro. Il s'agit d'une étape symboliquement forte puisque le programme 'joueur' de go est alors un défi complexe. En mars 2016, il bat l'un des meilleurs joueurs mondiaux. Le 27 mai 2017, il bat le champion du monde en titre et cette victoire signe la retraite du logiciel._**
+:::
 
 Mais l'évènement où **_AlphaGo_** est devenu célèbre et presque ''dangereux" dans ce sport, s'est déroulé en Mars 2016 :
 

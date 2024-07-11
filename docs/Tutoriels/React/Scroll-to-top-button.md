@@ -49,7 +49,9 @@ On va le rendre fonctionnel et le styliser en même temps, en affichant un petit
 On entre dans le vif du sujet 🤩:
 D'abord, il va te falloir importer deux _hooks_ de React. Tu n'as pas besoin d'installer de dépendance pour cela; c'est directement installé quand tu initialises ton projet en React.
 
-> Les _hooks_ sont des fonctions qui aident à gérer l'état et les effets dans les composants fonctionnels de React.
+:::info
+Les _hooks_ sont des fonctions qui aident à gérer l'état et les effets dans les composants fonctionnels de React.
+:::
 
 - Le premier _hook_, c'est **useState** :
 
@@ -149,13 +151,16 @@ const handleScroll = () => {
 
 Je t'explique :
 
-> **_const windowHeight = window.innerHeight;_** : Permet de récupérer la hauteur visible de la fenêtre du navigateur et cela la stocke dans la variable _windowHeight_.
+:::info
 
-> **_const bodyHeight = document.body.clientHeight;_** : On obtient la hauteur totale du corps du document (toute la page) et on la stocke dans la variable _bodyHeight_.
+- **_const windowHeight = window.innerHeight;_** : Permet de récupérer la hauteur visible de la fenêtre du navigateur et cela la stocke dans la variable _windowHeight_.
 
-> **_const progress = (scrollY / (bodyHeight - windowHeight)) \* 100_** : Va calculer automatiquement le pourcentage de progression du défilement en utilisant la formule _(scrollY / (bodyHeight - windowHeight)) \* 100_.
+- **_const bodyHeight = document.body.clientHeight;_** : On obtient la hauteur totale du corps du document (toute la page) et on la stocke dans la variable _bodyHeight_.
 
-> **_setScrollProgress(progress);_** : On utilise la fonction setScrollProgress pour mettre à jour la variable d'état scrollProgress avec la nouvelle valeur de progression calculée.
+- **_const progress = (scrollY / (bodyHeight - windowHeight)) \* 100_** : Va calculer automatiquement le pourcentage de progression du défilement en utilisant la formule _(scrollY / (bodyHeight - windowHeight)) \* 100_.
+
+- **_setScrollProgress(progress);_** : On utilise la fonction setScrollProgress pour mettre à jour la variable d'état scrollProgress avec la nouvelle valeur de progression calculée.
+  :::
 
 Ça va, tu me suis toujours 🤗?
 
@@ -381,13 +386,11 @@ C'est la **div** qui représente la barre de progression circulaire du bouton. L
   style={{ borderImage:` conic-gradient(#75553f ${scrollProgress}%, transparent 0%) 1 `}}
   ```
 
-````
-
 Cela définit le style placé dans la **div** _progress-circle_ en utilisant une image de bordure conique (conic-gradient). La couleur de la progression est _#75553f_ (un ton marron), et la variable _scrollProgress_ est utilisée pour déterminer le pourcentage de progression de la barre.
 
 - ```js
   onClick = { scrollToTop };
-````
+  ```
 
 Cela déclenche la fonction _scrollToTop_ lorsque l'utilisateur clique sur la barre de progression et donc sur le bouton.
 
@@ -444,7 +447,9 @@ Il y a trois points importants à soulever ici :
 
   Cela positionne l'élément de manière absolue lui permettant d'être placé n'importe où dans son conteneur parent.
 
+:::note
 **_NB_** : Je t'invite à faire de la veille, des recherches plus précises, pour mieux comprendre les notions de positionnement en CSS 😉.
+:::
 
 - Deuxièmement :
 
@@ -462,7 +467,9 @@ Cela permet de centrer l'élément précisément en le déplaçant de -50% de sa
 
 Cette propriété définit l'épaisseur de la bordure pour chaque côté de la flèche, en spécifiant _0.2em_ à droite et à gauche, et _0_ en haut et en bas.
 
-**_NB_** : Encore une fois, je t'invite à faire de la veille, des recherches plus précises, pour mieux comprendre les propriétés en CSS 😉.
+:::note
+Encore une fois, je t'invite à faire de la veille, des recherches plus précises, pour mieux comprendre les propriétés en CSS 😉.
+:::
 
 Voici le code SCSS complet :
 
