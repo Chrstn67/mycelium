@@ -110,14 +110,14 @@ const config = {
           {
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Astuces",
-            to: "/docs/category/astuces",
+            label: "Tips-Dev",
+            to: "/docs/category/tips-dev",
           },
           {
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Stars du Web",
-            to: "/docs/category/stars-du-web",
+            label: "Histoire",
+            to: "/docs/category/histoire",
           },
 
           {
