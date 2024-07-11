@@ -16,7 +16,7 @@ const config = {
   url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/mycelium",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -68,8 +68,8 @@ const config = {
       navbar: {
         title: "Accueil",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Logo developpeur Christian HUMBERT",
+          src: "/img/Logo.jpg",
         },
         items: [
           {
@@ -164,8 +164,19 @@ const config = {
                 href: "https://discord.com/invite/8965nuC3HM",
               },
               {
-                label: "WhatsApp",
+                label: "Chaîne WhatsApp",
                 href: "https://whatsapp.com/channel/0029VaZwOjRIXnlifbrBE83N",
+              },
+            ],
+          },
+
+          {
+            title: "Mentions légales",
+
+            items: [
+              {
+                label: "Mentions légales",
+                to: "/mentions-legales",
               },
             ],
           },
