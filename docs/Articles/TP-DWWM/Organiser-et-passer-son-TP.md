@@ -17,7 +17,7 @@ Un _Titre Professionnel (TP)_ est une certification professionnelle délivrée p
 - **Accessibilité** : Les Titres Professionnels sont accessibles à un large public, y compris aux demandeurs d'emploi, aux salariés en reconversion professionnelle, et à toute personne souhaitant valider son expérience professionnelle.
 
 :::note
-Le Titre Professionnel Développeur Web et Web Mobile (TP-DWWM ou TP D2WM) est reconnu RNCP Niveau 5 (Bac+2).
+Le _Titre Professionnel Développeur Web et Web Mobile_ (_TP-DWWM_ ou _TP D2WM_) est reconnu RNCP Niveau 5 (Bac+2).
 :::
 
 ## S'organiser durant sa formation
@@ -25,7 +25,7 @@ Le Titre Professionnel Développeur Web et Web Mobile (TP-DWWM ou TP D2WM) est r
 Tu te demandes peut-être comme s’organiser durant ta formation...
 Comment combiner la vie perso, la famille, les potos, ET la formation, tout ça en même temps... ?
 
-Qu’elle dure 3, 6, 12 mois ou plus, pour tenir sur la durée et ne pas te décourager, je t’explique ce qui fonctionne chez beaucoup. Rappelle-toi qu'une formation est intensive. Bien souvent, les formations qui délivrent un **TP** acceptent d'effectuer des formations rapides et condensées.
+Que ta formation dure 3, 6, 12 mois ou même plus, pour tenir sur la durée et ne pas te décourager, je t’explique ce qui fonctionne chez beaucoup. Rappelle-toi qu'une formation est _intensive_. Bien souvent, les formations qui délivrent un **TP** acceptent d'effectuer des formations rapides et condensées.
 
 ### Planifie
 
@@ -39,7 +39,7 @@ Respecte-le au maximum !
 
 Tu dois impérativement écouter ton corps quand il te susurre : “Va dormir !”
 
-Si ta formation est intensive, tu ne tiendras pas la durée si tu te couches tard, ou si tu modifie trop souvent tes habitudes de sommeil.
+Si ta formation est intensive, tu ne tiendras pas la durée si tu te couches tard, ou si tu modifies trop souvent tes habitudes de sommeil.
 
 Et si, en plus, il s’agit d’un formation où tu dois te déplacer, je te laisse imaginer...
 
@@ -54,11 +54,7 @@ Ton cerveau a besoin de repos, de voir et faire autre chose.
 
 Quand tu as appris à lire, tu étais content de sortir en récré...
 
-De plus, tu as peut-être une famille...
-
-N’oublie aucun de ses membres. Tu as besoin d’eux et ils ont besoin de toi !!
-
-Prends du temps pour eux chaque soir !
+De plus, tu as peut-être une famille... N’oublie aucun de ses membres. Tu as besoin d’eux et ils ont besoin de toi !! Prends du temps pour eux chaque soir !
 
 Il en va de même avec les amis... Ne laisse pas de côté sous prétexte que tu es trop occupé avec ta formation...
 
@@ -160,7 +156,7 @@ _Tous les candidats passent l'écrit en même temps, le jury aura les réponses 
 <details>
 <summary>Sois naturel</summary>
 <p>Parle comme si tu tenais une conversation dans la vie de tous les jours, sur ton sujet préféré.</p>
-<p>Ne cherche pas à apprendre ton texte par cœur, ni à imiter quelqu'un : Ce sont les deux meilleurs moyen de perdre pied...</p>
+<p>Ne cherche pas à apprendre ton texte par cœur, ni à imiter quelqu'un : Ce sont les deux meilleurs moyens de perdre pied...</p>
 <p>Parle comme ça vient : si ta langue fourche, ce n'est pas grave !!</p>
 
 :::danger
@@ -173,7 +169,7 @@ _Tous les candidats passent l'écrit en même temps, le jury aura les réponses 
 
 <details>
 <summary>Sois convaincant</summary>
-<p>L'objectif n'est pas de “vendre” ton projet mais plutôt de montrer que tu as bien compris ce que tu présentes, et surtout comment tu l'as réalisé. Tu parles devant un jury pas devant des investisseurs.</p>
+<p>L'objectif n'est pas de “vendre” ton projet mais plutôt de montrer que tu as bien compris ce que tu présentes, et surtout comment tu l'as réalisé. Tu parles devant un jury, pas devant des investisseurs.</p>
 <p>En parlant de manière convaincante et assurée, sans être théâtral, tu attireras les oreilles du jury.</p>
 <p>Ne cherche pas à prouver des choses que tu n'as pas ou que tu sais être incapable de prouver dans ta manière de parler.</p>
 </details>
@@ -186,9 +182,9 @@ _Tous les candidats passent l'écrit en même temps, le jury aura les réponses 
 
 <details>
 <summary>Une introduction qui en jette !</summary>
-<p>Tu as 30 secondes pour que le jury te suive dans ce que tu vas dire.</p> <p>Ton intro de ton exposé doit créer un décalage avec le sujet principal</p> <p>Pense à embarquer ton jury dans ce que tu dis, qu'il se sente acteur de ton introduction et ta présentation en général</p> <p>Fais preuve d'imagination</p>
+<p>Tu as 30 secondes pour que le jury te suive dans ce que tu vas dire.</p> <p>Ton intro de ton exposé doit créer un décalage avec le sujet principal.</p> <p>Pense à embarquer ton jury dans ce que tu dis, qu'il se sente acteur de ton introduction et de ta présentation en général.</p> <p>Fais preuve d'imagination.</p>
 
-Le jury doit se demander "_De quoi il parle ? Quel est le rapport avec ce qu'il raconte et son peojet dev ?_"
+Le jury doit se demander "_De quoi parle-t-il ? Quel est le rapport avec ce qu'il raconte et son peojet dev ?_"
 
 :::note
 **Exemple** :
@@ -210,12 +206,12 @@ Là, ça plait !!
 <details>
 <summary>Structure ton exposé</summary>
 <p>Après ton intro, annonce un plan</p>
-<p>Cela te permet et permet aussi au jury de mieux se repérer dans ce que tu vas raconter</p> <p>Au restaurant, si tu commandes 'spaggethi bolognaises', tu t'attends à recevoir et manger des 'spaggethi bolognaises'. C'est pareil avec un jury : Si annonce une idée, il s'attend à l'entendre quelque part.</p>
+<p>Cela te permet et permet aussi au jury de mieux se repérer dans ce que tu vas raconter</p> <p>Au restaurant, si tu commandes 'spaggethi bolognaises', tu t'attends à recevoir et manger des 'spaggethi bolognaises'. C'est pareil avec un jury : Si tu annonces une idée, il s'attend à l'entendre quelque part.</p>
 
 :::warning
 Dans la présentation, tu dois intégrer 10 minutes d'une démo de projet, comprise dans les 35 minutes imparties.
 
-Tu peux faire cette démonstration en live, ou en vidéo-recording, mais c'est toi qui parle en live.
+Tu peux faire cette démonstration en live, ou en vidéo-recording, mais dans ce second cas, c'est toi qui parle en live.
 :::
 
 </details>
@@ -234,7 +230,7 @@ Tu peux faire cette démonstration en live, ou en vidéo-recording, mais c'est t
 la comprends pas assez !**
 :::
 
-<p>Des notions complexes peuvent être expliquées de manière simple</p> <p>Durant tout ton exposé, reste andragogue dans explications. Faire compliqué ne sert strictement à rien et risque de te perturbé</p>
+<p>Des notions complexes peuvent être expliquées de manière simple.</p> <p>Durant tout ton exposé, reste andragogue dans explications. Faire compliqué ne sert strictement à rien et risque de te perturber.</p>
 
 <details>
 <summary>Quand tu utilises des analogies</summary>
@@ -258,7 +254,7 @@ fais fausse route, que ce soit dans le choix de ton exemple, ou dans dans ton ex
 
 <details>
 <summary>Conclue</summary>
-<p>Explique ce que cela t'a apporté, les défis, comment tu les as surmontés.</p>
+<p>Explique ce que cela t'a apporté, les défis rencontrés, comment tu les as surmontés.</p>
 
 </details>
 
@@ -295,7 +291,7 @@ C'est aussi une manière pour toi de savoir où il faut consolider tes connaissa
 
 Tu as le droit ne pas savoir mais sois honnête dans tes réponses.
 
-Rappelle-toi aussi que toute réflexion est prise en compte, même si tu connais pas la réponse exacte. Donc si le jury te pose une question dont tu ne connais pas la réponse, exprime tout de même le peu de connaissances que tu as sur cette question.
+Rappelle-toi aussi que toute réflexion est prise en compte, même si tu ne connais pas la réponse exacte. Donc si le jury te pose une question dont tu ne connais pas la réponse, exprime tout de même le peu de connaissances que tu as sur cette question.
 :::
 
 #### Entretien final
