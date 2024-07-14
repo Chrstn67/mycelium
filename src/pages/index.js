@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <a
             className="button button--secondary button--lg"
-            to="https://www.linkedin.com/in/christian-humbert-developpeur-web/"
+            href="https://www.linkedin.com/in/christian-humbert-developpeur-web/"
             target="_blank"
             rel="noopener noreferrer"
             title="Lien LinkedIn"
