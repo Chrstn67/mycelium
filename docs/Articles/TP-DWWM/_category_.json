@@ -1,11 +1,11 @@
 {
-  "position": 7,
-  "label": "Histoire",
+  "position": 2.2,
+  "label": "Titre Pro DWWM",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Histoire"
+    "title": "Tout sur le TP DWWM"
   },
   "customProps": {
     "description": ""

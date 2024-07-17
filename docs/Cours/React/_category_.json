@@ -1,11 +1,11 @@
 {
-  "position": 6,
-  "label": "Tips-Dev",
+  "position": 6.2,
+  "label": "React",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Tips-Dev"
+    "title": "React"
   },
   "customProps": {
     "description": ""

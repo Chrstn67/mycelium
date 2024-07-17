@@ -1,11 +1,11 @@
 {
-  "position": 5.5,
-  "label": "Projets React",
+  "position": 2.1,
+  "label": "IA",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Listes des Projets React"
+    "title": "Articles traitant de l'IA"
   },
   "customProps": {
     "description": ""

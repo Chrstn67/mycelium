@@ -1,11 +1,11 @@
 {
-  "position": 7,
-  "label": "Histoire",
+  "position": 6.1,
+  "label": "HTML",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Histoire"
+    "title": "HTML"
   },
   "customProps": {
     "description": ""

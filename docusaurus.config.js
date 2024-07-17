@@ -92,6 +92,13 @@ const config = {
           {
             sidebarId: "tutorialSidebar",
             position: "left",
+            label: "Cours",
+            to: "/docs/category/cours",
+          },
+
+          {
+            sidebarId: "tutorialSidebar",
+            position: "left",
             label: "Articles",
             to: "/docs/category/articles",
           },
@@ -117,12 +124,6 @@ const config = {
             to: "/docs/category/tutoriels",
           },
 
-          {
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tips-Dev",
-            to: "/docs/category/tips-dev",
-          },
           {
             sidebarId: "tutorialSidebar",
             position: "left",

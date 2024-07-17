@@ -1,11 +1,11 @@
 {
-  "position": 7,
-  "label": "Histoire",
+  "position": 5.1,
+  "label": "Tutos React",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Histoire"
+    "title": "Listes des Tutos React"
   },
   "customProps": {
     "description": ""
