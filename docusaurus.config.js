@@ -63,8 +63,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "/img/Logo.jpg",
+      mermaid: {
+        options: {
+          maxTextSize: 50,
+        },
+      },
       navbar: {
         title: "Accueil",
         logo: {
