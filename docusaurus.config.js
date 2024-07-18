@@ -74,6 +74,7 @@ const config = {
         options: {
           maxTextSize: 50,
         },
+        theme: { light: "neutral", dark: "forest" },
       },
       navbar: {
         title: "Accueil",

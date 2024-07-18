@@ -12,9 +12,9 @@ Un **_lien_** sert à naviguer d'une page web à une autre.
 - `href="https://www.example.com"` : Attribut qui spécifie l'URL vers laquelle le lien doit pointer.
 - Le texte entre les balises `<a>` et `</a>` est ce que l'utilisateur verra et sur quoi il cliquera.
 
-## Boutton
+## Bouton
 
-Un **_boutton_** sert à réagir (_ouvrir une fenêtre modale_, _lancer une animation_, _soumettre un formulaire_...). On y ajoute en règle général du code _JavaScript_.
+Un **_bouton_** sert à réagir (_ouvrir une fenêtre modale_, _lancer une animation_, _soumettre un formulaire_...). On y ajoute en règle général du code _JavaScript_.
 
 ```html
 <button type="button" onclick="alert('Bouton cliqué!')">Cliquez-moi</button>

@@ -1,11 +1,11 @@
 {
-  "position": 2,
-  "label": "Cours",
+  "position": 6.1,
+  "label": "Accessibilité",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Cours"
+    "title": "Accessibilité"
   },
   "customProps": {
     "description": ""
