@@ -205,6 +205,7 @@ const config = {
           //   ],
           // },
         ],
+
         copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT`,
       },
       prism: {
