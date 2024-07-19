@@ -52,6 +52,15 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // Optionally set blog post path, blog title, etc.
+          path: "./blog",
+          routeBasePath: "/blog",
+          blogTitle: "Blog de Christian Humbert",
+          blogDescription:
+            "Les dernières nouvelles et articles de Christian Humbert",
+          postsPerPage: 10,
+          blogSidebarTitle: "Tous les articles",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -68,7 +77,7 @@ const config = {
           hideable: true,
         },
       },
-      // Replace with your project's social card
+
       image: "/img/Logo.jpg",
       mermaid: {
         options: {
@@ -133,40 +142,43 @@ const config = {
           },
 
           {
+            to: "/blog",
+            label: "La vie des Dev",
+            position: "left",
+          },
+
+          {
             href: "https://www.linkedin.com/in/christian-humbert-developpeur-web/",
             label: "LinkedIn",
             position: "right",
           },
         ],
       },
+
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Sondages",
-          //       to: "/sondages",
-          //     },
-          //     {
-          //       label: "Tutoriels",
-          //       to: "/tutoriels",
-          //     },
-          //     {
-          //       label: "Articles",
-          //       to: "/articles",
-          //     },
-          //     {
-          //       label: "Projets",
-          //       to: "/projets",
-          //     },
-          //     {
-          //       label: "Astuces",
-          //       to: "/astuces",
-          //     },
-          //   ],
-          // },
+          {
+            title: "Cours",
+            items: [
+              {
+                label: "Accessibilité",
+                to: "/docs/category/accessibilité",
+              },
+              {
+                label: "HTML",
+                to: "/docs/category/html",
+              },
+              {
+                label: "JavaScript",
+                to: "/docs/category/JS",
+              },
+              {
+                label: "React",
+                to: "/docs/category/react",
+              },
+            ],
+          },
           {
             title: "Réseaux",
 
@@ -192,19 +204,15 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "More",
-          //   items: [
-          //     {
-          //       label: "Blog",
-          //       to: "/blog",
-          //     },
-          //     {
-          //       label: "GitHub",
-          //       href: "https://github.com/facebook/docusaurus",
-          //     },
-          //   ],
-          // },
+          {
+            title: "Plus",
+            items: [
+              {
+                label: "La vie des Dev",
+                to: "/blog",
+              },
+            ],
+          },
         ],
 
         copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT`,
