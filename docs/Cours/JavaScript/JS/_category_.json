@@ -1,0 +1,13 @@
+{
+  "position": 6.2,
+  "label": "JS",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "JS"
+  },
+  "customProps": {
+    "description": "Cours JS"
+  }
+}

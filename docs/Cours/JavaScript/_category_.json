@@ -1,0 +1,13 @@
+{
+  "position": 6.2,
+  "label": "JavaScript",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "JavaScript"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
