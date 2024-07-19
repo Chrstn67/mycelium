@@ -4,10 +4,21 @@
         <title>Christian HUMBERT Blog</title>
         <link>https://chrstn67.github.io/mycelium/blog</link>
         <description>Christian HUMBERT Blog</description>
-        <lastBuildDate>Fri, 19 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jul 2024 13:42:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Bienvenue]]></title>
+            <link>https://chrstn67.github.io/mycelium/blog/bienvenue</link>
+            <guid>https://chrstn67.github.io/mycelium/blog/bienvenue</guid>
+            <pubDate>Fri, 19 Jul 2024 13:42:02 GMT</pubDate>
+            <description><![CDATA[Bienvenue sur ce blog dédié aux passionnés du développement web !]]></description>
+            <content:encoded><![CDATA[<p>Bienvenue sur ce blog dédié aux passionnés du développement web !</p>
+<p>Ici, tu trouveras une collection enrichissante d'interviews de développeurs web, allant des débutants aux experts confirmés. Régulièrement, seront postées des discussions inspirantes avec des professionnels du domaine, qui partagent leurs expériences, leurs défis et leurs réussites.</p>
+<p>Que tu sois un novice cherchant des conseils pour débuter ou un développeur aguerri en quête de nouvelles perspectives, ce blog est l'endroit idéal pour découvrir des parcours variés, des astuces pratiques et des insights sur les tendances actuelles du développement web.</p>
+<p>Tu veux donner ton témoignage ? Contacte-moi sur LinkedIn !</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Entrevue avec François DUVAL]]></title>
             <link>https://chrstn67.github.io/mycelium/blog/inteview-de-François-DUVAL</link>
@@ -59,18 +70,7 @@ Imaginons un long tuyau dans lequel une balle avance), le tuyau étant un des pi
 <h1>Définition des termes utilisés</h1>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>SasS</div><div class="admonitionContent_BuS1"><p><em>Software as a Service</em>.</p><p>Il s'agit d'une application sur le cloud qui fournit divers outils et services pour les développeurs.</p></div></div>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Script CI</div><div class="admonitionContent_BuS1"><p><em>Continuous Integration</em>.</p><p>C'est un ensemble de commandes et de configurations qui automatisent le processus de construction, de test et de déploiement d'une application à chaque modification du code. Cela permet d'assurer que le code est toujours dans un état déployable et de détecter rapidement les erreurs.</p></div></div>
-<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>ASW</div><div class="admonitionContent_BuS1"><p><em>Automated Software Testing</em>.</p><p>Cela fait référence à l'utilisation d'outils et de scripts pour exécuter des tests sur des logiciels de manière automatique, afin de vérifier leur fonctionnement et de détecter des bugs ou des régressions.</p></div></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Bienvenue]]></title>
-            <link>https://chrstn67.github.io/mycelium/blog/bienvenue</link>
-            <guid>https://chrstn67.github.io/mycelium/blog/bienvenue</guid>
-            <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Bienvenue sur ce blog dédié aux passionnés du développement web !]]></description>
-            <content:encoded><![CDATA[<p>Bienvenue sur ce blog dédié aux passionnés du développement web !</p>
-<p>Ici, tu trouveras une collection enrichissante d'interviews de développeurs web, allant des débutants aux experts confirmés. Régulièrement, seront postées des discussions inspirantes avec des professionnels du domaine, qui partagent leurs expériences, leurs défis et leurs réussites.</p>
-<p>Que tu sois un novice cherchant des conseils pour débuter ou un développeur aguerri en quête de nouvelles perspectives, ce blog est l'endroit idéal pour découvrir des parcours variés, des astuces pratiques et des insights sur les tendances actuelles du développement web.</p>
-<p>Tu veux donner ton témoignage ? Contacte-moi sur LinkedIn !</p>]]></content:encoded>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>AWS</div><div class="admonitionContent_BuS1"><p><em>Amazon Web Services</em>.</p><p>AWS est une plateforme de services de cloud computing proposée par Amazon, qui offre une vaste gamme de services qui peuvent être utilisés pour le développement, le déploiement et la gestion des applications.</p></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
