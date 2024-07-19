@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmycelium=self.webpackChunkmycelium||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Tous les articles","items":[{"title":"Entrevue avec Fran\xe7ois DUVAL","permalink":"/mycelium/blog/inteview-de-Fran\xe7ois-DUVAL","unlisted":false},{"title":"Bienvenue","permalink":"/mycelium/blog/bienvenue","unlisted":false}]}')}}]);
