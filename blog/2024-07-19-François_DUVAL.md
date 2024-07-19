@@ -1,5 +1,5 @@
 ---
-slug: inteview-de-François-DUVAL
+slug: inteview-de-Francois-DUVAL
 title: Entrevue avec François DUVAL
 authors: [chumbert, fduval]
 # tags: [hello, docusaurus]
