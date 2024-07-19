@@ -48,7 +48,7 @@ Pour être plus précis :
 
 - Une fois l'application déployée (en fin de tuyau), elle devient la responsabilité de l'opérateur qui va s'assurer que la production tourne et catégoriser les erreurs afin de les remonter à l'équipe de dev.
 
-#### Quelle différence entre DevOps et Administrateur résaux ? Parce que peut faire penser à ça...
+#### Quelle différence entre DevOps et Administrateur résaux ? Parce que cela peut faire penser à ça...
 
 L'administrateur réseau gère principalement le réseau, la charge serveur, et compagnie 😄
 
