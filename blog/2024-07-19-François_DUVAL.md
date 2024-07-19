@@ -90,9 +90,9 @@ C'est un ensemble de commandes et de configurations qui automatisent le processu
 
 :::
 
-:::info[ASW]
-_Automated Software Testing_.
+:::info[AWS]
+_Amazon Web Services_.
 
-Cela fait référence à l'utilisation d'outils et de scripts pour exécuter des tests sur des logiciels de manière automatique, afin de vérifier leur fonctionnement et de détecter des bugs ou des régressions.
+AWS est une plateforme de services de cloud computing proposée par Amazon, qui offre une vaste gamme de services qui peuvent être utilisés pour le développement, le déploiement et la gestion des applications.
 
 :::
