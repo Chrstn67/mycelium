@@ -158,27 +158,27 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
-            title: "Cours",
-            items: [
-              {
-                label: "Accessibilité",
-                to: "/docs/category/accessibilité",
-              },
-              {
-                label: "HTML",
-                to: "/docs/category/html",
-              },
-              {
-                label: "JavaScript",
-                to: "/docs/category/JS",
-              },
-              {
-                label: "React",
-                to: "/docs/category/react",
-              },
-            ],
-          },
+          // {
+          //   title: "Cours",
+          //   items: [
+          //     {
+          //       label: "Accessibilité",
+          //       to: "/docs/category/accessibilité",
+          //     },
+          //     {
+          //       label: "HTML",
+          //       to: "/docs/category/html",
+          //     },
+          //     {
+          //       label: "JavaScript",
+          //       to: "/docs/category/JS",
+          //     },
+          //     {
+          //       label: "React",
+          //       to: "/docs/category/react",
+          //     },
+          //   ],
+          // },
           {
             title: "Réseaux",
 
