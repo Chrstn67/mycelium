@@ -6,7 +6,7 @@ authors: [chumbert, fduval]
 hide_table_of_contents: false
 ---
 
-Un developpeur passionné, une curiosité insatiable, François DUVAL se prête au jeu et répond à quelques question sur son job en général !
+Un developpeur passionné, une curiosité insatiable, François DUVAL se prête au jeu et répond à quelques questions sur son job en général !
 
 <!-- truncate -->
 
@@ -21,7 +21,7 @@ Donc, le choix de ma voie était assez logique, même si aujourd'hui je vois com
 
 #### Quel était le langage que tu utilisais à l'époque ?
 
-Du basic 😄 Pour être précis du QBasic. C'est l'ancêtre de ce qu'on trouve sur les calculatrices scientifiques. Il fallait noter les numéros de ligne avant chaque commande manuellement ! Et si on voulait insérer du code, il fallait changer tous les numéros de lignes 😶😱
+Du **basic** 😄 Pour être précis du **QBasic**. C'est l'ancêtre de ce qu'on trouve sur les calculatrices scientifiques. Il fallait noter les numéros de ligne avant chaque commande manuellement ! Et si on voulait insérer du code, il fallait changer tous les numéros de lignes 😶😱
 
 ## Quelle formation as-tu suivie pour devenir dev ?
 
@@ -35,7 +35,7 @@ Les autres ont rarement des certifications officielles. Et au début, durant mes
 
 ## On entend beaucoup parler de DevOps... Qu'est-ce que c'est ? Un langage de programmation ?
 
-Cela veut dire *Developpeur Opérationnel*🙂. Le dev écrit du code, l'opérateur s'assure que le code tourne en prod. Donc, le DevOps c'est celui qui s'assure que le code va être testé, vérifié, validé, et déployé 🙂
+Cela veut dire *Developpeur Opérationnel*🙂. Le dev écrit du code, l'opérateur s'assure que le code tourne en prod. Donc, le **DevOps** c'est celui qui s'assure que le code va être testé, vérifié, validé, et déployé 🙂
 
 On parle 'niveaux' ou 'piliers du devops', le **CALMS** => **C**ulture, **A**utomation, **L**ean, **M**easurement, **S**haring
 
@@ -43,8 +43,8 @@ Pour être plus précis :
 
 - Le développeur transforme les exigences (spécifications) du client en code.
 
-- Le DevOps fournit les outils nécessaires aux développeurs et optimise le pipeline (le flux correspond au contenu, et le pipeline au contenant.
-  Imaginons un long tuyau dans lequel une balle avance), le tuyau étant un des pipeline (d'où son nom) et la balle le code (ou le workflow = flux de travail), le DevOps à la responsabilité de tout ces tuyau.
+- Le **DevOps** fournit les outils nécessaires aux développeurs et optimise le pipeline (le flux correspond au contenu, et le pipeline au contenant.
+  Imaginons un long tuyau dans lequel une balle avance), le tuyau étant un des pipeline (d'où son nom) et la balle le code (ou le workflow = flux de travail), le **DevOps** à la responsabilité de tout ces tuyau.
 
 - Une fois l'application déployée (en fin de tuyau), elle devient la responsabilité de l'opérateur qui va s'assurer que la production tourne et catégoriser les erreurs afin de les remonter à l'équipe de dev.
 
@@ -52,9 +52,9 @@ Pour être plus précis :
 
 L'administrateur réseau gère principalement le réseau, la charge serveur, et compagnie 😄
 
-Alors que le DevOps va s'assurer que des tests unitaires soient lancés, optimiser les images, donner des linter et configuration aux équipes, lancer des machines pour tester en feature branch...
+Alors que le **DevOps** va s'assurer que des tests unitaires soient lancés, optimiser les images, donner des linter et configuration aux équipes, lancer des machines pour tester en feature branch...
 
-Donc le réseau va s'assurer que les moyens sont suffisant pour l'entreprise et les clients. Le DevOps va s'occuper des outils pour s'assurer que le code est bon.
+Donc le réseau va s'assurer que les moyens sont suffisant pour l'entreprise et les clients. Le **DevOps** va s'occuper des outils pour s'assurer que le code est bon.
 
 ## Qu'est-ce qui te plait dans ce métier ?
 
@@ -62,7 +62,7 @@ La diversité gigantesque de tout ce qu'on peut faire. J'ai travaillé avec tell
 
 ## Quelles technos que aimes-tu utiliser, et pourquoi ?
 
-J'en ai testé tellement, mais je trouve _Typescript_ le plus stable dans le temps alliant les forces de toutes à la fois 🙂 (ou presque). Puis actuellement, _NextJS_ et peut-être _N8N_ et _Supabase_. Même si les technos évoluent tellement vite
+J'en ai testé tellement, mais je trouve **Typescript** le plus stable dans le temps alliant les forces de toutes à la fois 🙂 (ou presque). Puis actuellement, **NextJS** et peut-être **N8N** et **Supabase**. Même si les technos évoluent tellement vite.
 
 ## À quoi ressemble ta journée de dev ?
 
@@ -72,7 +72,7 @@ Le midi j'essaie de faire un peu de sport ou d'écrire des articles. Je me prend
 
 Et le soir, je code sur mes projets persos et en ce moment des SaaS ou des formations.
 
-Les tâches sont très larges, ça peut être autant le fait d'ajouter une fonctionnalité, intégrer un site, mettre en place un script CI ou même faire de la veille pour trouver le meilleur outil à utiliser pour la suite, pour répondre au besoin.
+Les tâches sont très larges, ça peut être autant le fait d'ajouter une fonctionnalité, intégrer un site, mettre en place un _script CI_ ou même faire de la veille pour trouver le meilleur outil à utiliser pour la suite, pour répondre au besoin.
 
 # Définition des termes utilisés
 

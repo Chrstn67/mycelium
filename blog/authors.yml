@@ -6,11 +6,12 @@ chumbert:
 
 fduval:
   name: François DUVAL
-  title: Développeur DevOps, Formateur
+  title: Développeur DevOps, Formateur, Expert en automatisation notamment CI et NoCode
   url: https://www.linkedin.com/in/francois-duval-freelance/
   image_url: https://media.licdn.com/dms/image/C4E03AQG7VU8Rk7hKfw/profile-displayphoto-shrink_400_400/0/1527497374095?e=1726704000&v=beta&t=nSdZWTQFnhKOLh_wSW2oMJP26nmAxnmlPjLOpCLixLk
-# slorber:
-#   name: Sébastien Lorber
-#   title: Docusaurus maintainer
-#   url: https://sebastienlorber.com
-#   image_url: https://github.com/slorber.png
+
+gdaniels:
+  name: Gauthier DANIELS
+  title: Formateur/Développeur fullstack Javascript et jury d’examens de titres professionnels
+  url: https://www.linkedin.com/in/gauthier-daniels/
+  image_url: https://media.licdn.com/dms/image/C4E03AQF3eWT4jzebzg/profile-displayphoto-shrink_400_400/0/1648908709798?e=1726704000&v=beta&t=tKBCkLucwsU7F8hXN4UgKzXZv55mCx_df1rfZa_VZ0Q
