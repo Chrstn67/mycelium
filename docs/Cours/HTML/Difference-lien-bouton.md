@@ -1,4 +1,12 @@
+---
+tags: [HTML, Lien, Bouton, Balises, <a></a>, <button></button>]
+---
+
 # Lien VS Bouton
+
+Quelle est la différence d'utilité entre un `lien` et un `bouton` ?
+
+[Démonstration sur CodePen](https://codepen.io/Chrstn67/pen/qBzNNgL)
 
 ## Lien
 

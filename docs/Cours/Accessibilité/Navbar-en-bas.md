@@ -1,4 +1,8 @@
-# Navbar en bas
+---
+tags: [Accessibilité, UX]
+---
+
+# Placer une Navbar en bas : Pourquoi ?
 
 🚨🚨🚨En format mobile, préfère placer ta navbar en bas de l'écran🚨🚨🚨
 

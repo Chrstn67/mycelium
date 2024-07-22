@@ -1,11 +1,11 @@
 {
   "position": 6.2,
-  "label": "React",
+  "label": "Composants React",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "React"
+    "title": "Composant React"
   },
   "customProps": {
     "description": ""

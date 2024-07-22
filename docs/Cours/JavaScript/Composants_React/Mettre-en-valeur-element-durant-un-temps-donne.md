@@ -1,3 +1,7 @@
+---
+tags: [JavaScript, React, Composant]
+---
+
 # Mettre en valeur un élément durant un certain temps
 
 Ce composant permet de mettre en valeur une donnée durant un temps donné.

@@ -2,11 +2,12 @@
 slug: inteview-de-Gauthier-DANIELS
 title: Entrevue avec Gauthier DANIELS
 authors: [chumbert, gdaniels]
-# tags: [hello, docusaurus]
+tags:
+  [Jury TP, SolidJS, JavaScript, Laravel, PHP, Ruby, Java, RPG Maker VX, Vike]
 hide_table_of_contents: false
 ---
 
-Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques question sur son job en général !
+Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques questions sur son job en général !
 
 <!-- truncate -->
 

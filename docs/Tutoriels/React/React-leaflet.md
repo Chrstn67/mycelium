@@ -1,3 +1,7 @@
+---
+tags: [JavaScript, React, Frontend, Responsive, React-Leaflet]
+---
+
 # React-leaflet
 
 Bienvenue dans ce tutoriel qui te guidera à travers l'utilisation de Leaflet, une bibliothèque JavaScript pour créer des cartes interactives, avec React, un framework JavaScript populaire.

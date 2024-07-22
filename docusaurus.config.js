@@ -58,7 +58,7 @@ const config = {
           blogTitle: "Blog de Christian Humbert",
           blogDescription:
             "Les dernières nouvelles et articles de Christian Humbert",
-          postsPerPage: 10,
+
           blogSidebarTitle: "Tous les articles",
           blogSidebarCount: "ALL",
         },

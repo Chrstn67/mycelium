@@ -1,3 +1,16 @@
+---
+tags:
+  [
+    JavaScript,
+    React,
+    Frontend,
+    Responsive,
+    PaleoData,
+    Dinosaures,
+    Cahier des Charges,
+  ]
+---
+
 # PaleoData : Son histoire
 
 ## Introduction

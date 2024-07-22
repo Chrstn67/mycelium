@@ -1,3 +1,17 @@
+---
+tags:
+  [
+    Augusta Ada King,
+    Ada Lovelace,
+    Ada (langage),
+    Charles Babbage,
+    Informatique,
+    Programmation,
+    Algorithmie,
+    Analytique,
+  ]
+---
+
 # Augusta Ada King, la visionnaire
 
 ![Augusta Ada King](./Images/Lovelace.jpeg)

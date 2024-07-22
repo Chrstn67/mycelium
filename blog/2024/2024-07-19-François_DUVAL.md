@@ -2,8 +2,9 @@
 slug: inteview-de-Francois-DUVAL
 title: Entrevue avec François DUVAL
 authors: [chumbert, fduval]
-# tags: [hello, docusaurus]
+tags: [DevOps, TypeScript, NextJS, N8N, SuperBase, CALMS, QBasic]
 hide_table_of_contents: false
+date: 2024-07-19T01:00
 ---
 
 Un developpeur passionné, une curiosité insatiable, François DUVAL se prête au jeu et répond à quelques questions sur son job en général !

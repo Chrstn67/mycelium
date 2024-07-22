@@ -1,3 +1,7 @@
+---
+tags: [HTML, Modale, Balises, <dialog></dialog>, JavaScript, React]
+---
+
 # Modales
 
 ### Qu'est-ce qu'une **modale** ?

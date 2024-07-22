@@ -1,6 +1,6 @@
 {
   "position": 6.2,
-  "label": "JS",
+  "label": "JS + React",
 
   "className": "red",
   "link": {
@@ -8,6 +8,6 @@
     "title": "JS"
   },
   "customProps": {
-    "description": "Cours JS"
+    "description": "Cours JS et React"
   }
 }

@@ -1,3 +1,16 @@
+---
+tags:
+  [
+    Edward Kasner,
+    Milton Sirotta,
+    Google,
+    Googol,
+    Gogolplex,
+    Googleplex,
+    Informatique,
+  ]
+---
+
 # Edward Kasner, le père de Google
 
 ![Edward Kasner](./Images/Kasner.jpeg)

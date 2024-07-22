@@ -1,3 +1,7 @@
+---
+tags: [Pi (nombre), Google Cloud, Informatique]
+---
+
 # Pi dans le Google Cloud
 
 ## 🚨🚨🚨100 𝒎𝒊𝒍𝒍𝒆 𝒎𝒊𝒍𝒍𝒊𝒂𝒓𝒅𝒔🚨🚨🚨

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
+tags: [JavaScript, React, SCSS, Frontend, Développeur Web]
 ---
 
 # Qui suis-je ?
 
-Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu 'touche-à-tout', je m'intéresse au développement web depuis 2021. Je souhaite acquérir de nouvelles compétences, connaitre l'évolution de la technologie informatique et partager mes acquis à d'autres.
-J'ai également l'habitude de donner des conférences, j'apprécie de donner des conseils et techniques oratoires.
+Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu 'touche-à-tout', je m'intéresse au développement web depuis 2021. Je souhaite acquérir de nouvelles compétences, connaitre l'évolution de la technologie informatique et partager mes acquis à d'autres. J'ai également l'habitude de donner des conférences, j'apprécie de donner des conseils et techniques oratoires.
 
 ##### 📖 [L'histoire de mon premier projet web (et de mes débuts dans le dev)](https://www.linkedin.com/pulse/lhistoire-de-mon-premier-projet-web-et-mes-d%C3%A9buts-dans-humbert-yqxwe/)
 
@@ -40,8 +40,6 @@ J'ai également l'habitude de donner des conférences, j'apprécie de donner des
 | Maths            | Vulgarisation                                                                           |
 | Lecture          | Romans SF, aventure, [Michael Crichton](https://fr.wikipedia.org/wiki/Michael_Crichton) |
 | Footbal télévisé | 🟨🟥                                                                                    |
-
----
 
 ---
 
@@ -101,8 +99,6 @@ J'ai également l'habitude de donner des conférences, j'apprécie de donner des
   - Vulgarisation (mathématiques)
   - Travail d'équipe
   - Mise en place et adaptation d'outils pédagogiques
-
----
 
 ---
 

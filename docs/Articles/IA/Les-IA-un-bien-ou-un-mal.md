@@ -1,3 +1,18 @@
+---
+tags:
+  [
+    Intelligence Artificielle,
+    IA,
+    Histoire,
+    Test de Turing,
+    Enigma,
+    Alan Mathison Turing,
+    Lee Sebo,
+    Go (jeu),
+    Alpha Go,
+  ]
+---
+
 # Les IA : Un bien ou un mal ?
 
 _🚨🚨🚨Elles nous envahissent !🚨🚨🚨_

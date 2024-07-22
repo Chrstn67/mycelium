@@ -1,3 +1,7 @@
+---
+tags: [JavaScript, React, Message, Affichage console]
+---
+
 # Les méthodes `console` en JS
 
 JavaScript fournit plusieurs méthodes pour afficher des informations dans la console du navigateur. Voici un aperçu des différentes méthodes de `console.log` et leurs utilisations.
