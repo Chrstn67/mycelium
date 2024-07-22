@@ -2,31 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chrstn67.github.io/mycelium/blog</id>
     <title>Christian HUMBERT Blog</title>
-    <updated>2024-07-19T13:42:02.000Z</updated>
+    <updated>2024-07-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chrstn67.github.io/mycelium/blog"/>
     <subtitle>Christian HUMBERT Blog</subtitle>
     <icon>https://chrstn67.github.io/mycelium/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Bienvenue]]></title>
-        <id>https://chrstn67.github.io/mycelium/blog/bienvenue</id>
-        <link href="https://chrstn67.github.io/mycelium/blog/bienvenue"/>
-        <updated>2024-07-19T13:42:02.000Z</updated>
-        <summary type="html"><![CDATA[Bienvenue sur ce blog dédié aux passionnés du développement web !]]></summary>
-        <content type="html"><![CDATA[<p>Bienvenue sur ce blog dédié aux passionnés du développement web !</p>
-<p>Ici, tu trouveras une collection enrichissante d'interviews de développeurs web, allant des débutants aux experts confirmés. Régulièrement, seront postées des discussions inspirantes avec des professionnels du domaine, qui partagent leurs expériences, leurs défis et leurs réussites.</p>
-<p>Que tu sois un novice cherchant des conseils pour débuter ou un développeur aguerri en quête de nouvelles perspectives, ce blog est l'endroit idéal pour découvrir des parcours variés, des astuces pratiques et des insights sur les tendances actuelles du développement web.</p>
-<p>Tu veux donner ton témoignage ? Contacte-moi sur LinkedIn !</p>]]></content>
+        <title type="html"><![CDATA[Entrevue avec Gauthier DANIELS]]></title>
+        <id>https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS</id>
+        <link href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS"/>
+        <updated>2024-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques questions sur son job en général !]]></summary>
+        <content type="html"><![CDATA[<p>Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques questions sur son job en général !</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelles-études-scolaires-as-tu-faites-">Quelles études scolaires as-tu faites ?<a class="hash-link" aria-label="Direct link to Quelles études scolaires as-tu faites ?" title="Direct link to Quelles études scolaires as-tu faites ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelles-%C3%A9tudes-scolaires-as-tu-faites-">​</a></h2>
+<p>Je n'ai pas eu la chance de pouvoir suivre un parcours scolaire de manière stable, notamment par le fait d'avoir été concerné de près par la phobie-scolaire (à un moment où c'était considéré comme "être flemmard" par énormément de monde).</p>
+<p>Même si ça ne m'a pas empêché de m'instruire à côté, je n'ai pas profité du cursus classique !</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-qui-ta-donné-envie-de-devenir-dev-">Qu'est-ce qui t'a donné envie de devenir dev ?<a class="hash-link" aria-label="Direct link to Qu'est-ce qui t'a donné envie de devenir dev ?" title="Direct link to Qu'est-ce qui t'a donné envie de devenir dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quest-ce-qui-ta-donn%C3%A9-envie-de-devenir-dev-">​</a></h2>
+<p>Officieusement, je fais du développement depuis 2007. J'ai tranquillement démarré avec les ressources du <em>Site du Zéro</em>, ainsi qu'avec du <strong>Ruby</strong> via le logiciel <em>RPG Maker VX</em> avec un certain ami "voisin de jardin".</p>
+<p>Quand cet ami a poursuivi ses études à l'université (sciences/informatique), il a pris le temps pour me partager les notions abordées à la fac, avec notamment du <strong>Java</strong> et du <strong>PHP</strong>.
+Avant de devenir "officiellement" développeur, j'ai créé divers sites pour des amis et les groupes de musique dans lesquels j'étais.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelle-formation-as-tu-suivie-pour-devenir-dev-">Quelle formation as-tu suivie pour devenir dev ?<a class="hash-link" aria-label="Direct link to Quelle formation as-tu suivie pour devenir dev ?" title="Direct link to Quelle formation as-tu suivie pour devenir dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelle-formation-as-tu-suivie-pour-devenir-dev-">​</a></h2>
+<p>Au delà des supports et du support (c'est pas pareil 😅) de mon ami, j'ai suivi en 2018 une formation dans l'<em>École O'Clock</em> pour un cursus de 5 mois préparant au Titre Professionnel "DWWM".</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="je-sais-que-tu-es-aussi-jury-lors-de-lexamen-du-tp-quest-ce-qui-ta-motivé-pour-aller-à-la-rencontre-des-apprenants-">Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?<a class="hash-link" aria-label="Direct link to Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?" title="Direct link to Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#je-sais-que-tu-es-aussi-jury-lors-de-lexamen-du-tp-quest-ce-qui-ta-motiv%C3%A9-pour-aller-%C3%A0-la-rencontre-des-apprenants-">​</a></h2>
+<p>Sans casser du sucre sur le dos, le cursus "traditionnel" de l'Éducation nationale n'est pas réputé pour prôner l'équité, qui est une valeur forte en ce qui me concerne.</p>
+<p>Mon objectif en tant que jury, est d'accompagner au mieux les candidats qui ont pu potentiellement subir un décrochage et leur montrer qu'il n'est pas impossible d'atteindre nos objectifs, qu'importe notre passé.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comment-devient-on-jury-">Comment devient-on jury ?<a class="hash-link" aria-label="Direct link to Comment devient-on jury ?" title="Direct link to Comment devient-on jury ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#comment-devient-on-jury-">​</a></h2>
+<p>Je ne vais pas trop rentrer dans les détails, car les modalités sont très bien expliquées sur cette page, au travers d'un petit quiz :
+<a href="https://www.jurytitreprofessionnel.fr/etes-vous-eligible/" target="_blank" rel="noopener noreferrer">Êtes-vous éligible ?</a></p>
+<p>Cependant, pour pouvoir prétendre être jury habilité sur un titre professionnel précis, <em>il faut justifier de 3 ans d'expérience dans le domaine correspondant au titre et ne pas avoir quitté cette activité</em> (ou plus précisément, <em>ne pas avoir quitté cette activité il y a 5 ans ou plus</em>).</p>
+<p>Au delà de ces simples modalités administratives, les jurés ont un devoir de bienveillance :
+notre objectif n'est pas uniquement de cocher des cases pour valider ou non des compétences liées au titre professionnel, mais également de permettre aux candidat(e)s de s'améliorer par la suite avec des objectifs clairs.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Par exemple pour un retraité ou demandeur d'emploi :</div><div class="admonitionContent_BuS1"><p>Avoir exercé durant trois ans minimum dans un métier correspondant et avoir eu une expérience professionnelle</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-qui-te-plait-dans-ce-métier-">Qu'est-ce qui te plait dans ce métier ?<a class="hash-link" aria-label="Direct link to Qu'est-ce qui te plait dans ce métier ?" title="Direct link to Qu'est-ce qui te plait dans ce métier ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quest-ce-qui-te-plait-dans-ce-m%C3%A9tier-">​</a></h2>
+<p>Ce qui me plaît le plus dans ce métier, c'est avant tout de pouvoir améliorer certains aspects numériques de nos outils tout en partageant des connaissances.
+Juste "pisser du code", c'est sympa au début, mais ce n'est pas ce qu'il y a de plus galvanisant en ce qui me concerne.</p>
+<p>Je recherche davantage la conception et la pédagogie tout en conservant une partie dédiée au développement.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelles-technos-que-aimes-tu-utiliser-et-pourquoi-">Quelles technos que aimes-tu utiliser, et pourquoi ?<a class="hash-link" aria-label="Direct link to Quelles technos que aimes-tu utiliser, et pourquoi ?" title="Direct link to Quelles technos que aimes-tu utiliser, et pourquoi ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelles-technos-que-aimes-tu-utiliser-et-pourquoi-">​</a></h2>
+<p>Franchement, même si j'ai démarré sur du <strong>Java</strong>/<strong>PHP</strong>, j'aime énormément faire du <strong>Javascript</strong> (fullstack).
+En terme de technos, j'ai tendance à vouloir m'écarter un peu des GAFAM en utilisant du <strong>Vue.JS</strong> et <strong>SolidJS</strong>.</p>
+<p>Côté back-end, tout dépend du projet donc difficile de donner une réponse, même si je défendrais corps et âme <strong>Laravel</strong> ! (oui c'est du PHP, mais du <em>bon</em> PHP 😅)</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="solidjs--quest-ce-que-cest--comment-lutilises-tu-">SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?<a class="hash-link" aria-label="Direct link to SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?" title="Direct link to SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#solidjs--quest-ce-que-cest--comment-lutilises-tu-">​</a></h2>
+<p><strong>SolidJS</strong> est une bibliothèque comparable à React, où l'on conserve le <strong>JSX</strong> et les cycles de vie.
+La différence majeure réside dans le fait que <strong>SolidJS</strong> n'est pas fait par un <em>GAFAM</em> (contrairement à React qui est développé par Facebook), mais initialement porté et créé par Ryan Carniato.</p>
+<p>La bibliothèque s'affranchie également du <em>DOM</em> virtuel que l'on peut retrouver dans <strong>React</strong>, dans l'objectif d'alléger considérablement l'impact sur les ressources et performances en ne faisant que ce qu'on lui demande, plutôt que d'enclencher toute une machinerie lorsque ce n'est pas nécessaire.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="à-quoi-ressemble-ta-journée-de-dev-">À quoi ressemble ta journée de dev ?<a class="hash-link" aria-label="Direct link to À quoi ressemble ta journée de dev ?" title="Direct link to À quoi ressemble ta journée de dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#%C3%A0-quoi-ressemble-ta-journ%C3%A9e-de-dev-">​</a></h2>
+<p>En ce moment, je suis plutôt en mode "ingénieur pédagogique" en créant des trames de formation pour des apprenants dans le développement web.</p>
+<p>Mais en parallèle, j'ai toujours un projet dans les tiroirs qui va bientôt reprendre !</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quel-est-ce-projet--avec-quelles-technos-">Quel est ce projet ? Avec quelles technos ?<a class="hash-link" aria-label="Direct link to Quel est ce projet ? Avec quelles technos ?" title="Direct link to Quel est ce projet ? Avec quelles technos ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quel-est-ce-projet--avec-quelles-technos-">​</a></h2>
+<p>Le projet sur lequel je vais bientôt me remettre s'appelle "Band Flow" et est une application web qui vise les audiophiles et professionnels du secteur musical (artistes/musiciens, ingénieurs son/lumières, organisateurs etc).</p>
+<p>Il est réalisé avec <strong>React</strong> pour le front-end, <strong>Mistral AI</strong> pour certaines fonctionnalités IA et un serveur NodeJS derrière : le tout avec <strong>Vike</strong>, un framework basé sur Vite permettant entre autre le <strong>SSR</strong> des applications <strong>Vue/React/Solid</strong> etc...</p>
+<p>Je ne vais pas trop teaser le projet, je le garde encore au frais pour le moment 😉</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comment-trouves-tu-des-idées-de-projets-">Comment trouves-tu des idées de projets ?<a class="hash-link" aria-label="Direct link to Comment trouves-tu des idées de projets ?" title="Direct link to Comment trouves-tu des idées de projets ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#comment-trouves-tu-des-id%C3%A9es-de-projets-">​</a></h2>
+<p>Difficile d'y répondre… La plupart du temps, ces idées de projets m'arrivent d'un coup en pleine figure en étant confronté à une potentielle problématique.</p>
+<p>J'essaye principalement de résoudre des problèmes que je croise, en apportant une solution qui ne viendra pas créer de nouvelles dépendances pour autant.</p>]]></content>
         <author>
             <name>Christian HUMBERT</name>
             <uri>https://www.linkedin.com/in/christian-humbert-developpeur-web/</uri>
         </author>
+        <author>
+            <name>Gauthier DANIELS</name>
+            <uri>https://www.linkedin.com/in/gauthier-daniels/</uri>
+        </author>
+        <category label="Jury TP" term="Jury TP"/>
+        <category label="SolidJS" term="SolidJS"/>
+        <category label="JavaScript" term="JavaScript"/>
+        <category label="Laravel" term="Laravel"/>
+        <category label="PHP" term="PHP"/>
+        <category label="Ruby" term="Ruby"/>
+        <category label="Java" term="Java"/>
+        <category label="RPG Maker VX" term="RPG Maker VX"/>
+        <category label="Vike" term="Vike"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Entrevue avec François DUVAL]]></title>
         <id>https://chrstn67.github.io/mycelium/blog/inteview-de-Francois-DUVAL</id>
         <link href="https://chrstn67.github.io/mycelium/blog/inteview-de-Francois-DUVAL"/>
-        <updated>2024-07-19T00:00:00.000Z</updated>
+        <updated>2024-07-19T01:00:00.000Z</updated>
         <summary type="html"><![CDATA[Un developpeur passionné, une curiosité insatiable, François DUVAL se prête au jeu et répond à quelques questions sur son job en général !]]></summary>
         <content type="html"><![CDATA[<p>Un developpeur passionné, une curiosité insatiable, François DUVAL se prête au jeu et répond à quelques questions sur son job en général !</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelles-études-scolaires-as-tu-faites-">Quelles études scolaires as-tu faites ?<a class="hash-link" aria-label="Direct link to Quelles études scolaires as-tu faites ?" title="Direct link to Quelles études scolaires as-tu faites ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Francois-DUVAL#quelles-%C3%A9tudes-scolaires-as-tu-faites-">​</a></h2>
@@ -82,62 +133,27 @@ Imaginons un long tuyau dans lequel une balle avance), le tuyau étant un des pi
             <name>François DUVAL</name>
             <uri>https://www.linkedin.com/in/francois-duval-freelance/</uri>
         </author>
+        <category label="DevOps" term="DevOps"/>
+        <category label="TypeScript" term="TypeScript"/>
+        <category label="NextJS" term="NextJS"/>
+        <category label="N8N" term="N8N"/>
+        <category label="SuperBase" term="SuperBase"/>
+        <category label="CALMS" term="CALMS"/>
+        <category label="QBasic" term="QBasic"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Entrevue avec Gauthier DANIELS]]></title>
-        <id>https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS</id>
-        <link href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS"/>
+        <title type="html"><![CDATA[Bienvenue]]></title>
+        <id>https://chrstn67.github.io/mycelium/blog/bienvenue</id>
+        <link href="https://chrstn67.github.io/mycelium/blog/bienvenue"/>
         <updated>2024-07-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques question sur son job en général !]]></summary>
-        <content type="html"><![CDATA[<p>Un developpeur et formateur andragogue, c'est autour de Gauthier DANIELS se prête au jeu et répond à quelques question sur son job en général !</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelles-études-scolaires-as-tu-faites-">Quelles études scolaires as-tu faites ?<a class="hash-link" aria-label="Direct link to Quelles études scolaires as-tu faites ?" title="Direct link to Quelles études scolaires as-tu faites ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelles-%C3%A9tudes-scolaires-as-tu-faites-">​</a></h2>
-<p>Je n'ai pas eu la chance de pouvoir suivre un parcours scolaire de manière stable, notamment par le fait d'avoir été concerné de près par la phobie-scolaire (à un moment où c'était considéré comme "être flemmard" par énormément de monde).</p>
-<p>Même si ça ne m'a pas empêché de m'instruire à côté, je n'ai pas profité du cursus classique !</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-qui-ta-donné-envie-de-devenir-dev-">Qu'est-ce qui t'a donné envie de devenir dev ?<a class="hash-link" aria-label="Direct link to Qu'est-ce qui t'a donné envie de devenir dev ?" title="Direct link to Qu'est-ce qui t'a donné envie de devenir dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quest-ce-qui-ta-donn%C3%A9-envie-de-devenir-dev-">​</a></h2>
-<p>Officieusement, je fais du développement depuis 2007. J'ai tranquillement démarré avec les ressources du <em>Site du Zéro</em>, ainsi qu'avec du <strong>Ruby</strong> via le logiciel <em>RPG Maker VX</em> avec un certain ami "voisin de jardin".</p>
-<p>Quand cet ami a poursuivi ses études à l'université (sciences/informatique), il a pris le temps pour me partager les notions abordées à la fac, avec notamment du <strong>Java</strong> et du <strong>PHP</strong>.
-Avant de devenir "officiellement" développeur, j'ai créé divers sites pour des amis et les groupes de musique dans lesquels j'étais.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelle-formation-as-tu-suivie-pour-devenir-dev-">Quelle formation as-tu suivie pour devenir dev ?<a class="hash-link" aria-label="Direct link to Quelle formation as-tu suivie pour devenir dev ?" title="Direct link to Quelle formation as-tu suivie pour devenir dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelle-formation-as-tu-suivie-pour-devenir-dev-">​</a></h2>
-<p>Au delà des supports et du support (c'est pas pareil 😅) de mon ami, j'ai suivi en 2018 une formation dans l'<em>École O'Clock</em> pour un cursus de 5 mois préparant au Titre Professionnel "DWWM".</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="je-sais-que-tu-es-aussi-jury-lors-de-lexamen-du-tp-quest-ce-qui-ta-motivé-pour-aller-à-la-rencontre-des-apprenants-">Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?<a class="hash-link" aria-label="Direct link to Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?" title="Direct link to Je sais que tu es aussi jury lors de l'examen du TP. Qu'est-ce qui t'a motivé pour aller à la rencontre des apprenants ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#je-sais-que-tu-es-aussi-jury-lors-de-lexamen-du-tp-quest-ce-qui-ta-motiv%C3%A9-pour-aller-%C3%A0-la-rencontre-des-apprenants-">​</a></h2>
-<p>Sans casser du sucre sur le dos, le cursus "traditionnel" de l'Éducation nationale n'est pas réputé pour prôner l'équité, qui est une valeur forte en ce qui me concerne.</p>
-<p>Mon objectif en tant que jury, est d'accompagner au mieux les candidats qui ont pu potentiellement subir un décrochage et leur montrer qu'il n'est pas impossible d'atteindre nos objectifs, qu'importe notre passé.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comment-devient-on-jury-">Comment devient-on jury ?<a class="hash-link" aria-label="Direct link to Comment devient-on jury ?" title="Direct link to Comment devient-on jury ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#comment-devient-on-jury-">​</a></h2>
-<p>Je ne vais pas trop rentrer dans les détails, car les modalités sont très bien expliquées sur cette page, au travers d'un petit quiz :
-<a href="https://www.jurytitreprofessionnel.fr/etes-vous-eligible/" target="_blank" rel="noopener noreferrer">Êtes-vous éligible ?</a></p>
-<p>Cependant, pour pouvoir prétendre être jury habilité sur un titre professionnel précis, <em>il faut justifier de 3 ans d'expérience dans le domaine correspondant au titre et ne pas avoir quitté cette activité</em> (ou plus précisément, <em>ne pas avoir quitté cette activité il y a 5 ans ou plus</em>).</p>
-<p>Au delà de ces simples modalités administratives, les jurés ont un devoir de bienveillance :
-notre objectif n'est pas uniquement de cocher des cases pour valider ou non des compétences liées au titre professionnel, mais également de permettre aux candidat(e)s de s'améliorer par la suite avec des objectifs clairs.</p>
-<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Par exemple pour un retraité ou demandeur d'emploi :</div><div class="admonitionContent_BuS1"><p>Avoir exercé durant trois ans minimum dans un métier correspondant et avoir eu une expérience professionnelle</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-qui-te-plait-dans-ce-métier-">Qu'est-ce qui te plait dans ce métier ?<a class="hash-link" aria-label="Direct link to Qu'est-ce qui te plait dans ce métier ?" title="Direct link to Qu'est-ce qui te plait dans ce métier ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quest-ce-qui-te-plait-dans-ce-m%C3%A9tier-">​</a></h2>
-<p>Ce qui me plaît le plus dans ce métier, c'est avant tout de pouvoir améliorer certains aspects numériques de nos outils tout en partageant des connaissances.
-Juste "pisser du code", c'est sympa au début, mais ce n'est pas ce qu'il y a de plus galvanisant en ce qui me concerne.</p>
-<p>Je recherche davantage la conception et la pédagogie tout en conservant une partie dédiée au développement.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quelles-technos-que-aimes-tu-utiliser-et-pourquoi-">Quelles technos que aimes-tu utiliser, et pourquoi ?<a class="hash-link" aria-label="Direct link to Quelles technos que aimes-tu utiliser, et pourquoi ?" title="Direct link to Quelles technos que aimes-tu utiliser, et pourquoi ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quelles-technos-que-aimes-tu-utiliser-et-pourquoi-">​</a></h2>
-<p>Franchement, même si j'ai démarré sur du <strong>Java</strong>/<strong>PHP</strong>, j'aime énormément faire du <strong>Javascript</strong> (fullstack).
-En terme de technos, j'ai tendance à vouloir m'écarter un peu des GAFAM en utilisant du <strong>Vue.JS</strong> et <strong>SolidJS</strong>.</p>
-<p>Côté back-end, tout dépend du projet donc difficile de donner une réponse, même si je défendrais corps et âme <strong>Laravel</strong> ! (oui c'est du PHP, mais du <em>bon</em> PHP 😅)</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="solidjs--quest-ce-que-cest--comment-lutilises-tu-">SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?<a class="hash-link" aria-label="Direct link to SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?" title="Direct link to SolidJS ? Qu'est-ce que c'est ? Comment l'utilises-tu ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#solidjs--quest-ce-que-cest--comment-lutilises-tu-">​</a></h2>
-<p><strong>SolidJS</strong> est une bibliothèque comparable à React, où l'on conserve le <strong>JSX</strong> et les cycles de vie.
-La différence majeure réside dans le fait que <strong>SolidJS</strong> n'est pas fait par un <em>GAFAM</em> (contrairement à React qui est développé par Facebook), mais initialement porté et créé par Ryan Carniato.</p>
-<p>La bibliothèque s'affranchie également du <em>DOM</em> virtuel que l'on peut retrouver dans <strong>React</strong>, dans l'objectif d'alléger considérablement l'impact sur les ressources et performances en ne faisant que ce qu'on lui demande, plutôt que d'enclencher toute une machinerie lorsque ce n'est pas nécessaire.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="à-quoi-ressemble-ta-journée-de-dev-">À quoi ressemble ta journée de dev ?<a class="hash-link" aria-label="Direct link to À quoi ressemble ta journée de dev ?" title="Direct link to À quoi ressemble ta journée de dev ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#%C3%A0-quoi-ressemble-ta-journ%C3%A9e-de-dev-">​</a></h2>
-<p>En ce moment, je suis plutôt en mode "ingénieur pédagogique" en créant des trames de formation pour des apprenants dans le développement web.</p>
-<p>Mais en parallèle, j'ai toujours un projet dans les tiroirs qui va bientôt reprendre !</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quel-est-ce-projet--avec-quelles-technos-">Quel est ce projet ? Avec quelles technos ?<a class="hash-link" aria-label="Direct link to Quel est ce projet ? Avec quelles technos ?" title="Direct link to Quel est ce projet ? Avec quelles technos ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#quel-est-ce-projet--avec-quelles-technos-">​</a></h2>
-<p>Le projet sur lequel je vais bientôt me remettre s'appelle "Band Flow" et est une application web qui vise les audiophiles et professionnels du secteur musical (artistes/musiciens, ingénieurs son/lumières, organisateurs etc).</p>
-<p>Il est réalisé avec <strong>React</strong> pour le front-end, <strong>Mistral AI</strong> pour certaines fonctionnalités IA et un serveur NodeJS derrière : le tout avec <strong>Vike</strong>, un framework basé sur Vite permettant entre autre le <strong>SSR</strong> des applications <strong>Vue/React/Solid</strong> etc...</p>
-<p>Je ne vais pas trop teaser le projet, je le garde encore au frais pour le moment 😉</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comment-trouves-tu-des-idées-de-projets-">Comment trouves-tu des idées de projets ?<a class="hash-link" aria-label="Direct link to Comment trouves-tu des idées de projets ?" title="Direct link to Comment trouves-tu des idées de projets ?" href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS#comment-trouves-tu-des-id%C3%A9es-de-projets-">​</a></h2>
-<p>Difficile d'y répondre… La plupart du temps, ces idées de projets m'arrivent d'un coup en pleine figure en étant confronté à une potentielle problématique.</p>
-<p>J'essaye principalement de résoudre des problèmes que je croise, en apportant une solution qui ne viendra pas créer de nouvelles dépendances pour autant.</p>]]></content>
+        <summary type="html"><![CDATA[Bienvenue sur ce blog dédié aux passionnés du développement web !]]></summary>
+        <content type="html"><![CDATA[<p>Bienvenue sur ce blog dédié aux passionnés du développement web !</p>
+<p>Ici, tu trouveras une collection enrichissante d'interviews de développeurs web, allant des débutants aux experts confirmés. Régulièrement, seront postées des discussions inspirantes avec des professionnels du domaine, qui partagent leurs expériences, leurs défis et leurs réussites.</p>
+<p>Que tu sois un novice cherchant des conseils pour débuter ou un développeur aguerri en quête de nouvelles perspectives, ce blog est l'endroit idéal pour découvrir des parcours variés, des astuces pratiques et des insights sur les tendances actuelles du développement web.</p>
+<p>Tu veux donner ton témoignage ? Contacte-moi sur <a href="https://www.linkedin.com/in/christian-humbert-developpeur-web/" target="_blank" rel="noopener noreferrer">LinkedIn</a> !</p>]]></content>
         <author>
             <name>Christian HUMBERT</name>
             <uri>https://www.linkedin.com/in/christian-humbert-developpeur-web/</uri>
-        </author>
-        <author>
-            <name>Gauthier DANIELS</name>
-            <uri>https://www.linkedin.com/in/gauthier-daniels/</uri>
         </author>
     </entry>
 </feed>
