@@ -1,16 +1,79 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+Jury TP:
+  label: Jury TP
+  permalink: /Jury-TP
+  description: Jury TP
+
+SolidJS:
+  label: SolidJS
+  permalink: /SolidJS
+  description: SolidJS
+
+JavaScript:
+  label: JavaScript
+  permalink: /JavaScript
+  description: JavaScript
+
+Laravel:
+  label: Laravel
+  permalink: /Laravel
+  description: Laravel
+
+PHP:
+  label: PHP
+  permalink: /PHP
+  description: PHP
+
+Ruby:
+  label: Ruby
+  permalink: /Ruby
+  description: Ruby
+
+Java:
+  label: Java
+  permalink: /Java
+  description: Java
+
+RPG Maker VX:
+  label: RPG Maker VX
+  permalink: /RPG_Maker-VX
+  description: RPG_Maker VX
+
+Vike:
+  label: Vike
+  permalink: /Vike
+  description: Vike
+
+DevOps:
+  label: DevOps
+  permalink: /DevOps
+  description: DevOps
+
+TypeScript:
+  label: TypeScript
+  permalink: /TypeScript
+  description: TypeScript
+
+NextJS:
+  label: NextJS
+  permalink: /NextJS
+  description: NextJS
+
+N8N:
+  label: N8N
+  permalink: /N8N
+  description: N8N
+
+SuperBase:
+  label: SuperBase
+  permalink: /SuperBase
+  description: SuperBase
+
+CALMS:
+  label: CALMS
+  permalink: /CALMS
+  description: CALMS
+
+QBasic:
+  label: QBasic
+  permalink: /QBasic
+  description: QBasic
