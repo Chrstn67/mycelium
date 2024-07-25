@@ -4,23 +4,6 @@ tags: []
 
 # Les meilleurs outils du dev
 
-:::note[En tant que dev, il y une loi à connaître]
-Un bon dev fait des recherches par lui-même et demande de l'aide quand :
-
-- Il a cherché mais ses résultats ne sont pas concluant
-- Il a besoin l'oeil averti d'un dev plus expérimenté
-
-:::tip
-
-Que ce soit sur les réseau ou à un autre dev, quand tu appelles "Au secours" :
-
-- Explique ce que tu veux faire
-- Explique le bug ou ce que tu ne comprends pas bien
-- Montre ce que tu as essayé de faire avec les liens de documentation
-- Montre le résultat de chaque essai
-- Pose ta question
-  :::
-
 ## Ton espace de travail
 
 ### IDE
@@ -29,7 +12,11 @@ Pour coder, il faut un bon **IDE** (**_Integrated Development Environment_**). L
 
 Tu peux télécharger le logiciel ici : [Télécharger Visual Studio Code](https://code.visualstudio.com/)
 
-Tu peux aussi installer des plugins pour coder plus vite et rendre ton code pratique et/ou rapide à écrire.
+#### Plugins utiles
+
+Certains sont indispensables, certains servent à coder de manière plus confortable. À toi de chosir comment tu considères ceux que tu utilises.
+
+Voici mes préférés :
 
 | Plugin                                                                                                                                                                | Rôle                                                                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -57,15 +44,51 @@ Tu peux aussi installer des plugins pour coder plus vite et rendre ton code prat
 
 Pour tout travail de developpement, utilise [GitHub](https://github.com/). Crée-toi un compte, suis le tutoriel pour placer une clé SSH sur ton PC, et apprend les commandes de bases pour enregistrer ton travail...
 
-Ah, non... Je te laisse chercher tout ça 😉
+Ah, non... Je te laisse chercher comment faire tout ça 😉
 
-### StartMe
+Renseigne-toi sur ce qu'est **GitHub**. Sois au clair avec ce que sont les _bases de code_, _un repository_ etc...
 
-[**StartMe**](https://start.me/) est une plateforme gratuite, qui te permet de stocker des lien de site web, les trier par catégories. Tu peux aussi ajouter des signets dans lesquels tu inscris tes propres notes.
+GitHub est la plateforme la plus utilisée !!
+
+Si tu veux des infos sur ce qu'on appelle les _commandes Git_, regarde ici : [Formation sur les commandes Git](https://git.shinriel.com/git)
+
+### Un logiciel pour centraliser tes recherches, site, logiciels utiles
+
+- [**StartMe**](https://start.me/) est une plateforme gratuite, qui te permet de stocker des lien de site web, les trier par catégories. Tu peux aussi ajouter des signets dans lesquels tu inscris tes propres notes.
+
+- [**Obsidian**](https://obsidian.md/download) est une application de prise de notes et de gestion de connaissances. Elle utilise des fichiers **Markdown** stockés localement, offrant une grande flexibilité et la propriété complète des données.
+
+- [**Notion**](https://www.notion.so/fr-fr/desktop) est un outil de productivité tout-en-un qui combine des fonctionnalités de prise de notes, de gestion de projet, de base de données et de collaboration en équipe.
+
+- [**Excel**](https://docs.google.com/spreadsheets/u/0/) est une application de feuille de calcul puissante largement utilisée pour des tâches allant de la simple saisie de données à l'analyse de données complexes.
+
+- [**Docusaurus**](https://docusaurus.io/fr/) est la library **React** utilisant du **Markdown** que tu as entre les doigts. Je te conseille de maitriser quelques notions de dev avant de l'utiliser
+
+:::note
+
+Il en existe bien d'autres, à toi de choisir ce qui te convient le mieux
+:::
 
 ## Veille
 
 Dans ta vie de dev, tu devras passer le plus clair de ton temps à chercher la solution aux problèmes.
+
+:::note[En tant que dev, il y une loi à connaître]
+Un bon dev fait des recherches par lui-même et demande de l'aide quand :
+
+- Il a cherché mais ses résultats ne sont pas concluant
+- Il a besoin l'oeil averti d'un dev plus expérimenté
+
+:::tip
+
+Que ce soit sur les réseau ou à un autre dev, quand tu appelles "Au secours" :
+
+- Explique ce que tu veux faire
+- Explique le bug ou ce que tu ne comprends pas bien
+- Montre ce que tu as essayé de faire avec les liens de documentation
+- Montre le résultat de chaque essai
+- Pose ta question
+  :::
 
 Si tu commences le dev, voici les meilleurs sources de documentation, de tutos ou de conseils :
 
@@ -88,7 +111,7 @@ Ce sont des ressources que j'apprécie et que je consulte souvent. Il y en a cer
 - [François Duval](https://www.linkedin.com/in/francois-duval-freelance/)
 - [Ram Maheshwari](https://www.linkedin.com/in/rammcodes/)
 - [Benjamin Code](https://www.youtube.com/c/BenjaminCode)
-- Moi 😅
+- Moi : [Mycellium](https://chrstn67.github.io/mycelium/) ou [LinkedIn](https://www.linkedin.com/in/christian-humbert-developpeur-web/)😅
 
 ## Banques de code
 
@@ -128,9 +151,13 @@ Tu peux aussi envoyer un message à un dev qui t'inspire, lui demander conseil, 
 
 ### Tips
 
-| Conseils                                         | Pourquoi ?                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Publie régulièrement**                         | Plus tu publies, mieux LinkedIn fera apparaitre tes posts en haut du fil d'actualité... Donc plus de vues, plus de likes etc... On conseille au moins 3x/semaine... Mais déjà une, c'est bien (et les matins 8.30 et jeudi 12.00, y'a plus de monde)                                                                                               |
-| **Reste focus sur ton domaine**                  | Essaie de rester sur ton domaine de prédilection, ne parle pas d'autre chose (si tu es dev, parle de dev ou du web, pas du séquoia géant de californie)                                                                                                                                                                                            |
-| **Évite les mythos et les 'personnal branding'** | "_Aujourd'hui, j'ai fais un constat flippant : Je suis trop sur mon téléphone_"; "_Hier, il m'est arrivé un truc incroyable : J'ai pris le bus pour la première fois_"; "_Il y a deux jours j'ai mis au point un truc révolutionnaire : l'eau chaude_"; "_Dans 3 jours, je pars voyage de noces sur la Lune_"... Tout ça, **on s'en BA-LAN-CE !!** |
-| **Poste des projets**                            | Si tu peux éviter de poster tes portfolios, des TodoList et des projets vus et re-re-re-re-vus... C'est bien aussi, des projets persos sur les meilleurs joueurs de curling du monde... Un peu de variété, une innovation dans ton projet... C'est ça qu'on attend !!                                                                              |
+| Conseils                                         | Pourquoi ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Publie régulièrement**                         | Plus tu publies, mieux LinkedIn fera apparaitre tes posts en haut du fil d'actualité... Donc plus de vues, plus de likes etc... On conseille au moins 3x/semaine... Mais déjà une, c'est bien (et les matins 8.30 et jeudi 12.00, y'a plus de monde)                                                                                                                                                                                                                                                                                                                      |
+| **Reste focus sur ton domaine**                  | Essaie de rester sur ton domaine de prédilection, ne parle pas d'autre chose (si tu es dev, parle de dev ou du web, pas du séquoia géant de californie)                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Évite les mythos et les 'personnal branding'** | "_Aujourd'hui, j'ai fait un constat flippant : Je suis trop sur mon téléphone_"; "_Hier, il m'est arrivé un truc incroyable : J'ai pris le bus pour la première fois_"; "_Il y a deux jours j'ai mis au point un truc révolutionnaire : l'eau chaude_"; "_Dans 3 jours, je pars voyage de noces sur la Lune_"; "_Si tu ne gagnes pas 10000€ par mois, t'as raté ta vie !_"... Tout ça, **on s'en BA-LAN-CE !! Et ça ne reflète absolument pas la réalité des choses !** Mis à par faire culpabiliser les autres, tu ne gagneras pas grand-chose à raconter des bobards... |
+| **Poste des projets**                            | Si tu peux éviter de poster tes _portfolios_, des _TodoList_ et des projets vus et re-re-re-re-vus... C'est bien aussi, des projets persos sur les meilleurs joueurs de curling du monde... Un peu de variété, une innovation dans ton projet... C'est ça qu'on attend !! Prend UNE problématique, et décortique ton process, comment tu résouds tes bugs... Ne vise pas que le projet donc, mais analyse-le plus finement avec le contexte, le fonctionnement de ton code, etc...                                                                                        |
+
+## Conclusion
+
+La suite t'appartient ! À toi de jouer, de peaufiner ton espace de travail et ta manière de travailler 😉 !!
