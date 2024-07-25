@@ -1,0 +1,13 @@
+{
+  "position": 6.1,
+  "label": "Boîte à outils",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Boîte à outils"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
