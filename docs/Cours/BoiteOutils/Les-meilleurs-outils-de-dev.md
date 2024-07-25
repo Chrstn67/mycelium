@@ -48,7 +48,7 @@ Ah, non... Je te laisse chercher comment faire tout ça 😉
 
 Renseigne-toi sur ce qu'est **GitHub**. Sois au clair avec ce que sont les _bases de code_, _un repository_ etc...
 
-GitHub est la plateforme la plus utilisée !!
+**GitHub** est la plateforme la plus utilisée !!
 
 Si tu veux des infos sur ce qu'on appelle les _commandes Git_, regarde ici : [Formation sur les commandes Git](https://git.shinriel.com/git)
 
@@ -107,11 +107,15 @@ Ce sont des ressources que j'apprécie et que je consulte souvent. Il y en a cer
 
 ### Tutos et dev à suivre
 
+Liste carrément non-exhaustive :
+
 - [Jonathan Marco](https://www.jojotique.fr/)
 - [François Duval](https://www.linkedin.com/in/francois-duval-freelance/)
 - [Ram Maheshwari](https://www.linkedin.com/in/rammcodes/)
 - [Benjamin Code](https://www.youtube.com/c/BenjaminCode)
-- Moi : [Mycellium](https://chrstn67.github.io/mycelium/) ou [LinkedIn](https://www.linkedin.com/in/christian-humbert-developpeur-web/)😅
+- ...
+
+Et il y en a plein, plein, plein d'autres : Pardon pour tous ceux que j'oublie, vous êtes des oufs dans le domaine !
 
 ## Banques de code
 
