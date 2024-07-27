@@ -36,12 +36,12 @@ C'est à toi de trouver ta marque de fabrique, ce qui te fait kiffer.
 
 :::tip[Quand publier ?]
 
-Le fil des posts **LinkedIn** est régit par un algorithme très complexe. Mais grosso-modo, tu as plus de chance d'augmenter le nombres de vues (et donc de likes) aux horaires suivants :
+Le fil des posts **LinkedIn** est régit par un algorithme très complexe. Mais grosso-modo, ont dit souvent que tu as plus de chance d'augmenter le nombres de vues (et donc de likes) aux horaires suivants :
 
 - Du Lundi au Vendredi, à 8.30
 - Le Jeudi, 12.30
 
-Personnellement, je te déconseille de poster les soirs...
+Personnellement, je trouve que ces horaires fonctionnent pluutôt bien et je te déconseille de poster les soirs...
 
 :::info
 
@@ -123,7 +123,16 @@ Tu as plusieurs de profils :
 - Des IA qui te proposent des emplois à raison de 1/2 heure par semaine à raison d'une rémunération de 300€ => :warning:
 - Ceux qui te posent des questions, mais ne lisent pas ta réponse et te reposent cette même question dans la phrase suivante...
 
-:::note[Anecdote]
+<details>
+<summary>Anecdote</summary>
+
+:::note[Anecdote, Version Courte]
+
+Il y a quelques mois, une fille en "reconversion vers le développement" m'a posé des questions sur le métier. Après avoir répondu à ses premières questions et l'avoir dirigée vers un article détaillant mon parcours, elle a continué à me poser des questions auxquelles j'avais déjà répondu, ce qui m'a conduit à douter de son sérieux. Finalement, après lui avoir demandé si elle a lu mon article, elle a cessé de me contacter, ce qui ne m'a pas dérangé.
+
+:::
+
+:::note[Anecdote, Version Loooooongue]
 
 Il y a quelques mois, une fille "en reconvertion dev" a voulu me poser quelques questions sur le métier. J'aime répondre et aider dans la mesure de mon possible...
 
@@ -137,6 +146,8 @@ Une ou deux autres questions, et rebelote : "_Vous excercez depuis combien de te
 Et depuis, plus de son, plus d'image et c'est bien ainsi !
 
 :::
+
+</details>
 
 Dans tous les cas, quand tu communiques avec des gens via la messagerie privée, vérifie le profil **AVANT** de répondre... Si tu vois que c'est un profil qui te semble étrange et que si c'est quelqu'un qui ne poste ni ne réagit souvent, ne te sens pas obligé de répondre.
 
