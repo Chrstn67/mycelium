@@ -1,11 +1,11 @@
 {
   "position": 2,
-  "label": "Articles",
+  "label": "Documentation",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Listes des Articles"
+    "title": "Listes des Documentations"
   },
   "customProps": {
     "description": ""

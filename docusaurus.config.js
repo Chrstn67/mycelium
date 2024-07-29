@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Christian HUMBERT",
-  tagline: "Développeur Web Frontend",
+  title: "Mycelium",
+  tagline: "Site de Développement Web et Web Mobile",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "fr",
+    locales: ["fr"],
   },
 
   presets: [
@@ -78,7 +78,7 @@ const config = {
         },
       },
 
-      image: "/img/Logo.jpg",
+      image: "/img/mycelium-logo.png",
       mermaid: {
         options: {
           maxTextSize: 50,
@@ -88,68 +88,71 @@ const config = {
       navbar: {
         title: "Accueil",
         logo: {
-          alt: "Logo developpeur Christian HUMBERT",
-          src: "/img/Logo.jpg",
+          alt: "Logo de Mycelium",
+          src: "/img/mycelium-logo.png",
         },
         items: [
           {
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Portfolio",
             to: "/docs/portfolio",
-          },
-
-          {
-            sidebarId: "tutorialSidebar",
+            label: "Portfolio",
             position: "left",
+          },
+          {
             label: "Cours",
-            to: "/docs/category/cours",
-          },
-
-          {
-            sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Articles",
-            to: "/docs/category/articles",
+            items: [
+              {
+                to: "/docs/category/html",
+                label: "HTML",
+              },
+              // {
+              //   to: "/docs/category/css",
+              //   label: "CSS",
+              // },
+              {
+                to: "/docs/category/javascript",
+                label: "JavaScript",
+              },
+              {
+                to: "/docs/category/react",
+                label: "React",
+              },
+            ],
           },
-
           {
-            sidebarId: "tutorialSidebar",
+            label: "Documentation",
             position: "left",
-            label: "Projets",
-            to: "/docs/category/projets",
+            items: [
+              {
+                to: "/docs/category/documentation",
+                label: "Articles généraux",
+              },
+              {
+                to: "/docs/category/projets",
+                label: "Projets",
+              },
+              {
+                to: "/docs/category/sondages",
+                label: "Sondages",
+              },
+              {
+                to: "/docs/category/tutoriels",
+                label: "Tutoriels",
+              },
+              {
+                to: "/docs/category/histoire",
+                label: "Histoire",
+              },
+            ],
           },
-
-          {
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Sondages",
-            to: "/docs/category/sondages",
-          },
-
-          {
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutoriels",
-            to: "/docs/category/tutoriels",
-          },
-
-          {
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Histoire",
-            to: "/docs/category/histoire",
-          },
-
           {
             to: "/blog",
             label: "La vie des Dev",
             position: "left",
           },
-
           {
             href: "https://www.linkedin.com/in/christian-humbert-developpeur-web/",
-            label: "LinkedIn",
+            label: "LinkedIn du créateur",
             position: "right",
           },
         ],
@@ -158,30 +161,8 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Cours",
-          //   items: [
-          //     {
-          //       label: "Accessibilité",
-          //       to: "/docs/category/accessibilité",
-          //     },
-          //     {
-          //       label: "HTML",
-          //       to: "/docs/category/html",
-          //     },
-          //     {
-          //       label: "JavaScript",
-          //       to: "/docs/category/JS",
-          //     },
-          //     {
-          //       label: "React",
-          //       to: "/docs/category/react",
-          //     },
-          //   ],
-          // },
           {
             title: "Réseaux",
-
             items: [
               {
                 label: "Discord",
@@ -193,10 +174,8 @@ const config = {
               },
             ],
           },
-
           {
             title: "Mentions légales",
-
             items: [
               {
                 label: "Mentions légales",
@@ -210,6 +189,15 @@ const config = {
               {
                 label: "La vie des Dev",
                 to: "/blog",
+              },
+            ],
+          },
+          {
+            title: "Collaborateurs",
+            items: [
+              {
+                label: "Chrsitian HUMBERT, créateur",
+                href: "https://www.linkedin.com/in/christian-humbert-developpeur-web/",
               },
             ],
           },

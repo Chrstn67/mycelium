@@ -8,7 +8,7 @@
   z-index: 99999;
 }
 .heroBanner {
-  background-image: url(bannerLinkedIn.png);
+  background-image: url(MyceliumBanner.png);
   background-size: cover;
   padding: 2rem 0;
   text-align: center;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1000px) {
   .heroBanner {
-    background-image: url(Logo.jpg);
+    background-image: url(mycelium-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

@@ -16,7 +16,7 @@ function HomepageHeader() {
           {/* {siteConfig.title} */}
         </Heading>
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <a
             className="button button--secondary button--lg"
             href="https://www.linkedin.com/in/christian-humbert-developpeur-web/"
@@ -26,7 +26,7 @@ function HomepageHeader() {
           >
             Mon profil LinkedIn
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );
