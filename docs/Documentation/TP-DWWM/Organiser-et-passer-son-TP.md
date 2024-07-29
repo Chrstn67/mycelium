@@ -92,13 +92,13 @@ Mon objectif ici est de te donner des astuces pour que tu sentes le plus à l'ai
 
 ### Étapes
 
-| Nom de l'épreuve                                                                         | Durée        |
-| ---------------------------------------------------------------------------------------- | ------------ |
-| [Écrit d'anglais](/docs/Articles/TP-DWWM/Organiser-et-passer-son-TP#écrit-danglais)      | 30 minutes   |
-| [Soutenance orale](/docs/Articles/TP-DWWM/Organiser-et-passer-son-TP#soutenance-orale)   | 35 minutes   |
-| [Questions du jury](/docs/Articles/TP-DWWM/Organiser-et-passer-son-TP#questions-du-jury) | 40 minutes   |
-| [Entretien final](/docs/Articles/TP-DWWM/Organiser-et-passer-son-TP#entretien-final)     | 15 minutes   |
-| **TOTAL**                                                                                | **2 heures** |
+| Nom de l'épreuve                                                                              | Durée        |
+| --------------------------------------------------------------------------------------------- | ------------ |
+| [Écrit d'anglais](/docs/Documentation/TP-DWWM/Organiser-et-passer-son-TP#écrit-danglais)      | 30 minutes   |
+| [Soutenance orale](/docs/Documentation/TP-DWWM/Organiser-et-passer-son-TP#soutenance-orale)   | 35 minutes   |
+| [Questions du jury](/docs/Documentation/TP-DWWM/Organiser-et-passer-son-TP#questions-du-jury) | 40 minutes   |
+| [Entretien final](/docs/Documentation/TP-DWWM/Organiser-et-passer-son-TP#entretien-final)     | 15 minutes   |
+| **TOTAL**                                                                                     | **2 heures** |
 
 ##### Généralités
 
