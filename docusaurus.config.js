@@ -113,10 +113,6 @@ const config = {
                 to: "/docs/category/javascript",
                 label: "JavaScript",
               },
-              {
-                to: "/docs/category/react",
-                label: "React",
-              },
             ],
           },
           {
