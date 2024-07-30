@@ -102,6 +102,10 @@ const config = {
             position: "left",
             items: [
               {
+                to: "/docs/category/accessibilité",
+                label: "Accessibilité",
+              },
+              {
                 to: "/docs/category/html",
                 label: "HTML",
               },
@@ -112,6 +116,10 @@ const config = {
               {
                 to: "/docs/category/javascript",
                 label: "JavaScript",
+              },
+              {
+                to: "/docs/category/tutoriels",
+                label: "Tutoriels",
               },
             ],
           },
@@ -131,10 +139,7 @@ const config = {
                 to: "/docs/category/sondages",
                 label: "Sondages",
               },
-              {
-                to: "/docs/category/tutoriels",
-                label: "Tutoriels",
-              },
+
               {
                 to: "/docs/category/histoire",
                 label: "Histoire",
@@ -192,14 +197,14 @@ const config = {
             title: "Collaborateurs",
             items: [
               {
-                label: "Chrsitian HUMBERT, créateur",
+                label: "Chrsitian HUMBERT",
                 href: "https://www.linkedin.com/in/christian-humbert-developpeur-web/",
               },
             ],
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} Christian HUMBERT`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Christian HUMBERT, Créateur de Mycelium`,
       },
       prism: {
         theme: prismThemes.github,
