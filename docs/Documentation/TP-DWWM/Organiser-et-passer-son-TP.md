@@ -314,6 +314,8 @@ Certains membres de jury peuvent poser des questions sur le monde de l'entrepris
 
 :::danger
 **_Ces questions sont éliminatoires !_**
+
+Alors regarde ici : [Liste des accronymes et des rôles en entreprise](https://chrstn67.github.io/mycelium/docs/Documentation/Entreprise/Le-monde-de-lentreprise)
 :::
 
 ### Durant les derniers jours avant ton passage

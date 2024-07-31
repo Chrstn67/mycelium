@@ -109,10 +109,10 @@ const config = {
                 to: "/docs/category/html",
                 label: "HTML",
               },
-              // {
-              //   to: "/docs/category/css",
-              //   label: "CSS",
-              // },
+              {
+                to: "/docs/category/css",
+                label: "CSS",
+              },
               {
                 to: "/docs/category/javascript",
                 label: "JavaScript",

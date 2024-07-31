@@ -1,0 +1,13 @@
+{
+  "position": 6.2,
+  "label": "CSS",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "CSS"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
