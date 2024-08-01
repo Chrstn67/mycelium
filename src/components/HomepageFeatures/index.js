@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
-import SherpasPub from "./SherpasPub";
+// import SherpasPub from "./SherpasPub";
 
 const FeatureList = [
   {
@@ -59,7 +59,7 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <SherpasPub />
+        {/* <SherpasPub /> */}
       </div>
     </section>
   );
