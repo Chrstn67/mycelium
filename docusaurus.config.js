@@ -98,7 +98,7 @@ const config = {
             position: "left",
           },
           {
-            to: "/docs/category/boîte-à-outils",
+            to: "/docs/category/outils",
             label: "Boîte à outils",
             position: "left",
           },
