@@ -98,6 +98,11 @@ const config = {
             position: "left",
           },
           {
+            to: "/docs/category/boîte-à-outils",
+            label: "Boîte à outils",
+            position: "left",
+          },
+          {
             label: "Cours",
             position: "left",
             items: [
