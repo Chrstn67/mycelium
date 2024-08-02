@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   margin: 20px 0;
+  overflow-x: auto; /* Allow horizontal scrolling for small screens */
 }
 
 .subjectTable {
@@ -45,6 +46,7 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width for small screens */
 }
 
 .subjectTable th,
@@ -114,5 +116,118 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/* New CSS for teaching methods */
+.methodsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.method {
+  flex: 1;
+  max-width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.svgContainer {
+  margin-bottom: 10px;
+}
+
+.featureSvg {
+  width: 200px;
+  height: 200px;
+}
+
+.textContainer h4 {
+  font-size: 1.5em;
+  color: #2c474a;
+  margin-bottom: 10px;
+}
+
+.textContainer p {
+  font-size: 1em;
+  color: #465e61;
+}
+
+/* Responsive Design Improvements */
+@media (max-width: 768px) {
+  .subjectTable th,
+  .subjectTable td {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  .subjectTable td a::after {
+    right: -10px;
+    font-size: 0.8em;
+  }
+
+  .methodsWrapper {
+    flex-direction: column;
+  }
+
+  .method {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .featureSvg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .textContainer h4 {
+    font-size: 1.2em;
+  }
+
+  .textContainer p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .sherpasPub {
+    padding: 20px;
+  }
+
+  .sherpasPub .header {
+    font-size: 1.5em;
+  }
+
+  .sherpasPub .description {
+    font-size: 1em;
+  }
+
+  .sherpasPub .link {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .subjectTable th,
+  .subjectTable td {
+    padding: 8px;
+    font-size: 0.8em;
+  }
+
+  .methodsWrapper {
+    padding: 0 10px;
+  }
+
+  .featureSvg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .textContainer h4 {
+    font-size: 1em;
+  }
+
+  .textContainer p {
+    font-size: 0.8em;
   }
 }
