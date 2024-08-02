@@ -4,22 +4,26 @@ import sherpas from "./sherpas.module.css";
 function SherpasPub() {
   return (
     <div className={sherpas.sherpasPub}>
-      <h3>Cours Particuliers en collaboration avec Les Sherpas</h3>
-      <p>Je donne également des cours particuliers en :</p>
+      <h3 className={sherpas.header}>
+        Cours Particuliers en collaboration avec Les Sherpas
+      </h3>
+      <p className={sherpas.description}>
+        Je donne également des cours particuliers en :
+      </p>
       <div className={sherpas.tableWrapper}>
         <table className={sherpas.subjectTable}>
           <thead>
             <tr>
-              <th>
+              <th className={sherpas.tableHeader}>
                 Matière <br />
                 <span className={sherpas.infos}>Clique pour plus d'infos</span>
               </th>
-              <th>Classes</th>
+              <th className={sherpas.tableHeader}>Classes</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/developpeur-web-donne-des-cours-de-mise-a-niveau-en-informatique-de-tous-niveaux-de-la-primaire-a-la-terminale-molsheim-et-alentours-ou-en-ligne"
                   target="_blank"
@@ -29,10 +33,12 @@ function SherpasPub() {
                   Informatique
                 </a>
               </td>
-              <td>Classes élémentaires à Adultes apprenants</td>
+              <td className={sherpas.tableCell}>
+                Classes élémentaires à Adultes apprenants
+              </td>
             </tr>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/professeur-de-maths-niveau-primaire-et-college-cours-sur-molsheim-ou-en-ligne-ancien-aesh?subjectName=Maths"
                   target="_blank"
@@ -42,10 +48,10 @@ function SherpasPub() {
                   Maths
                 </a>
               </td>
-              <td>Du CP à la 3ème</td>
+              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
             </tr>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/cours-de-francais-dorthographe-de-grammaire-et-conjugaison-sur-molsheim-et-alentours-ou-en-ligne"
                   target="_blank"
@@ -55,10 +61,10 @@ function SherpasPub() {
                   Français
                 </a>
               </td>
-              <td>Du CP à la 3ème</td>
+              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
             </tr>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/jai-lhabitude-de-donner-des-conferences-devant-du-public-je-saurais-te-donner-les-meilleurs-conseils-pour-que-ton-oral-se-passe-bien-en-ligne-uniquement"
                   target="_blank"
@@ -68,10 +74,12 @@ function SherpasPub() {
                   Expression Orale
                 </a>
               </td>
-              <td>Classes élémentaires à Adultes apprenants</td>
+              <td className={sherpas.tableCell}>
+                Classes élémentaires à Adultes apprenants
+              </td>
             </tr>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/professeur-despagnol-sur-molsheim-ou-en-ligne-apprentissage-de-la-lecture-et-du-vocabulaire-de-la-magnifique-langue-de-cervantes-niveau-b1-b2"
                   target="_blank"
@@ -81,10 +89,10 @@ function SherpasPub() {
                   Espagnol
                 </a>
               </td>
-              <td>Du CP à la 3ème</td>
+              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
             </tr>
             <tr>
-              <td>
+              <td className={sherpas.tableCell}>
                 <a
                   href="https://sherpas.com/t/la-nature-est-si-belle-que-je-veux-la-rendre-encore-plus-belle-a-tes-yeux-cours-sur-molsheim-ou-en-ligne"
                   target="_blank"
@@ -94,7 +102,7 @@ function SherpasPub() {
                   Sciences de la Vie de la Terre
                 </a>
               </td>
-              <td>Du CP à la 3ème</td>
+              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
             </tr>
           </tbody>
         </table>
@@ -111,7 +119,7 @@ function SherpasPub() {
           className={sherpas.infos_sherpas}
           style={{
             display: "block",
-            fontSize: "0.8em",
+            fontSize: "1.2em",
             color: "#95a3a5",
             marginLeft: "5px",
             fontWeight: "bold",
