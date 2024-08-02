@@ -6,16 +6,16 @@
   margin-top: 40px;
 }
 
-.sherpasPub .header {
-  font-size: 2em;
-  color: #465e61;
-  margin-bottom: 20px;
-}
-
 .sherpasPub .description {
   font-size: 1.2em;
   line-height: 1.6;
   color: #465e61;
+}
+
+.sherpasPub .header {
+  font-size: 2em;
+  color: #465e61;
+  margin-bottom: 20px;
 }
 
 .sherpasPub .link {
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   margin: 20px 0;
-  overflow-x: auto; /* Allow horizontal scrolling for small screens */
+  overflow-x: auto;
 }
 
 .subjectTable {
@@ -46,7 +46,6 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Full width for small screens */
 }
 
 .subjectTable th,
