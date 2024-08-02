@@ -1,11 +1,11 @@
 {
   "position": 2,
-  "label": "Cours",
+  "label": "Cours Web",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Cours"
+    "title": "Cours Web"
   },
   "customProps": {
     "description": ""

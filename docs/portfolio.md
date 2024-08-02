@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: [JavaScript, React, SCSS, Frontend, Développeur Web]
+tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
 ---
 
 # Qui suis-je ?
@@ -82,7 +82,9 @@ Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu
 
 ## Parcours professionnel
 
-### 2022 - Présent : Développeur Web
+### 2024 - Présent : Auto-entrepreneur, Enseignant chez Les Sherpas et Créateur de contenu web
+
+### 2022 - Présent : Développeur Web et Web Mobile
 
 - **Compétences acquises** :
   - HTML

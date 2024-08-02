@@ -27,6 +27,39 @@ const teachingMethods = [
   },
 ];
 
+const subjects = [
+  {
+    name: "Informatique",
+    url: "https://sherpas.com/t/developpeur-web-donne-des-cours-de-mise-a-niveau-en-informatique-de-tous-niveaux-de-la-primaire-a-la-terminale-molsheim-et-alentours-ou-en-ligne",
+    classes: "Classes élémentaires à Adultes apprenants",
+  },
+  {
+    name: "Maths",
+    url: "https://sherpas.com/t/professeur-de-maths-niveau-primaire-et-college-cours-sur-molsheim-ou-en-ligne-ancien-aesh?subjectName=Maths",
+    classes: "Du CP à la 3ème",
+  },
+  {
+    name: "Français",
+    url: "https://sherpas.com/t/cours-de-francais-dorthographe-de-grammaire-et-conjugaison-sur-molsheim-et-alentours-ou-en-ligne",
+    classes: "Du CP à la 3ème",
+  },
+  {
+    name: "Expression Orale",
+    url: "https://sherpas.com/t/jai-lhabitude-de-donner-des-conferences-devant-du-public-je-saurais-te-donner-les-meilleurs-conseils-pour-que-ton-oral-se-passe-bien-en-ligne-uniquement",
+    classes: "Classes élémentaires à Adultes apprenants",
+  },
+  {
+    name: "Espagnol",
+    url: "https://sherpas.com/t/professeur-despagnol-sur-molsheim-ou-en-ligne-apprentissage-de-la-lecture-et-du-vocabulaire-de-la-magnifique-langue-de-cervantes-niveau-b1-b2",
+    classes: "Du CP à la 3ème",
+  },
+  {
+    name: "Sciences de la Vie de la Terre",
+    url: "https://sherpas.com/t/la-nature-est-si-belle-que-je-veux-la-rendre-encore-plus-belle-a-tes-yeux-cours-sur-molsheim-ou-en-ligne",
+    classes: "Du CP à la 3ème",
+  },
+];
+
 function Method({ Svg, title, description }) {
   return (
     <div className={sherpas.method}>
@@ -65,88 +98,21 @@ function SherpasPub() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/developpeur-web-donne-des-cours-de-mise-a-niveau-en-informatique-de-tous-niveaux-de-la-primaire-a-la-terminale-molsheim-et-alentours-ou-en-ligne"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Informatique
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>
-                Classes élémentaires à Adultes apprenants
-              </td>
-            </tr>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/professeur-de-maths-niveau-primaire-et-college-cours-sur-molsheim-ou-en-ligne-ancien-aesh?subjectName=Maths"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Maths
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
-            </tr>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/cours-de-francais-dorthographe-de-grammaire-et-conjugaison-sur-molsheim-et-alentours-ou-en-ligne"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Français
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
-            </tr>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/jai-lhabitude-de-donner-des-conferences-devant-du-public-je-saurais-te-donner-les-meilleurs-conseils-pour-que-ton-oral-se-passe-bien-en-ligne-uniquement"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Expression Orale
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>
-                Classes élémentaires à Adultes apprenants
-              </td>
-            </tr>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/professeur-despagnol-sur-molsheim-ou-en-ligne-apprentissage-de-la-lecture-et-du-vocabulaire-de-la-magnifique-langue-de-cervantes-niveau-b1-b2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Espagnol
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
-            </tr>
-            <tr>
-              <td className={sherpas.tableCell}>
-                <a
-                  href="https://sherpas.com/t/la-nature-est-si-belle-que-je-veux-la-rendre-encore-plus-belle-a-tes-yeux-cours-sur-molsheim-ou-en-ligne"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={sherpas.subject}
-                >
-                  Sciences de la Vie de la Terre
-                </a>
-              </td>
-              <td className={sherpas.tableCell}>Du CP à la 3ème</td>
-            </tr>
+            {subjects.map((subject, index) => (
+              <tr key={index}>
+                <td className={sherpas.tableCell}>
+                  <a
+                    href={subject.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={sherpas.subject}
+                  >
+                    {subject.name}
+                  </a>
+                </td>
+                <td className={sherpas.tableCell}>{subject.classes}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
@@ -156,7 +122,7 @@ function SherpasPub() {
         rel="noopener noreferrer"
         className={sherpas.link}
       >
-        Modalités et Inscription sur{" "}
+        Renseignements et Inscription sur{" "}
         <span
           className={sherpas.infos_sherpas}
           style={{
