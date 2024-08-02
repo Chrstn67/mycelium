@@ -1,18 +1,18 @@
 import React from "react";
-import styles from "./sherpas.module.css";
+import sherpas from "./sherpas.module.css";
 
 function SherpasPub() {
   return (
-    <div className={styles.sherpasPub}>
+    <div className={sherpas.sherpasPub}>
       <h3>Cours Particuliers en collaboration avec Les Sherpas</h3>
       <p>Je donne également des cours particuliers en :</p>
-      <div className={styles.tableWrapper}>
-        <table className={styles.subjectTable}>
+      <div className={sherpas.tableWrapper}>
+        <table className={sherpas.subjectTable}>
           <thead>
             <tr>
               <th>
                 Matière <br />
-                <span className={styles.infos}>Clique pour plus d'infos</span>
+                <span className={sherpas.infos}>Clique pour plus d'infos</span>
               </th>
               <th>Classes</th>
             </tr>
@@ -24,7 +24,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/developpeur-web-donne-des-cours-de-mise-a-niveau-en-informatique-de-tous-niveaux-de-la-primaire-a-la-terminale-molsheim-et-alentours-ou-en-ligne"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Informatique
                 </a>
@@ -37,7 +37,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/professeur-de-maths-niveau-primaire-et-college-cours-sur-molsheim-ou-en-ligne-ancien-aesh?subjectName=Maths"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Maths
                 </a>
@@ -50,7 +50,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/cours-de-francais-dorthographe-de-grammaire-et-conjugaison-sur-molsheim-et-alentours-ou-en-ligne"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Français
                 </a>
@@ -63,7 +63,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/jai-lhabitude-de-donner-des-conferences-devant-du-public-je-saurais-te-donner-les-meilleurs-conseils-pour-que-ton-oral-se-passe-bien-en-ligne-uniquement"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Expression Orale
                 </a>
@@ -76,7 +76,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/professeur-despagnol-sur-molsheim-ou-en-ligne-apprentissage-de-la-lecture-et-du-vocabulaire-de-la-magnifique-langue-de-cervantes-niveau-b1-b2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Espagnol
                 </a>
@@ -89,7 +89,7 @@ function SherpasPub() {
                   href="https://sherpas.com/t/la-nature-est-si-belle-que-je-veux-la-rendre-encore-plus-belle-a-tes-yeux-cours-sur-molsheim-ou-en-ligne"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.subject}
+                  className={sherpas.subject}
                 >
                   Sciences de la Vie de la Terre
                 </a>
@@ -104,11 +104,11 @@ function SherpasPub() {
         href="https://sherpas.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className={styles.link}
+        className={sherpas.link}
       >
         Modalités et Inscription sur{" "}
         <span
-          className={styles.infos_sherpas}
+          className={sherpas.infos_sherpas}
           style={{
             display: "block",
             fontSize: "0.8em",
