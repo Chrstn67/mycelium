@@ -5,7 +5,7 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
 
 # Qui suis-je ?
 
-<p className="portfolio-description">Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu 'touche-à-tout', je m'intéresse au développement web depuis 2021. Je souhaite acquérir de nouvelles compétences, connaitre l'évolution de la technologie informatique et partager mes acquis à d'autres. J'ai également l'habitude de donner des conférences, j'apprécie de donner des conseils et techniques oratoires.</p>
+Curieux de nature, j'ai pu acquérir une expérience dans l'enseignement. Un peu 'touche-à-tout', je m'intéresse au développement web depuis 2021. Je souhaite acquérir de nouvelles compétences, connaitre l'évolution de la technologie informatique et partager mes acquis à d'autres. J'ai également l'habitude de donner des conférences, j'apprécie de donner des conseils et techniques oratoires.
 
 ##### 📖 [L'histoire de mon premier projet web (et de mes débuts dans le dev)](https://www.linkedin.com/pulse/lhistoire-de-mon-premier-projet-web-et-mes-d%C3%A9buts-dans-humbert-yqxwe/)
 
@@ -13,94 +13,21 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
 
 ## Langues
 
-<section class="tableWrapper">
-  <table class="languagesTable">
-    <thead>
-      <tr>
-        <th class="tableHeader">
-          <span>Langues</span>       
-        </th>
-        <th class="tableHeader">Niveau</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Lecture Labiale</span>
-        </td>
-        <td class="tableCell">Courant</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Espagnol</span>
-        </td>
-        <td class="tableCell">Courant</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Langue Parlée-Completée</span>
-        </td>
-        <td class="tableCell">Acquis</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Langue des Signes Française</span>
-        </td>
-        <td class="tableCell">Notions</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Anglais</span>
-        </td>
-        <td class="tableCell">Scolaire</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Russe</span>
-        </td>
-        <td class="tableCell">Débutant</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+| Langue                      | Niveau   |
+| --------------------------- | -------- |
+| Lecture Labiale             | Courant  |
+| Espagnol                    | Courant  |
+| Langue Parlée-Completée     | Acquis   |
+| Langue des Signes Française | Notions  |
+| Anglais                     | Scolaire |
+| Russe                       | Débutant |
 
 ## Autres infos utiles
 
-<section class="tableWrapper">
-  <table class="languagesTable">
-    <thead>
-      <tr>
-        <th class="tableHeader">
-          <span>Infos</span>
-        </th>
-        <th class="tableHeader">Explications</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">Permis B</span>
-        </td>
-        <td class="tableCell">Depuis 2016</td>
-      </tr>
-      <tr>
-        <td class="tableCell">
-          <span class="subject">RQTH illimitée</span>
-        </td>
-        <td class="tableCell">
-          <a
-            href="https://www.service-public.fr/particuliers/vosdroits/F1650"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="subject-link"
-          >
-            Infos RQTH ?
-          </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+| Infos          |                                                                                                                                               |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Permis B       | Depuis 2016                                                                                                                                   |
+| RQTH illimitée | [Qu'est-ce que la reconnaissance de la qualité de travailleur handicapé (RQTH) ?](https://www.service-public.fr/particuliers/vosdroits/F1650) |
 
 ## Hobbies
 
@@ -157,16 +84,16 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
 
 ### 2024 - Présent : Auto-entrepreneur, Enseignant chez Les Sherpas et Créateur de contenu web
 
-- **Matières enseignées** :
+**Matières enseignées**
 
-  | Matière                        | Classes                                   |
-  | ------------------------------ | ----------------------------------------- |
-  | Informatique                   | Classes élémentaires à Adultes apprenants |
-  | Maths                          | Du CP à la 3ème                           |
-  | Français                       | Du CP à la 3ème                           |
-  | Expression Orale               | Classes élémentaires à Adultes apprenants |
-  | Espagnol                       | Du CP à la 3ème                           |
-  | Sciences de la Vie de la Terre | Du CP à la 3ème                           |
+| Matière                        | Classes                                   |
+| ------------------------------ | ----------------------------------------- |
+| Informatique                   | Classes élémentaires à Adultes apprenants |
+| Maths                          | Du CP à la 3ème                           |
+| Français                       | Du CP à la 3ème                           |
+| Expression Orale               | Classes élémentaires à Adultes apprenants |
+| Espagnol                       | Du CP à la 3ème                           |
+| Sciences de la Vie de la Terre | Du CP à la 3ème                           |
 
 ### 2022 - Présent : Développeur Web et Web Mobile
 
