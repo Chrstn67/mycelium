@@ -1,0 +1,13 @@
+{
+  "position": 6.2,
+  "label": "Sécurité",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Sécurité"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

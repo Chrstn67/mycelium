@@ -1598,7 +1598,3 @@ console.log(sum.toString());
 ```
 
 :::
-
-## Test de compréhension
-
-Les méthodes globales en JavaScript sont des fonctions natives qui peuvent être utilisées directement, sans avoir besoin de créer un objet. Vous devez maintenant écrire un programme qui utilise les méthodes `parseInt()`, `isNaN()` et `Object.keys()` pour démontrer leur utilisation dans des cas pratiques. Par exemple, le programme peut analyser un tableau de chaînes de caractères en nombres, vérifier si ce sont des nombres valides, et retourner les clés d'un objet créé à partir des nombres valides.
