@@ -111,6 +111,10 @@ const config = {
                 label: "Accessibilité",
               },
               {
+                to: "/docs/category/sécurité",
+                label: "Sécurité",
+              },
+              {
                 to: "/docs/category/html",
                 label: "HTML",
               },

@@ -32,8 +32,7 @@ Il existe une recherche réalisée par **_Steven Hoober_** qui explique la faço
 | En berceau            | 36%         |
 | 2 mains               | 15%         |
 
-:::note
-La manière de tenir un téléphone 'en berceau' siginfie que l'utilisateur prend son appreil au creux d'une main, et intéragit avec l'autre.
+:::note[La manière de tenir un téléphone 'en berceau' siginfie que l'utilisateur prend son appreil au creux d'une main, et intéragit avec l'autre.]
 
 :::
 
