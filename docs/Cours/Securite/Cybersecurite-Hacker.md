@@ -1,5 +1,15 @@
 ---
-tags: [Sécurité, Cybersécurité, Hacker, Différences, Typosquatting]
+tags:
+  [
+    Sécurité,
+    Cybersécurité,
+    Hacker,
+    Différences,
+    Typosquatting,
+    Black Hat,
+    White Hat,
+    Gray Hat,
+  ]
 ---
 
 # Différences entre un professionnel de la cybersécurité et un hacker éthique

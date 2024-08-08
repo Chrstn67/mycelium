@@ -94,7 +94,7 @@ const config = {
         items: [
           {
             to: "/docs/portfolio",
-            label: "Portfolio",
+            label: "Qui suis-je ?",
             position: "left",
           },
           {
