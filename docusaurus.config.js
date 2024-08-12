@@ -130,10 +130,6 @@ const config = {
                 to: "/docs/category/tutoriels",
                 label: "Tutoriels",
               },
-              {
-                to: "/docs/category/liste-des-langages",
-                label: "Liste des langages",
-              },
             ],
           },
           {
@@ -143,6 +139,10 @@ const config = {
               {
                 to: "/docs/category/documentation",
                 label: "Articles généraux",
+              },
+              {
+                to: "/docs/category/liste-des-langages",
+                label: "Liste des langages",
               },
               {
                 to: "/docs/category/projets",

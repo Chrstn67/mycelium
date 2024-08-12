@@ -2,7 +2,7 @@
 tags: [LinkedIn, Personnal Branding, Création de contenu]
 ---
 
-# Comment utiliser LinkedIn en tant que Dev
+# Utiliser LinkedIn en tant que Dev
 
 :::note[C'est quoi LinkedIn ?]
 
@@ -49,6 +49,8 @@ Note aussi que plus tu publies, plus tu as de chances que les autres utilisateur
 
 Beaucoup conseillent de publier au moins 3x/semaine (Lundi, Mercredi, Vendredi)... C'est énorme ! Mais déjà une fois, c'est bien. Mais de préférence un bon contenu !
 
+:::tip
+Pour plus de conseils sur l'utilisation de LinkedIn, suis [Ruben Taib](https://www.linkedin.com/in/rubentaieb/)
 :::
 
 #### Contenu de ce que tu souhaites publier
@@ -155,7 +157,7 @@ Dans tous les cas, quand tu communiques avec des gens via la messagerie privée,
 
 **LinkedIn** c'est :
 
-- Un réseau pour chercher des infos et apprendre des choses
+- Un réseau pour chercher des infos, apprendre des choses, chercher du taf et recruter
 - Un réseau avec pas mal de bêtises qui circulent... Donc attention aux infos.
 
 N'oublie pas que ton but n'est pas de faire des millions de vues (même si c'est cool et amusant de voir le nombre de vues que tu as, mais tu n'en feras JAMAIS autant), mais d'attirer l'oeil d'un potentiel recruteur ou de quelques dev qui sauront te mettre en contact avec des entreprises.
