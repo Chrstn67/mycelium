@@ -2,7 +2,7 @@
 tags: [Sécurité, Attaques, Mot de passe]
 ---
 
-# Sécuriser sa Connexion avec un Bon Mot de Passe
+# Sécuriser sa Connexion avec un bon Mot de Passe
 
 Les mots de passe sont souvent la première ligne de défense pour protéger les comptes et les données personnelles. Un mot de passe faible peut compromettre la sécurité de tes informations, tandis qu'un mot de passe solide peut grandement renforcer la sécurité. Ce cours te guidera à travers les principes pour créer des mots de passe sécurisés, des exemples d'attaques courantes, et les meilleures pratiques pour te protéger.
 
@@ -147,6 +147,39 @@ L'authentification multi-facteurs (MFA) ajoute une couche de sécurité supplém
 
 - **Renforcement de la Sécurité** : Même si un attaquant obtient ton mot de passe, il aura besoin d'un second facteur pour accéder à ton compte.
 - **Protection contre les Compromissions de Mot de Passe** : MFA peut prévenir les accès non autorisés même en cas de mot de passe compromis.
+
+## Ça se passe comment quand je m'inscris sur un site ?
+
+Quand tu t'inscris sur un site, tu dois bien souvent renseigner un mot de passe suivant les critères évoqués plus haut. Mais ensuite, que devient-il ?
+
+:::info[Il part en base de donnée]
+
+Simplifions : Imagine que ton mot de passe soit `blablaExempleFastoc43*/+`. **Il ne sera pas stocké ainsi en base de donnée** : Ton mot de passe n'apparaitra jamais en clair dans les bases de données et donc invisible pour les administrateurs. Ce mot de passe sera _hashé_.
+
+:::tip[Le *hashage* d'un mot de passe, c'est comme si tu prenais une pomme de terre.]
+
+Pour faire de la purée, tu dois écraser ta patate pour la rendre bien lisse et qu'il n'y ait pas de morceau de pomme de terre.
+
+- La pomme de terre, c'est ton mot de passe `blablaExempleFastoc43*/+`.
+- La purée, c'est le _hashage_ de ton mot de passe : Impossible de retrouver l'original.
+
+Selon ce qui est demandé dans le Cahier des Charges de ton client, les administrateurs verront une ribambelle de caractères qui est bien ton mot de passe !
+Selon le langage utilisé, le code sera différent mais voici à quoi ressemble un mot de passe hashé :
+
+`blablaExempleFastoc43*/+` devient par exemple `$68fd96q8pkfdkFL6956C#BS230LLDMpske9AED`
+
+Bon courage pour retrouver l'original...
+
+:::danger
+
+Il peut arriver que tu perdes un mot de passe. Tu as bien souvent un lien "_Mot de passe oublié ?_" en bas de tes formulaires de connexion.
+
+- Si le site t'envoie un mail avec un mot de passe de rechange (et que tu peux rechanger plus tard) ressemblant à `wp9oep°kl€69HNZfd88`, **_c'est parfait ! Le site est fiable._**
+- Si le site t'envoie un mail avec ton ancien mot de passe tel que tu l'avais renseigné auparavant (style `Ja|Oubli3M0n-MDP!`) :
+
+  > **_FUIS !_** **Ton mot de passe a été stocké en clair, donc les administrateurs peuvent facilement faire ce qu'ils veulent sur ton compte** (voire d'autres sites si tu as le même mot de passe pour plusieurs sites, ce qui est totalement déconseillé)
+
+:::
 
 ## Conclusion
 

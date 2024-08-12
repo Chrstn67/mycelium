@@ -1,0 +1,13 @@
+{
+  "position": 6.1,
+  "label": "Liste des langages",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Liste des langages"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
