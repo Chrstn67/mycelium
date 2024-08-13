@@ -81,7 +81,7 @@ Un bon dev fait des recherches par lui-même et demande de l'aide quand :
 
 :::tip
 
-Que ce soit sur les réseau ou à un autre dev, quand tu appelles "Au secours" :
+Que ce soit sur les réseaux ou à un autre dev, quand tu appelles "Au secours" :
 
 - Explique ce que tu veux faire
 - Explique le bug ou ce que tu ne comprends pas bien

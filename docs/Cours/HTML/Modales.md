@@ -8,7 +8,7 @@ tags: [HTML, Modale, Balises, <dialog></dialog>, JavaScript, React]
 
 [Démonstration sur CodePen](https://codepen.io/Chrstn67/pen/VwJeQjQ)
 
-:::note
+:::note[Définition]
 En HTML, une **modale** (ou _boîte de dialogue_) est une fenêtre contextuelle qui apparaît au-dessus de la page web principale, obligeant les utilisateurs à interagir avec elle avant de pouvoir revenir à la page principale. Les modales sont souvent utilisées pour afficher des informations importantes, recueillir des entrées utilisateur ou obtenir une confirmation avant d'exécuter une action.
 
 Les modales peuvent contenir divers éléments tels que du texte, des images, des formulaires, des boutons, etc.
@@ -20,8 +20,8 @@ Les modales peuvent contenir divers éléments tels que du texte, des images, de
 
 Pour construire une modale en HTML, on utilise la balise `<dialog>`. On peut ajouter l'attribut `open` pour que la modale soit ouverte par défaut et sans bouton pour la fermer.
 
-:::warning
-Il y a la balise `<dialog>` qui fait tout le travail : Il est inutile d'utiliser d'autres balises !
+:::warning[Il y a la balise `<dialog>` qui fait tout le travail : Il est inutile d'utiliser d'autres balises !]
+
 :::
 
 ```html

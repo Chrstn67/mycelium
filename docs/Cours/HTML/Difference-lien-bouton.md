@@ -32,3 +32,10 @@ Un **_bouton_** sert à réagir (_ouvrir une fenêtre modale_, _lancer une anima
 - `type="button"` : Attribut qui spécifie le type du bouton. type="button" est utilisé pour un bouton normal qui ne soumet pas un formulaire.
 - `onclick="alert('Bouton cliqué!')"` : Attribut qui spécifie le script à exécuter lorsqu'on clique sur le bouton. Dans ce cas, il affiche une alerte avec le message "Bouton cliqué!".
 - Le texte entre les balises `<button>` et `</button>` est ce que l'utilisateur verra écrit sur le bouton.
+
+:::warning
+Il ne faut **JAMAIS** mettre :
+
+- un _lien dans un bouton 🚫_
+- un _bouton dans lien 🚫_
+  :::

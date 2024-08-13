@@ -25,6 +25,14 @@ div {
 }
 ```
 
+:::note[D'où vient le mot `pixel` ?]
+Simple :
+
+C'est la contraction des mots anglais '_picture_' et '_element_'.
+
+Donc, '_pixel_' signifie littéralement "**_élément (ou partie) d'image_**"...
+:::
+
 ### Points (`pt`) et Picas (`pc`)
 
 Principalement utilisés pour le design imprimé, les points et picas sont moins communs en web design. Un point équivaut à 1/72ème de pouce, et un pica est égal à 12 points.

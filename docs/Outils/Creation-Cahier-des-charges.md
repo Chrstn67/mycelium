@@ -2,7 +2,9 @@
 tags: [Cahier des Charges]
 ---
 
-# Création d'un Cahier des Charges Web
+# Comment créer un Cahier des Charges Web
+
+Sacré morceau, mais VITAL dans le dev !!
 
 ## Introduction
 
