@@ -1,0 +1,13 @@
+{
+  "position": 6.1,
+  "label": "GitHub",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "GitHub"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

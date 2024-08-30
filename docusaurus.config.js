@@ -107,6 +107,10 @@ const config = {
             position: "left",
             items: [
               {
+                to: "/docs/category/github",
+                label: "GitHub",
+              },
+              {
                 to: "/docs/category/accessibilité",
                 label: "Accessibilité",
               },

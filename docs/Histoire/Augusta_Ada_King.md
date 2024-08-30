@@ -40,7 +40,7 @@ En 1835, Ada se marie, fonde une famille, étudie toujours les maths et reste en
 En 1842, Ada traduit en anglais un article paru en français sur cette fameuse machine analytique. Elle y ajoutera quelques notes (représentant près de trois fois le volume de texte de l'article original) :
 
 :::info
-Dans l'une d'ellee ses note, Ada a l'intuition que cette machine pourrait faire autre chose que de manipuler des chiffres.
+Dans l'une de ses notes, Ada a l'intuition que cette machine pourrait faire autre chose que de manipuler des chiffres.
 
 Dans une autre, elle écrit une série de boucles d'instructions qui permettent de dire à la machine : '**Répéter tant de fois une opération**'.
 

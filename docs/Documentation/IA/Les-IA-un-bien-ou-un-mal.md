@@ -7,7 +7,7 @@ tags:
     Test de Turing,
     Enigma,
     Alan Mathison Turing,
-    Lee Sebo,
+    Lee Sebol,
     Go (jeu),
     Alpha Go,
   ]
