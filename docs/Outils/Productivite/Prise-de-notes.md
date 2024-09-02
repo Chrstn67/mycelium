@@ -1,9 +1,5 @@
-Voici le cours complété en utilisant le Markdown pour couvrir tous les cas de figure possibles :
-
 ---
-
 tags: [Prise de notes, Productivité]
-
 ---
 
 # Comment prendre des notes rapidement avec un ordinateur ?
