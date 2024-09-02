@@ -1,0 +1,13 @@
+{
+  "position": 2,
+  "label": "Mécanique",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Mécanique"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

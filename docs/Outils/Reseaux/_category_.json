@@ -1,0 +1,13 @@
+{
+  "position": 2,
+  "label": "Réseaux",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Réseaux"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

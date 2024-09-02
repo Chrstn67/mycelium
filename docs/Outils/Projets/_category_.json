@@ -1,0 +1,13 @@
+{
+  "position": 2,
+  "label": "Projets",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Projets"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
