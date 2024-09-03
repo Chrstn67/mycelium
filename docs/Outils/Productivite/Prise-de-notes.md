@@ -149,7 +149,7 @@ Les champs de possibilité sont vastes :
 
 ##### Bonus
 
-5. **Organise ta MindMap en Markdown** : Une fois que tu as créé ta _MindMap_, tu peux la transcrire en **Markdown**. Utilise des titres (`#`, `##`, `###`, etc.) pour représenter le sujet central et les branches principales. Utilise des listes à puces (`-`, `*`, `+`) pour représenter les sous-branches et les sous-idées. Tu peux également utiliser des liens ([texte](url)) pour créer des relations entre les différentes parties de ton contenu.
+5. **Organise ta MindMap en Markdown** : Une fois que tu as créé ta _MindMap_, tu peux la transcrire en **Markdown**. Utilise des titres (`#`, `##`, `###`, etc.) pour représenter le sujet central et les branches principales. Utilise des listes à puces (`-`, `*`, `+`) pour représenter les sous-branches et les sous-idées. Tu peux également utiliser des liens pour créer des relations entre les différentes parties de ton contenu.
 
 ### Les avantages d'utiliser une MindMap
 
