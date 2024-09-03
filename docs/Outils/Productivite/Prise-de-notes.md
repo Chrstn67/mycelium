@@ -72,7 +72,6 @@ Il existe deux types principaux de listes en Markdown : les listes à puces et l
 
 Pour insérer du code dans tes notes, tu peux utiliser des balises de code inline ou des blocs de code :
 
-- Inline : `\`code\``: par exemple,`\`print("Hello, World!")\``
 - Bloc de code :
 
   ```python
