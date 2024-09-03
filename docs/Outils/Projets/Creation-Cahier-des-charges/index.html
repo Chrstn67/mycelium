@@ -1,0 +1,1774 @@
+<!doctype html>
+<html lang="fr" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Outils/Projets/Creation-Cahier-des-charges" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.1">
+<title data-rh="true">Comment créer un Cahier des Charges Web | Mycelium</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://chrstn67.github.io/mycelium/img/mycelium-logo.png"><meta data-rh="true" name="twitter:image" content="https://chrstn67.github.io/mycelium/img/mycelium-logo.png"><meta data-rh="true" property="og:url" content="https://chrstn67.github.io/mycelium/docs/Outils/Projets/Creation-Cahier-des-charges"><meta data-rh="true" property="og:locale" content="fr"><meta data-rh="true" name="docusaurus_locale" content="fr"><meta data-rh="true" name="docsearch:language" content="fr"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Comment créer un Cahier des Charges Web | Mycelium"><meta data-rh="true" name="description" content="Sacré morceau, mais VITAL dans le dev !!"><meta data-rh="true" property="og:description" content="Sacré morceau, mais VITAL dans le dev !!"><link data-rh="true" rel="icon" href="/mycelium/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://chrstn67.github.io/mycelium/docs/Outils/Projets/Creation-Cahier-des-charges"><link data-rh="true" rel="alternate" href="https://chrstn67.github.io/mycelium/docs/Outils/Projets/Creation-Cahier-des-charges" hreflang="fr"><link data-rh="true" rel="alternate" href="https://chrstn67.github.io/mycelium/docs/Outils/Projets/Creation-Cahier-des-charges" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/mycelium/blog/rss.xml" title="Mycelium RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/mycelium/blog/atom.xml" title="Mycelium Atom Feed"><link rel="stylesheet" href="/mycelium/assets/css/styles.127b10a3.css">
+<script src="/mycelium/assets/js/runtime~main.50d35357.js" defer="defer"></script>
+<script src="/mycelium/assets/js/main.d1d50aa7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Aller au contenu principal"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Aller au contenu principal</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Ouvrir/fermer la barre de navigation" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/mycelium/"><div class="navbar__logo"><img src="/mycelium/img/mycelium-logo.png" alt="Logo de Mycelium" class="themedComponent__dKv themedComponent--light_rzkv"><img src="/mycelium/img/mycelium-logo.png" alt="Logo de Mycelium" class="themedComponent__dKv themedComponent--dark_mMAk"></div><b class="navbar__title text--truncate">Accueil</b></a><a class="navbar__item navbar__link" href="/mycelium/docs/portfolio">Qui suis-je ?</a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Boîte à outils</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/mycelium/docs/category/mécanique">Mécanique</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/productivité">Productivité</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/projets">Projets</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/réseaux">Réseaux</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Cours</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/mycelium/docs/category/github">GitHub</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/accessibilité">Accessibilité</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/sécurité">Sécurité</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/html">HTML</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/css">CSS</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/javascript">JavaScript</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/tutoriels">Tutoriels</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Documentation</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/mycelium/docs/category/documentation">Articles généraux</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/liste-des-langages">Liste des langages</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/projets">Projets</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/sondages">Sondages</a></li><li><a class="dropdown__link" href="/mycelium/docs/category/histoire">Histoire</a></li></ul></div><a class="navbar__item navbar__link" href="/mycelium/blog">La vie des Dev</a></div><div class="navbar__items navbar__items--right"><a href="https://www.linkedin.com/in/christian-humbert-developpeur-web/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LinkedIn du créateur<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Basculer entre le mode sombre et clair (actuellement mode clair)" aria-label="Basculer entre le mode sombre et clair (actuellement mode clair)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Retour au début de la page" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/mycelium/docs/portfolio">Qui suis-je ?</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/mycelium/docs/category/cours-web">Cours Web</a><button aria-label="Développer la catégorie &#x27;Cours Web&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/mycelium/docs/category/documentation">Documentation</a><button aria-label="Développer la catégorie &#x27;Documentation&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/mycelium/docs/category/outils">Outils</a><button aria-label="Réduire la catégorie &#x27;Outils&#x27; de la barre latérale" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/mycelium/docs/category/mécanique">Mécanique</a><button aria-label="Développer la catégorie &#x27;Mécanique&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/mycelium/docs/category/productivité">Productivité</a><button aria-label="Développer la catégorie &#x27;Productivité&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" tabindex="0" href="/mycelium/docs/category/projets">Projets</a><button aria-label="Réduire la catégorie &#x27;Projets&#x27; de la barre latérale" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/mycelium/docs/Outils/Projets/Creation-Cahier-des-charges">Comment créer un Cahier des Charges Web</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/mycelium/docs/Outils/Projets/Les-side-projects">L&#x27;univers des side-projects</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/mycelium/docs/category/réseaux">Réseaux</a><button aria-label="Développer la catégorie &#x27;Réseaux&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/mycelium/docs/category/projets-1">Projets</a><button aria-label="Développer la catégorie &#x27;Projets&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/mycelium/docs/category/sondages">Sondages</a><button aria-label="Développer la catégorie &#x27;Sondages&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/mycelium/docs/category/histoire">Histoire</a><button aria-label="Développer la catégorie &#x27;Histoire&#x27; de la barre latérale" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav><button type="button" title="Réduire le menu latéral" aria-label="Réduire le menu latéral" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Fil d&#x27;Ariane"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Page d&#x27;accueil" class="breadcrumbs__link" href="/mycelium/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/mycelium/docs/category/outils"><span itemprop="name">Outils</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/mycelium/docs/category/projets"><span itemprop="name">Projets</span></a><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Comment créer un Cahier des Charges Web</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Sur cette page</button></div><div class="theme-doc-markdown markdown"><header><h1>Comment créer un Cahier des Charges Web</h1></header>
+<p>Sacré morceau, mais VITAL dans le dev !!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Lien direct vers Introduction" title="Lien direct vers Introduction">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-quun-cahier-des-charges-cdc-">Qu&#x27;est-ce qu&#x27;un Cahier des Charges (CDC) ?<a href="#quest-ce-quun-cahier-des-charges-cdc-" class="hash-link" aria-label="Lien direct vers Qu&#x27;est-ce qu&#x27;un Cahier des Charges (CDC) ?" title="Lien direct vers Qu&#x27;est-ce qu&#x27;un Cahier des Charges (CDC) ?">​</a></h3>
+<p>Un cahier des charges (CDC) est un document formalisé qui décrit en détail les exigences et les spécifications d&#x27;un projet web. Il sert de guide pour les développeurs, les designers, les chefs de projet, et les parties prenantes. Le CDC assure que toutes les parties impliquées ont une compréhension commune des objectifs, des fonctionnalités, des technologies, et des attentes du projet.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pourquoi-est-il-important-">Pourquoi est-il important ?<a href="#pourquoi-est-il-important-" class="hash-link" aria-label="Lien direct vers Pourquoi est-il important ?" title="Lien direct vers Pourquoi est-il important ?">​</a></h3>
+<ul>
+<li><strong>Clarté</strong> : Établit une compréhension commune du projet.</li>
+<li><strong>Planification</strong> : Aide à définir les étapes du projet.</li>
+<li><strong>Référence</strong> : Sert de point de référence tout au long du développement.</li>
+<li><strong>Contrôle</strong> : Facilite la gestion des changements et des ajustements.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="structure-dun-cahier-des-charges">Structure d&#x27;un Cahier des Charges<a href="#structure-dun-cahier-des-charges" class="hash-link" aria-label="Lien direct vers Structure d&#x27;un Cahier des Charges" title="Lien direct vers Structure d&#x27;un Cahier des Charges">​</a></h2>
+<p>Un CDC complet pour un projet web doit inclure les sections suivantes :</p>
+<ol>
+<li><strong>Présentation du Projet</strong></li>
+<li><strong>Objectifs du Projet</strong></li>
+<li><strong>Description Fonctionnelle</strong></li>
+<li><strong>Description Technique</strong></li>
+<li><strong>Exigences UX/UI</strong></li>
+<li><strong>Planification et Délais</strong></li>
+<li><strong>Budget</strong></li>
+<li><strong>Risques et Contraintes</strong></li>
+<li><strong>Annexes</strong></li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-présentation-du-projet">1. Présentation du Projet<a href="#1-présentation-du-projet" class="hash-link" aria-label="Lien direct vers 1. Présentation du Projet" title="Lien direct vers 1. Présentation du Projet">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="11-contexte">1.1 Contexte<a href="#11-contexte" class="hash-link" aria-label="Lien direct vers 1.1 Contexte" title="Lien direct vers 1.1 Contexte">​</a></h4>
+<p><strong>But</strong> : Fournir une vue d&#x27;ensemble du cadre général dans lequel le projet se déroule, permettant à toutes les parties prenantes de comprendre l&#x27;origine et la pertinence du projet.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Description de l&#x27;entreprise</strong> :</p>
+<ul>
+<li><em>Historique</em> : Brève histoire de l&#x27;entreprise, date de création, fondateurs.</li>
+<li><em>Mission et vision</em> : Objectifs à long terme et valeurs fondamentales.</li>
+<li><em>Produits ou services</em> : Gamme de produits ou services proposés par l&#x27;entreprise.</li>
+<li><em>Position sur le marché</em> : Positionnement actuel, part de marché, concurrents principaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Secteur d&#x27;activité</strong> :</p>
+<ul>
+<li><em>Description générale du secteur</em> : Principales caractéristiques, tendances actuelles.</li>
+<li><em>Enjeux du secteur</em> : Défis et opportunités majeures auxquels le secteur est confronté.</li>
+<li><em>Innovations et évolutions</em> : Technologies ou pratiques émergentes dans le secteur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Motivations du projet</strong> :</p>
+<ul>
+<li><em>Origine du projet</em> : Événements ou besoins spécifiques qui ont déclenché le projet.</li>
+<li><em>Objectifs stratégiques</em> : Comment le projet s&#x27;inscrit dans la stratégie globale de l&#x27;entreprise (ex. transformation digitale, expansion internationale).</li>
+<li><em>Historique des initiatives précédentes</em> : Projets antérieurs similaires, leçons apprises.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>L&#x27;entreprise XYZ, fondée en 2005, est un leader dans la fabrication de gadgets technologiques innovants. Sa mission est de rendre la technologie accessible et utile pour tous. Avec une présence dans plus de 20 pays, XYZ propose une gamme de produits allant des montres intelligentes aux systèmes domotiques. Face à une concurrence accrue et des attentes croissantes des consommateurs en matière de personnalisation, XYZ souhaite renforcer sa présence en ligne. Ce projet de refonte du site web vise à améliorer l&#x27;expérience utilisateur et à augmenter les ventes en ligne, s&#x27;inscrivant dans une stratégie globale de transformation digitale.</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="12-enjeux">1.2 Enjeux<a href="#12-enjeux" class="hash-link" aria-label="Lien direct vers 1.2 Enjeux" title="Lien direct vers 1.2 Enjeux">​</a></h4>
+<p><strong>But</strong> : Identifier et expliquer les principaux défis et opportunités que le projet vise à adresser. Cela aide à clarifier les priorités et les résultats attendus.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Amélioration de la visibilité en ligne</strong> :</p>
+<ul>
+<li>Besoin d&#x27;optimiser le SEO pour attirer plus de trafic organique.</li>
+<li>Stratégies de contenu pour engager les visiteurs et améliorer le taux de rétention.</li>
+</ul>
+</li>
+<li>
+<p><strong>Augmentation des ventes</strong> :</p>
+<ul>
+<li>Optimisation du parcours d&#x27;achat pour réduire les abandons de panier.</li>
+<li>Intégration de nouvelles fonctionnalités de commerce électronique (paiement en un clic, recommandations personnalisées).</li>
+</ul>
+</li>
+<li>
+<p><strong>Simplification des processus internes</strong> :</p>
+<ul>
+<li>Automatisation des tâches administratives pour libérer du temps pour des activités à plus forte valeur ajoutée.</li>
+<li>Intégration avec les systèmes existants (ERP, CRM) pour une gestion plus fluide des opérations.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration de l&#x27;expérience utilisateur</strong> :</p>
+<ul>
+<li>Réduction du temps de chargement des pages.</li>
+<li>Conception d&#x27;une interface plus intuitive et esthétique.</li>
+</ul>
+</li>
+<li>
+<p><strong>Adaptation aux nouvelles technologies</strong> :</p>
+<ul>
+<li>Mise à jour du site pour qu&#x27;il soit compatible avec les dernières versions de navigateurs et appareils.</li>
+<li>Utilisation de frameworks modernes pour une meilleure performance et maintenabilité.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong>:</div><div class="admonitionContent_BuS1"><p>Les principaux enjeux de ce projet sont les suivants :</p><ol>
+<li><strong>Amélioration de la visibilité en ligne</strong> : Actuellement, le site de XYZ souffre d&#x27;un faible positionnement sur les moteurs de recherche. Une optimisation SEO est cruciale pour attirer un trafic organique de qualité.</li>
+<li><strong>Augmentation des ventes</strong> : Le taux de conversion est actuellement de 1.5%. L&#x27;objectif est de le doubler en simplifiant le processus de commande et en intégrant des options de paiement rapide.</li>
+<li><strong>Simplification des processus internes</strong> : L&#x27;automatisation de la gestion des commandes et l&#x27;intégration avec le CRM existant réduiront les erreurs et amélioreront l&#x27;efficacité.</li>
+<li><strong>Amélioration de l&#x27;expérience utilisateur</strong> : Le site actuel est jugé peu intuitif par les utilisateurs. Une refonte du design et de la navigation est nécessaire pour offrir une meilleure expérience.</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="13-cibles">1.3 Cibles<a href="#13-cibles" class="hash-link" aria-label="Lien direct vers 1.3 Cibles" title="Lien direct vers 1.3 Cibles">​</a></h4>
+<p><strong>But</strong> : Identifier et décrire les groupes d&#x27;utilisateurs et parties prenantes qui seront impactés par le projet. Cela aide à orienter les décisions de conception et de développement pour répondre aux besoins de chaque groupe.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Utilisateurs finaux</strong> :</p>
+<ul>
+<li><em>Profils des utilisateurs</em> : Âge, sexe, profession, centres d&#x27;intérêt.</li>
+<li><em>Comportement en ligne</em> : Fréquence de visite, types de contenu recherchés, appareils utilisés.</li>
+<li><em>Besoins et attentes</em> : Ce qu&#x27;ils attendent du site web (information, achat, support).</li>
+</ul>
+</li>
+<li>
+<p><strong>Parties prenantes internes</strong> :</p>
+<ul>
+<li><em>Direction et équipes marketing</em> : Objectifs de vente, besoins en outils d&#x27;analyse et de reporting.</li>
+<li><em>Équipe technique</em> : Contraintes techniques, besoins en termes de maintenabilité et évolutivité.</li>
+<li><em>Service client</em> : Outils nécessaires pour répondre efficacement aux demandes des clients.</li>
+</ul>
+</li>
+<li>
+<p><strong>Partenaires</strong> :</p>
+<ul>
+<li><em>Fournisseurs</em> : Intégration avec les systèmes de gestion des stocks et des commandes.</li>
+<li><em>Affiliés et revendeurs</em> : Fonctionnalités de gestion des partenaires, suivi des ventes.</li>
+<li><em>Prestataires de services</em> : Besoins en termes d&#x27;intégration et de synchronisation des données.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les cibles du projet incluent :</p><ol>
+<li>
+<p><strong>Utilisateurs finaux</strong> :</p>
+<ul>
+<li><strong>Profil</strong> : Principalement des professionnels âgés de 25 à 45 ans, passionnés par la technologie et recherchant des gadgets innovants.</li>
+<li><strong>Comportement</strong> : Utilisent majoritairement des appareils mobiles pour naviguer et effectuer des achats en ligne.</li>
+<li><strong>Attentes</strong> : Un site rapide, sécurisé, et facile à utiliser, avec des informations détaillées sur les produits et des options de paiement variées.</li>
+</ul>
+</li>
+<li>
+<p><strong>Parties prenantes internes</strong> :</p>
+<ul>
+<li><strong>Équipe marketing</strong> : Besoin d&#x27;outils analytiques avancés pour suivre les campagnes et analyser le comportement des utilisateurs.</li>
+<li><strong>Équipe technique</strong> : Recherche de solutions techniques robustes et évolutives, facilitant la maintenance et les mises à jour du site.</li>
+<li><strong>Service client</strong> : Nécessite un accès rapide aux informations clients et aux commandes pour offrir un support efficace.</li>
+</ul>
+</li>
+<li>
+<p><strong>Partenaires</strong> :</p>
+<ul>
+<li><strong>Fournisseurs</strong> : Intégration fluide des systèmes de gestion des stocks pour assurer la disponibilité des produits.</li>
+<li><strong>Affiliés et revendeurs</strong> : Plateforme de gestion des ventes et des commissions, avec un suivi transparent des performances.</li>
+</ul>
+</li>
+</ol></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-objectifs-du-projet">2. Objectifs du Projet<a href="#2-objectifs-du-projet" class="hash-link" aria-label="Lien direct vers 2. Objectifs du Projet" title="Lien direct vers 2. Objectifs du Projet">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="21-objectifs-principaux">2.1 Objectifs Principaux<a href="#21-objectifs-principaux" class="hash-link" aria-label="Lien direct vers 2.1 Objectifs Principaux" title="Lien direct vers 2.1 Objectifs Principaux">​</a></h4>
+<p><strong>But</strong> : Identifier les objectifs primordiaux que le projet doit absolument atteindre. Ces objectifs sont cruciaux pour le succès du projet et répondent directement aux enjeux majeurs identifiés précédemment.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Augmentation du trafic web</strong> :</p>
+<ul>
+<li>Améliorer le référencement naturel (SEO) pour attirer davantage de visiteurs organiques.</li>
+<li>Mettre en place des campagnes de publicité en ligne (SEA) pour générer du trafic payant.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration du taux de conversion</strong> :</p>
+<ul>
+<li>Optimiser le parcours utilisateur pour réduire les abandons de panier.</li>
+<li>Mettre en place des A/B tests pour identifier les meilleures pratiques en matière de design et d&#x27;ergonomie.</li>
+</ul>
+</li>
+<li>
+<p><strong>Renforcement de la fidélisation des clients</strong> :</p>
+<ul>
+<li>Développer un programme de fidélité intégré au site web.</li>
+<li>Améliorer les fonctionnalités de suivi et de gestion des commandes pour une meilleure expérience après-vente.</li>
+</ul>
+</li>
+<li>
+<p><strong>Extension des fonctionnalités du site</strong> :</p>
+<ul>
+<li>Intégrer de nouvelles fonctionnalités de commerce électronique (par exemple, abonnement, personnalisation de produits).</li>
+<li>Améliorer les outils de recherche et de filtrage des produits pour faciliter la navigation.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration de l’image de marque</strong> :</p>
+<ul>
+<li>Revoir l’identité visuelle du site pour qu’elle soit cohérente avec la charte graphique de l’entreprise.</li>
+<li>Créer du contenu engageant et pertinent pour renforcer la notoriété et l’autorité de la marque.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les objectifs principaux de ce projet sont :</p><ol>
+<li>
+<p><strong>Augmentation du trafic web</strong> :</p>
+<ul>
+<li>Améliorer le SEO pour augmenter le nombre de visiteurs organiques de 50% en un an.</li>
+<li>Lancer des campagnes de publicité en ligne pour générer un trafic supplémentaire de 20%.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration du taux de conversion</strong> :</p>
+<ul>
+<li>Doubler le taux de conversion actuel de 1.5% à 3% en optimisant le parcours utilisateur.</li>
+<li>Mettre en place des A/B tests réguliers pour identifier les meilleures pratiques.</li>
+</ul>
+</li>
+<li>
+<p><strong>Renforcement de la fidélisation des clients</strong> :</p>
+<ul>
+<li>Développer un programme de fidélité pour encourager les achats répétés, visant une augmentation de 30% de la fidélisation.</li>
+<li>Améliorer les fonctionnalités de suivi des commandes pour une expérience après-vente optimisée.</li>
+</ul>
+</li>
+<li>
+<p><strong>Extension des fonctionnalités du site</strong> :</p>
+<ul>
+<li>Ajouter des fonctionnalités de personnalisation de produits d’ici la fin de l’année.</li>
+<li>Améliorer les outils de recherche et de filtrage des produits pour une navigation plus intuitive.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration de l’image de marque</strong> :</p>
+<ul>
+<li>Revoir l’identité visuelle du site pour qu’elle soit cohérente avec la nouvelle charte graphique de l’entreprise.</li>
+<li>Produire du contenu engageant et pertinent pour renforcer la notoriété de la marque.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="22-objectifs-secondaires">2.2 Objectifs Secondaires<a href="#22-objectifs-secondaires" class="hash-link" aria-label="Lien direct vers 2.2 Objectifs Secondaires" title="Lien direct vers 2.2 Objectifs Secondaires">​</a></h4>
+<p><strong>But</strong> : Identifier les objectifs additionnels ou souhaitables qui, bien qu&#x27;ils ne soient pas essentiels au succès immédiat du projet, pourraient apporter des bénéfices significatifs s&#x27;ils sont atteints.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Amélioration des outils d’analyse</strong> :</p>
+<ul>
+<li>Intégrer des outils d’analyse avancés pour mieux comprendre le comportement des utilisateurs et les performances du site.</li>
+<li>Créer des rapports personnalisés pour le suivi des indicateurs clés de performance (KPI).</li>
+</ul>
+</li>
+<li>
+<p><strong>Augmentation de l’engagement sur les réseaux sociaux</strong> :</p>
+<ul>
+<li>Intégrer des fonctionnalités de partage social sur le site web.</li>
+<li>Créer des campagnes spécifiques pour augmenter l’engagement et les interactions sur les réseaux sociaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimisation de la performance mobile</strong> :</p>
+<ul>
+<li>Assurer que le site est entièrement responsive et optimisé pour les appareils mobiles.</li>
+<li>Réduire les temps de chargement des pages sur les appareils mobiles.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration de l’accessibilité</strong> :</p>
+<ul>
+<li>Rendre le site conforme aux normes d’accessibilité (WCAG).</li>
+<li>Mettre en place des fonctionnalités d’accessibilité, comme la navigation clavier et le lecteur d’écran.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expansion internationale</strong> :</p>
+<ul>
+<li>Préparer le site pour une expansion internationale, incluant la traduction des contenus et l’adaptation aux différentes devises et modes de paiement.</li>
+<li>Identifier les marchés cibles et adapter les stratégies de marketing en conséquence.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les objectifs secondaires de ce projet sont :</p><ol>
+<li>
+<p><strong>Amélioration des outils d’analyse</strong> :</p>
+<ul>
+<li>Intégrer Google Analytics et d’autres outils d’analyse avancés pour un suivi détaillé des performances du site.</li>
+<li>Créer des tableaux de bord personnalisés pour suivre les KPI en temps réel.</li>
+</ul>
+</li>
+<li>
+<p><strong>Augmentation de l’engagement sur les réseaux sociaux</strong> :</p>
+<ul>
+<li>Ajouter des boutons de partage social sur toutes les pages de produits et de contenus.</li>
+<li>Lancer des campagnes de marketing social pour augmenter les interactions et les partages de 25%.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimisation de la performance mobile</strong> :</p>
+<ul>
+<li>S’assurer que le site est entièrement responsive et optimiser les temps de chargement pour les utilisateurs mobiles.</li>
+<li>Réduire les temps de chargement des pages à moins de 3 secondes sur mobile.</li>
+</ul>
+</li>
+<li>
+<p><strong>Amélioration de l’accessibilité</strong> :</p>
+<ul>
+<li>Rendre le site conforme aux normes d’accessibilité WCAG 2.1 niveau AA.</li>
+<li>Mettre en place des fonctionnalités comme la navigation au clavier et des descriptions alternatives pour les images.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expansion internationale</strong> :</p>
+<ul>
+<li>Préparer le site pour une expansion internationale, incluant la traduction en au moins trois langues et l’adaptation aux devises locales.</li>
+<li>Adapter les stratégies de marketing pour les marchés cibles identifiés (Europe, Asie).
+:::</li>
+</ul>
+</li>
+</ol><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>En précisant les objectifs principaux et secondaires, on définit clairement les priorités du projet tout en identifiant des opportunités supplémentaires qui pourraient apporter une valeur ajoutée si les ressources et le temps le permettent.</p></div></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-description-fonctionnelle">3. Description Fonctionnelle<a href="#3-description-fonctionnelle" class="hash-link" aria-label="Lien direct vers 3. Description Fonctionnelle" title="Lien direct vers 3. Description Fonctionnelle">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="31-fonctionnalités-principales">3.1 Fonctionnalités Principales<a href="#31-fonctionnalités-principales" class="hash-link" aria-label="Lien direct vers 3.1 Fonctionnalités Principales" title="Lien direct vers 3.1 Fonctionnalités Principales">​</a></h4>
+<p><strong>But</strong> : Décrire en détail les fonctionnalités essentielles du site web qui sont indispensables pour atteindre les objectifs principaux du projet.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Page d&#x27;accueil</strong> :</p>
+<ul>
+<li>Présentation attrayante avec un slider d&#x27;images ou vidéos.</li>
+<li>Sections clés (présentation de l&#x27;entreprise, produits phares, promotions, actualités).</li>
+</ul>
+</li>
+<li>
+<p><strong>Catalogue de produits</strong> :</p>
+<ul>
+<li>Liste des produits avec filtres de recherche (catégorie, prix, popularité).</li>
+<li>Pages de détail des produits avec descriptions, images, avis clients, et options d&#x27;achat.</li>
+</ul>
+</li>
+<li>
+<p><strong>Panier et processus de commande</strong> :</p>
+<ul>
+<li>Gestion du panier (ajout, suppression, modification des quantités).</li>
+<li>Processus de commande simple et intuitif (validation du panier, choix du mode de livraison, paiement).</li>
+</ul>
+</li>
+<li>
+<p><strong>Compte utilisateur</strong> :</p>
+<ul>
+<li>Création et gestion des comptes utilisateurs.</li>
+<li>Historique des commandes, suivi des livraisons, gestion des préférences.</li>
+</ul>
+</li>
+<li>
+<p><strong>Blog ou section d&#x27;actualités</strong> :</p>
+<ul>
+<li>Articles informatifs, guides d&#x27;achat, actualités de l&#x27;entreprise.</li>
+<li>Catégorisation des articles, commentaires, partage sur les réseaux sociaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Support client</strong> :</p>
+<ul>
+<li>FAQ, chat en direct, formulaire de contact.</li>
+<li>Suivi des tickets de support et historique des interactions.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les fonctionnalités principales du site web incluent :</p><ol>
+<li>
+<p><strong>Page d&#x27;accueil</strong> :</p>
+<ul>
+<li>Slider d&#x27;images promotionnelles en haut de page.</li>
+<li>Sections mettant en avant les produits phares, les promotions en cours, et les dernières actualités.</li>
+</ul>
+</li>
+<li>
+<p><strong>Catalogue de produits</strong> :</p>
+<ul>
+<li>Liste de produits avec options de filtrage par catégorie, prix, et popularité.</li>
+<li>Pages de détails des produits avec descriptions détaillées, images haute résolution, et avis des clients.</li>
+</ul>
+</li>
+<li>
+<p><strong>Panier et processus de commande</strong> :</p>
+<ul>
+<li>Ajout et suppression de produits dans le panier.</li>
+<li>Processus de commande en trois étapes : validation du panier, choix du mode de livraison, et paiement.</li>
+</ul>
+</li>
+<li>
+<p><strong>Compte utilisateur</strong> :</p>
+<ul>
+<li>Création de compte avec email et mot de passe.</li>
+<li>Accès à l&#x27;historique des commandes et suivi des livraisons.</li>
+</ul>
+</li>
+<li>
+<p><strong>Blog ou section d&#x27;actualités</strong> :</p>
+<ul>
+<li>Publication d&#x27;articles informatifs et guides d&#x27;achat.</li>
+<li>Fonctionnalités de commentaires et partage sur les réseaux sociaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Support client</strong> :</p>
+<ul>
+<li>Section FAQ détaillée.</li>
+<li>Chat en direct et formulaire de contact pour le support client.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="32-fonctionnalités-secondaires">3.2 Fonctionnalités Secondaires<a href="#32-fonctionnalités-secondaires" class="hash-link" aria-label="Lien direct vers 3.2 Fonctionnalités Secondaires" title="Lien direct vers 3.2 Fonctionnalités Secondaires">​</a></h4>
+<p><strong>But</strong> : Lister les fonctionnalités secondaires ou optionnelles qui pourraient être ajoutées pour améliorer l&#x27;expérience utilisateur ou offrir des services supplémentaires, sans être indispensables au fonctionnement de base du site.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Wishlist (Liste de souhaits)</strong> :</p>
+<ul>
+<li>Permettre aux utilisateurs de sauvegarder des produits pour des achats futurs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Système de points de fidélité</strong> :</p>
+<ul>
+<li>Récompense des achats répétitifs avec des points échangeables contre des remises ou des cadeaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Comparateur de produits</strong> :</p>
+<ul>
+<li>Fonctionnalité permettant de comparer les caractéristiques de plusieurs produits.</li>
+</ul>
+</li>
+<li>
+<p><strong>Notifications push</strong> :</p>
+<ul>
+<li>Notifications sur le navigateur ou par email pour informer les utilisateurs des promotions, nouveaux produits, ou mises à jour de commande.</li>
+</ul>
+</li>
+<li>
+<p><strong>Multilingue</strong> :</p>
+<ul>
+<li>Support pour plusieurs langues pour attirer une audience internationale.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intégration avec les réseaux sociaux</strong> :</p>
+<ul>
+<li>Connexion avec les comptes sociaux, partage facile des produits sur les réseaux sociaux.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les fonctionnalités secondaires du site web incluent :</p><ol>
+<li>
+<p><strong>Wishlist (Liste de souhaits)</strong> :</p>
+<ul>
+<li>Permettre aux utilisateurs de sauvegarder des produits qu&#x27;ils souhaitent acheter plus tard.</li>
+</ul>
+</li>
+<li>
+<p><strong>Système de points de fidélité</strong> :</p>
+<ul>
+<li>Récompenser les clients fidèles avec des points qu&#x27;ils peuvent échanger contre des réductions ou des cadeaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Comparateur de produits</strong> :</p>
+<ul>
+<li>Permettre aux utilisateurs de comparer les caractéristiques et prix de plusieurs produits.</li>
+</ul>
+</li>
+<li>
+<p><strong>Notifications push</strong> :</p>
+<ul>
+<li>Envoyer des notifications aux utilisateurs pour les informer des nouvelles promotions et mises à jour de commande.</li>
+</ul>
+</li>
+<li>
+<p><strong>Multilingue</strong> :</p>
+<ul>
+<li>Support pour plusieurs langues, incluant l&#x27;anglais, le français, et l&#x27;espagnol.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intégration avec les réseaux sociaux</strong> :</p>
+<ul>
+<li>Permettre aux utilisateurs de se connecter via leurs comptes de réseaux sociaux et de partager facilement des produits.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="33-arborescence-du-site">3.3 Arborescence du Site<a href="#33-arborescence-du-site" class="hash-link" aria-label="Lien direct vers 3.3 Arborescence du Site" title="Lien direct vers 3.3 Arborescence du Site">​</a></h4>
+<p><strong>But</strong> : Fournir une structure hiérarchique claire du site web, souvent sous forme de schéma ou d&#x27;organigramme, pour visualiser l&#x27;organisation des pages et la navigation.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Page d&#x27;accueil</strong></p>
+<ul>
+<li>Sections : Slider, produits phares, promotions, actualités.</li>
+</ul>
+</li>
+<li>
+<p><strong>Catalogue de produits</strong></p>
+<ul>
+<li>Catégories principales : Catégorie 1, Catégorie 2, Catégorie 3.</li>
+<li>Pages de détail des produits.</li>
+</ul>
+</li>
+<li>
+<p><strong>Pages spécifiques</strong></p>
+<ul>
+<li>À propos de nous</li>
+<li>Contact</li>
+<li>Conditions générales de vente</li>
+</ul>
+</li>
+<li>
+<p><strong>Compte utilisateur</strong></p>
+<ul>
+<li>Connexion/Inscription</li>
+<li>Profil utilisateur</li>
+<li>Historique des commandes</li>
+</ul>
+</li>
+<li>
+<p><strong>Blog/Actualités</strong></p>
+<ul>
+<li>Articles par catégorie</li>
+<li>Articles par date</li>
+</ul>
+</li>
+<li>
+<p><strong>Support client</strong></p>
+<ul>
+<li>FAQ</li>
+<li>Chat en direct</li>
+<li>Formulaire de contact</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Voici l&#x27;arborescence du site web :</p><ul>
+<li>
+<p><strong>Page d&#x27;accueil</strong></p>
+<ul>
+<li>Slider</li>
+<li>Produits phares</li>
+<li>Promotions</li>
+<li>Actualités</li>
+</ul>
+</li>
+<li>
+<p><strong>Catalogue de produits</strong></p>
+<ul>
+<li><strong>Catégorie 1</strong>
+<ul>
+<li>Produit A</li>
+<li>Produit B</li>
+</ul>
+</li>
+<li><strong>Catégorie 2</strong>
+<ul>
+<li>Produit C</li>
+<li>Produit D</li>
+</ul>
+</li>
+<li><strong>Catégorie 3</strong>
+<ul>
+<li>Produit E</li>
+<li>Produit F</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Pages spécifiques</strong></p>
+<ul>
+<li>À propos de nous</li>
+<li>Contact</li>
+<li>Conditions générales de vente</li>
+</ul>
+</li>
+<li>
+<p><strong>Compte utilisateur</strong></p>
+<ul>
+<li>Connexion/Inscription</li>
+<li>Profil utilisateur</li>
+<li>Historique des commandes</li>
+</ul>
+</li>
+<li>
+<p><strong>Blog/Actualités</strong></p>
+<ul>
+<li><strong>Catégorie d&#x27;articles 1</strong></li>
+<li><strong>Catégorie d&#x27;articles 2</strong></li>
+<li><strong>Catégorie d&#x27;articles 3</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Support client</strong></p>
+<ul>
+<li>FAQ</li>
+<li>Chat en direct</li>
+<li>Formulaire de contact</li>
+</ul>
+</li>
+</ul></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="34-cas-dutilisation">3.4 Cas d&#x27;Utilisation<a href="#34-cas-dutilisation" class="hash-link" aria-label="Lien direct vers 3.4 Cas d&#x27;Utilisation" title="Lien direct vers 3.4 Cas d&#x27;Utilisation">​</a></h4>
+<p><strong>But</strong> : Décrire les scénarios d&#x27;utilisation typiques pour montrer comment différents utilisateurs interagiront avec le site web dans diverses situations.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Scénario d&#x27;achat</strong> :</p>
+<ul>
+<li>Un utilisateur recherche un produit spécifique, utilise les filtres pour affiner sa recherche, ajoute le produit au panier, et complète le processus de commande.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de gestion de compte</strong> :</p>
+<ul>
+<li>Un utilisateur se connecte à son compte, met à jour ses informations personnelles, consulte son historique de commandes et suit l&#x27;état de sa dernière commande.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de recherche d&#x27;information</strong> :</p>
+<ul>
+<li>Un utilisateur visite le site pour trouver des informations sur un produit, lit les avis des clients et consulte les articles du blog pour des conseils et recommandations.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de support client</strong> :</p>
+<ul>
+<li>Un utilisateur rencontre un problème avec un produit, utilise la FAQ pour essayer de résoudre le problème, puis contacte le support client via le chat en direct.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Voici quelques cas d&#x27;utilisation typiques :</p><ol>
+<li>
+<p><strong>Scénario d&#x27;achat</strong> :</p>
+<ul>
+<li><strong>Utilisateur</strong> : Jean, 30 ans, cherche un nouveau smartphone.</li>
+<li><strong>Actions</strong> :<!-- -->
+<ol>
+<li>Jean visite le site et utilise la barre de recherche pour trouver des smartphones.</li>
+<li>Il filtre les résultats par prix et marque.</li>
+<li>Il consulte les détails du produit et les avis des clients.</li>
+<li>Il ajoute le smartphone au panier et procède au paiement.</li>
+<li>Il reçoit un email de confirmation de commande.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de gestion de compte</strong> :</p>
+<ul>
+<li><strong>Utilisateur</strong> : Marie, 28 ans, souhaite mettre à jour ses informations personnelles.</li>
+<li><strong>Actions</strong> :<!-- -->
+<ol>
+<li>Marie se connecte à son compte.</li>
+<li>Elle accède à la section &quot;Profil&quot; et met à jour son adresse et son numéro de téléphone.</li>
+<li>Elle consulte son historique de commandes et suit l&#x27;état de sa dernière commande.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de recherche d&#x27;information</strong> :</p>
+<ul>
+<li><strong>Utilisateur</strong> : Luc, 35 ans, cherche des conseils pour l&#x27;achat d&#x27;un appareil photo.</li>
+<li><strong>Actions</strong> :<!-- -->
+<ol>
+<li>Luc visite la section blog du site.</li>
+<li>Il lit plusieurs articles sur les meilleurs appareils photo pour les débutants.</li>
+<li>Il consulte les avis clients sur différents modèles recommandés.</li>
+<li>Il ajoute un appareil photo à sa wishlist pour un achat futur.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Scénario de support client</strong> :</p>
+<ul>
+<li><strong>Utilisateur</strong> : Sophie, 40 ans, rencontre un problème avec sa commande.</li>
+<li><strong>Actions</strong> :<!-- -->
+<ol>
+<li>Sophie visite la section FAQ pour essayer de résoudre son problème.</li>
+<li>Ne trouvant pas de solution, elle utilise le chat en direct pour contacter le support client.</li>
+<li></li>
+</ol>
+</li>
+</ul>
+</li>
+</ol><p>Un agent du support l&#x27;aide à résoudre son problème et lui envoie un email de suivi.</p></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>En fournissant une description fonctionnelle détaillée, incluant les fonctionnalités principales et secondaires, l&#x27;arborescence du site, et les cas d&#x27;utilisation, on offre une vision claire et complète de ce à quoi le site web final devrait ressembler et comment il devrait fonctionner.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-description-technique">4. Description Technique<a href="#4-description-technique" class="hash-link" aria-label="Lien direct vers 4. Description Technique" title="Lien direct vers 4. Description Technique">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="41-environnement-technique">4.1 Environnement Technique<a href="#41-environnement-technique" class="hash-link" aria-label="Lien direct vers 4.1 Environnement Technique" title="Lien direct vers 4.1 Environnement Technique">​</a></h4>
+<p><strong>But</strong> : Préciser les technologies qui seront utilisées pour le développement du site web, incluant les langages de programmation, les frameworks, et les systèmes de gestion de contenu (CMS).</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Langages de programmation</strong> :</p>
+<ul>
+<li>HTML5 et CSS3 pour la structure et le style.</li>
+<li>JavaScript pour les interactions dynamiques.</li>
+<li>PHP, Python, ou Node.js pour le développement côté serveur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Frameworks et bibliothèques</strong> :</p>
+<ul>
+<li>Front-end : React.js, Vue.js, ou Angular pour une interface utilisateur réactive et dynamique.</li>
+<li>Back-end : Laravel (PHP), Django (Python), ou Express (Node.js) pour le développement de l&#x27;API et la logique serveur.</li>
+</ul>
+</li>
+<li>
+<p><strong>CMS (Système de gestion de contenu)</strong> :</p>
+<ul>
+<li>WordPress pour les sites nécessitant une gestion facile du contenu.</li>
+<li>Drupal ou Joomla pour des besoins plus complexes en gestion de contenu.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bases de données</strong> :</p>
+<ul>
+<li>MySQL, PostgreSQL pour des bases de données relationnelles.</li>
+<li>MongoDB pour des bases de données NoSQL.</li>
+</ul>
+</li>
+<li>
+<p><strong>Outils de versioning</strong> :</p>
+<ul>
+<li>Git pour la gestion du code source et la collaboration en équipe.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>L&#x27;environnement technique du projet inclut :</p><ol>
+<li>
+<p><strong>Langages de programmation</strong> :</p>
+<ul>
+<li>HTML5, CSS3, JavaScript pour le front-end.</li>
+<li>PHP pour le back-end.</li>
+</ul>
+</li>
+<li>
+<p><strong>Frameworks et bibliothèques</strong> :</p>
+<ul>
+<li>React.js pour une interface utilisateur dynamique.</li>
+<li>Laravel pour la logique serveur et le développement de l&#x27;API.</li>
+</ul>
+</li>
+<li>
+<p><strong>CMS</strong> :</p>
+<ul>
+<li>WordPress pour la gestion de contenu facile.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bases de données</strong> :</p>
+<ul>
+<li>MySQL pour la base de données relationnelle.</li>
+</ul>
+</li>
+<li>
+<p><strong>Outils de versioning</strong> :</p>
+<ul>
+<li>Git pour la gestion du code source.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="42-hébergement">4.2 Hébergement<a href="#42-hébergement" class="hash-link" aria-label="Lien direct vers 4.2 Hébergement" title="Lien direct vers 4.2 Hébergement">​</a></h4>
+<p><strong>But</strong> : Détailler les besoins en matière d&#x27;hébergement pour garantir la disponibilité et la performance du site web.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Type d&#x27;hébergement</strong> :</p>
+<ul>
+<li>Hébergement mutualisé pour des petits sites avec un trafic modéré.</li>
+<li>Serveur dédié pour des sites nécessitant des ressources conséquentes.</li>
+<li>Hébergement cloud (AWS, Google Cloud, Azure) pour la scalabilité et la flexibilité.</li>
+</ul>
+</li>
+<li>
+<p><strong>Capacité et ressources</strong> :</p>
+<ul>
+<li>Stockage SSD pour des temps d&#x27;accès rapides.</li>
+<li>RAM et CPU en fonction des besoins de l&#x27;application.</li>
+</ul>
+</li>
+<li>
+<p><strong>Sauvegardes et récupération</strong> :</p>
+<ul>
+<li>Plan de sauvegarde régulier des données (quotidien, hebdomadaire).</li>
+<li>Solutions de récupération en cas de panne.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gestion des noms de domaine</strong> :</p>
+<ul>
+<li>Configuration des DNS et renouvellement du domaine.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les besoins en matière d&#x27;hébergement incluent :</p><ol>
+<li>
+<p><strong>Type d&#x27;hébergement</strong> :</p>
+<ul>
+<li>Hébergement cloud sur AWS pour assurer la scalabilité.</li>
+</ul>
+</li>
+<li>
+<p><strong>Capacité et ressources</strong> :</p>
+<ul>
+<li>Stockage SSD d&#x27;au moins 100 Go.</li>
+<li>8 Go de RAM et 4 vCPU.</li>
+</ul>
+</li>
+<li>
+<p><strong>Sauvegardes et récupération</strong> :</p>
+<ul>
+<li>Sauvegardes quotidiennes des données.</li>
+<li>Solutions de récupération en cas de panne incluant la redondance des données.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gestion des noms de domaine</strong> :</p>
+<ul>
+<li>Configuration des DNS et gestion du renouvellement du domaine.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="43-sécurité">4.3 Sécurité<a href="#43-sécurité" class="hash-link" aria-label="Lien direct vers 4.3 Sécurité" title="Lien direct vers 4.3 Sécurité">​</a></h4>
+<p><strong>But</strong> : Indiquer les exigences de sécurité pour protéger le site web et les données des utilisateurs.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Certificat SSL</strong> :</p>
+<ul>
+<li>Utilisation de HTTPS pour sécuriser les échanges de données.</li>
+</ul>
+</li>
+<li>
+<p><strong>Protection des données</strong> :</p>
+<ul>
+<li>Cryptage des données sensibles (mots de passe, informations de paiement).</li>
+<li>Conformité avec les réglementations (GDPR, CCPA).</li>
+</ul>
+</li>
+<li>
+<p><strong>Authentification et autorisation</strong> :</p>
+<ul>
+<li>Mise en place de systèmes d&#x27;authentification sécurisés (OAuth, JWT).</li>
+<li>Gestion des rôles et des permissions pour contrôler l&#x27;accès aux ressources.</li>
+</ul>
+</li>
+<li>
+<p><strong>Protection contre les attaques</strong> :</p>
+<ul>
+<li>Protection contre les attaques DDoS.</li>
+<li>Utilisation de pare-feux applicatifs (WAF).</li>
+<li>Vérification et validation des entrées utilisateurs pour éviter les injections SQL et les failles XSS.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les exigences de sécurité incluent :</p><ol>
+<li>
+<p><strong>Certificat SSL</strong> :</p>
+<ul>
+<li>Utilisation de HTTPS pour sécuriser toutes les communications.</li>
+</ul>
+</li>
+<li>
+<p><strong>Protection des données</strong> :</p>
+<ul>
+<li>Cryptage des mots de passe et informations de paiement.</li>
+<li>Conformité avec le RGPD pour la protection des données personnelles.</li>
+</ul>
+</li>
+<li>
+<p><strong>Authentification et autorisation</strong> :</p>
+<ul>
+<li>Mise en place d&#x27;une authentification via OAuth2.</li>
+<li>Gestion des rôles pour contrôler l&#x27;accès aux différentes sections du site.</li>
+</ul>
+</li>
+<li>
+<p><strong>Protection contre les attaques</strong> :</p>
+<ul>
+<li>Protection contre les attaques DDoS via un fournisseur de services de sécurité.</li>
+<li>Utilisation d&#x27;un pare-feu applicatif (WAF) pour filtrer le trafic malveillant.</li>
+<li>Validation des entrées utilisateurs pour éviter les injections SQL et les failles XSS.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="44-performances">4.4 Performances<a href="#44-performances" class="hash-link" aria-label="Lien direct vers 4.4 Performances" title="Lien direct vers 4.4 Performances">​</a></h4>
+<p><strong>But</strong> : Définir les attentes en matière de performance du site web, incluant les temps de chargement et la capacité à gérer des pics de trafic.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Temps de chargement</strong> :</p>
+<ul>
+<li>Objectif de temps de chargement inférieur à 3 secondes pour la page d&#x27;accueil et les pages produits.</li>
+<li>Optimisation des images et des ressources pour réduire le temps de chargement.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scalabilité</strong> :</p>
+<ul>
+<li>Capacité du site à gérer une augmentation soudaine du trafic sans dégradation de la performance.</li>
+<li>Utilisation de services de mise en cache (CDN) pour distribuer le contenu globalement.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests de performance</strong> :</p>
+<ul>
+<li>Tests réguliers de charge pour évaluer la performance sous différents scénarios.</li>
+<li>Utilisation d&#x27;outils de monitoring pour surveiller en temps réel les performances du site.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les attentes en matière de performance incluent :</p><ol>
+<li>
+<p><strong>Temps de chargement</strong> :</p>
+<ul>
+<li>Temps de chargement inférieur à 3 secondes pour toutes les pages principales.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scalabilité</strong> :</p>
+<ul>
+<li>Capacité à gérer jusqu&#x27;à 10 000 utilisateurs simultanés sans perte de performance.</li>
+<li>Utilisation de CDN pour améliorer la distribution du contenu.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests de performance</strong> :</p>
+<ul>
+<li>Réalisation de tests de charge mensuels pour évaluer la performance du site.</li>
+<li>Surveillance en temps réel via des outils de monitoring pour détecter et résoudre rapidement les problèmes de performance.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="45-accessibilité">4.5 Accessibilité<a href="#45-accessibilité" class="hash-link" aria-label="Lien direct vers 4.5 Accessibilité" title="Lien direct vers 4.5 Accessibilité">​</a></h4>
+<p><strong>But</strong> : Préciser les normes d&#x27;accessibilité à respecter pour rendre le site web utilisable par le plus grand nombre, incluant les personnes en situation de handicap.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Normes WCAG</strong> :</p>
+<ul>
+<li>Conformité aux normes WCAG 2.1, niveau AA au minimum.</li>
+<li>Vérification des contrastes de couleurs pour assurer la lisibilité.</li>
+</ul>
+</li>
+<li>
+<p><strong>Navigation</strong> :</p>
+<ul>
+<li>Utilisation de balises ARIA pour améliorer la navigation assistée.</li>
+<li>Compatibilité avec les technologies d&#x27;assistance, comme les lecteurs d&#x27;écran.</li>
+</ul>
+</li>
+<li>
+<p><strong>Formulaires et interactions</strong> :</p>
+<ul>
+<li>Labels clairs et instructions pour les champs de formulaire.</li>
+<li>Indications visuelles et textuelles pour les erreurs de saisie.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests d&#x27;accessibilité</strong> :</p>
+<ul>
+<li>Réalisation de tests d&#x27;accessibilité réguliers pour s&#x27;assurer que le site respecte les normes définies.</li>
+<li>Impliquer des utilisateurs en situation de handicap dans les tests pour obtenir des retours directs.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les exigences d&#x27;accessibilité incluent :</p><ol>
+<li>
+<p><strong>Normes WCAG</strong> :</p>
+<ul>
+<li>Conformité aux normes WCAG 2.1, niveau AA.</li>
+</ul>
+</li>
+<li>
+<p><strong>Navigation</strong> :</p>
+<ul>
+<li>Utilisation de balises ARIA pour améliorer la navigation pour les technologies d&#x27;assistance.</li>
+<li>Assurer la compatibilité avec les lecteurs d&#x27;écran.</li>
+</ul>
+</li>
+<li>
+<p><strong>Formulaires et interactions</strong> :</p>
+<ul>
+<li>Fournir des labels clairs et des instructions pour tous les champs de formulaire.</li>
+<li>Fournir des indications visuelles et textuelles pour les erreurs de saisie.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests d&#x27;accessibilité</strong> :</p>
+<ul>
+<li>Réalisation de tests d&#x27;accessibilité trimestriels.</li>
+<li>Impliquer des utilisateurs en situation de handicap dans les tests pour obtenir des retours directs.</li>
+</ul>
+</li>
+</ol></div></div>
+<p>D&#x27;accord, voici une description plus détaillée pour la section <strong>Exigences UX/UI</strong> dans un cahier des charges web avec des exemples formatés.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-exigences-uxui">5. Exigences UX/UI<a href="#5-exigences-uxui" class="hash-link" aria-label="Lien direct vers 5. Exigences UX/UI" title="Lien direct vers 5. Exigences UX/UI">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="51-design">5.1 Design<a href="#51-design" class="hash-link" aria-label="Lien direct vers 5.1 Design" title="Lien direct vers 5.1 Design">​</a></h4>
+<p><strong>But</strong> : Décrire les lignes directrices pour le design du site web, incluant la charte graphique, le branding, et les éléments visuels.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Charte graphique</strong> :</p>
+<ul>
+<li>Palette de couleurs : définir les couleurs principales et secondaires à utiliser.</li>
+<li>Typographie : choisir les polices de caractères pour les titres, sous-titres, et le texte de base.</li>
+<li>Icônes et illustrations : style et type d&#x27;icônes à utiliser.</li>
+</ul>
+</li>
+<li>
+<p><strong>Branding</strong> :</p>
+<ul>
+<li>Logo : emplacement et utilisation du logo sur le site.</li>
+<li>Style visuel : cohérence avec l&#x27;identité de marque (tonalité, imagerie).</li>
+</ul>
+</li>
+<li>
+<p><strong>Éléments visuels</strong> :</p>
+<ul>
+<li>Boutons : styles, tailles, et couleurs.</li>
+<li>Formulaires : design des champs de saisie et des boutons de soumission.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>La charte graphique du site inclut :</p><ol>
+<li>
+<p><strong>Palette de couleurs</strong> :</p>
+<ul>
+<li>Couleur principale : #3498db (bleu).</li>
+<li>Couleurs secondaires : #2ecc71 (vert), #e74c3c (rouge).</li>
+</ul>
+</li>
+<li>
+<p><strong>Typographie</strong> :</p>
+<ul>
+<li>Titre principal : Montserrat, 36px, bold.</li>
+<li>Texte de base : Open Sans, 16px, regular.</li>
+</ul>
+</li>
+<li>
+<p><strong>Icônes et illustrations</strong> :</p>
+<ul>
+<li>Utilisation d&#x27;icônes flat design provenant de la bibliothèque FontAwesome.</li>
+</ul>
+</li>
+</ol><p>Le branding comprend :</p><ol>
+<li>
+<p><strong>Logo</strong> :</p>
+<ul>
+<li>Le logo doit apparaître en haut à gauche de chaque page.</li>
+<li>Utilisation du logo en couleur sur fond blanc, et en blanc sur fond coloré.</li>
+</ul>
+</li>
+<li>
+<p><strong>Style visuel</strong> :</p>
+<ul>
+<li>Images et illustrations doivent refléter une atmosphère moderne et professionnelle.</li>
+</ul>
+</li>
+</ol><p>Les éléments visuels incluent :</p><ol>
+<li>
+<p><strong>Boutons</strong> :</p>
+<ul>
+<li>Boutons principaux : fond bleu (#3498db), texte blanc, bordure arrondie.</li>
+<li>Boutons secondaires : fond transparent, texte bleu, bordure bleue.</li>
+</ul>
+</li>
+<li>
+<p><strong>Formulaires</strong> :</p>
+<ul>
+<li>Champs de saisie avec bordure grise et coins arrondis.</li>
+<li>Boutons de soumission : fond vert (#2ecc71), texte blanc.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="52-navigation">5.2 Navigation<a href="#52-navigation" class="hash-link" aria-label="Lien direct vers 5.2 Navigation" title="Lien direct vers 5.2 Navigation">​</a></h4>
+<p><strong>But</strong> : Détailler les principes de navigation pour assurer une expérience utilisateur fluide et intuitive.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Menus</strong> :</p>
+<ul>
+<li>Structure des menus principaux et secondaires.</li>
+<li>Emplacement des menus sur la page (en-tête, pied de page, etc.).</li>
+</ul>
+</li>
+<li>
+<p><strong>Liens</strong> :</p>
+<ul>
+<li>Style des liens (couleurs, soulignement, etc.).</li>
+<li>Utilisation de breadcrumbs pour indiquer la position de l&#x27;utilisateur dans la hiérarchie du site.</li>
+</ul>
+</li>
+<li>
+<p><strong>Structure</strong> :</p>
+<ul>
+<li>Organisation logique des pages et sous-pages.</li>
+<li>Navigation intuitive avec un minimum de clics pour accéder aux informations clés.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les principes de navigation incluent :</p><ol>
+<li>
+<p><strong>Menus</strong> :</p>
+<ul>
+<li>Menu principal horizontal en haut de la page avec les sections : Accueil, Produits, À propos, Blog, Contact.</li>
+<li>Menu secondaire dans le pied de page avec des liens vers les pages légales et les réseaux sociaux.</li>
+</ul>
+</li>
+<li>
+<p><strong>Liens</strong> :</p>
+<ul>
+<li>Liens en texte bleu avec soulignement au survol.</li>
+<li>Utilisation de breadcrumbs en haut de chaque page pour indiquer la position de l&#x27;utilisateur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Structure</strong> :</p>
+<ul>
+<li>Organisation des pages par catégories : Produits (sous-catégories par type de produit), Blog (articles par date et par catégorie).</li>
+<li>Accès aux informations clés (contact, aide) en un maximum de 3 clics depuis la page d&#x27;accueil.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="53-interactivité">5.3 Interactivité<a href="#53-interactivité" class="hash-link" aria-label="Lien direct vers 5.3 Interactivité" title="Lien direct vers 5.3 Interactivité">​</a></h4>
+<p><strong>But</strong> : Expliquer les attentes en termes d&#x27;interactivité pour rendre le site engageant et intuitif.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Animations</strong> :</p>
+<ul>
+<li>Utilisation d&#x27;animations pour les transitions de page, les chargements, et les interactions utilisateur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Transitions</strong> :</p>
+<ul>
+<li>Transitions douces entre les différentes sections du site.</li>
+<li>Effets de survol pour les boutons et les liens.</li>
+</ul>
+</li>
+<li>
+<p><strong>Feedback utilisateur</strong> :</p>
+<ul>
+<li>Indications visuelles pour les actions utilisateur (clics, saisies, validations).</li>
+<li>Messages de confirmation ou d&#x27;erreur après une action utilisateur.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les attentes en termes d&#x27;interactivité incluent :</p><ol>
+<li>
+<p><strong>Animations</strong> :</p>
+<ul>
+<li>Animation de fondu pour les transitions de page.</li>
+<li>Animation de chargement (spinner) visible pendant le chargement des données.</li>
+</ul>
+</li>
+<li>
+<p><strong>Transitions</strong> :</p>
+<ul>
+<li>Transitions douces (0.3s) pour le changement de section.</li>
+<li>Effet de survol sur les boutons : légère augmentation de la taille et changement de couleur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Feedback utilisateur</strong> :</p>
+<ul>
+<li>Indication visuelle de clic sur les boutons (changement de couleur ou d&#x27;ombre).</li>
+<li>Messages de confirmation en vert pour les actions réussies, messages d&#x27;erreur en rouge pour les erreurs.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="54-mobile-first">5.4 Mobile First<a href="#54-mobile-first" class="hash-link" aria-label="Lien direct vers 5.4 Mobile First" title="Lien direct vers 5.4 Mobile First">​</a></h4>
+<p><strong>But</strong> : Préciser les besoins de compatibilité mobile et les directives pour un design responsive.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Responsive design</strong> :</p>
+<ul>
+<li>Utilisation de grilles flexibles et de media queries pour adapter le contenu à différentes tailles d&#x27;écran.</li>
+</ul>
+</li>
+<li>
+<p><strong>Mobile First</strong> :</p>
+<ul>
+<li>Conception initiale pour les appareils mobiles, puis adaptation pour les écrans plus grands.</li>
+</ul>
+</li>
+<li>
+<p><strong>Performances sur mobile</strong> :</p>
+<ul>
+<li>Optimisation des images et des ressources pour un chargement rapide sur les réseaux mobiles.</li>
+<li>Réduction du nombre de requêtes HTTP et minimisation des scripts.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les besoins de compatibilité mobile incluent :</p><ol>
+<li>
+<p><strong>Responsive design</strong> :</p>
+<ul>
+<li>Utilisation de la grille Bootstrap pour une mise en page flexible.</li>
+<li>Media queries pour adapter le contenu aux écrans de 320px à 1920px.</li>
+</ul>
+</li>
+<li>
+<p><strong>Mobile First</strong> :</p>
+<ul>
+<li>Conception initiale pour une largeur de 375px (taille d&#x27;écran mobile typique).</li>
+<li>Adaptation progressive pour les tablettes et les ordinateurs de bureau.</li>
+</ul>
+</li>
+<li>
+<p><strong>Performances sur mobile</strong> :</p>
+<ul>
+<li>Compression des images pour réduire leur taille.</li>
+<li>Utilisation de polices web optimisées pour un chargement rapide.</li>
+<li>Minimisation des scripts JavaScript pour améliorer la vitesse de chargement.</li>
+</ul>
+</li>
+</ol></div></div>
+<p>D&#x27;accord, voici une description plus détaillée pour la section <strong>Planification et Délais</strong> dans un cahier des charges web avec des exemples formatés.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-planification-et-délais">6. Planification et Délais<a href="#6-planification-et-délais" class="hash-link" aria-label="Lien direct vers 6. Planification et Délais" title="Lien direct vers 6. Planification et Délais">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="61-planning-prévisionnel">6.1 Planning Prévisionnel<a href="#61-planning-prévisionnel" class="hash-link" aria-label="Lien direct vers 6.1 Planning Prévisionnel" title="Lien direct vers 6.1 Planning Prévisionnel">​</a></h4>
+<p><strong>But</strong> : Proposer un calendrier des différentes phases du projet pour organiser et suivre l&#x27;avancement des travaux.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Phases du projet</strong> :</p>
+<ul>
+<li>Définition des grandes phases du projet : analyse, conception, développement, tests, déploiement.</li>
+</ul>
+</li>
+<li>
+<p><strong>Durée estimée</strong> :</p>
+<ul>
+<li>Estimation du temps nécessaire pour chaque phase en semaines ou en mois.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dates clés</strong> :</p>
+<ul>
+<li>Fixation de dates de début et de fin pour chaque phase.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Le planning prévisionnel du projet est le suivant :</p><ol>
+<li>
+<p><strong>Phase d&#x27;analyse</strong> (2 semaines) :</p>
+<ul>
+<li>Début : 1er septembre</li>
+<li>Fin : 14 septembre</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de conception</strong> (3 semaines) :</p>
+<ul>
+<li>Début : 15 septembre</li>
+<li>Fin : 5 octobre</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de développement</strong> (8 semaines) :</p>
+<ul>
+<li>Début : 6 octobre</li>
+<li>Fin : 30 novembre</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de tests</strong> (3 semaines) :</p>
+<ul>
+<li>Début : 1er décembre</li>
+<li>Fin : 21 décembre</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de déploiement</strong> (1 semaine) :</p>
+<ul>
+<li>Début : 22 décembre</li>
+<li>Fin : 28 décembre</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="62-jalons">6.2 Jalons<a href="#62-jalons" class="hash-link" aria-label="Lien direct vers 6.2 Jalons" title="Lien direct vers 6.2 Jalons">​</a></h4>
+<p><strong>But</strong> : Identifier les points de contrôle et de validation pour suivre l&#x27;avancement du projet et s&#x27;assurer qu&#x27;il respecte les délais et les objectifs.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Points de contrôle</strong> :</p>
+<ul>
+<li>Définir les moments clés pour évaluer l&#x27;avancement du projet (fin de chaque phase, revue intermédiaire).</li>
+</ul>
+</li>
+<li>
+<p><strong>Critères de validation</strong> :</p>
+<ul>
+<li>Établir les critères à remplir pour valider chaque jalon (ex. : documentation complète, version bêta fonctionnelle).</li>
+</ul>
+</li>
+<li>
+<p><strong>Réunions de suivi</strong> :</p>
+<ul>
+<li>Planifier des réunions régulières pour discuter des progrès, des problèmes éventuels, et des ajustements nécessaires.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les jalons du projet incluent :</p><ol>
+<li>
+<p><strong>Fin de la phase d&#x27;analyse</strong> (14 septembre) :</p>
+<ul>
+<li>Critères de validation : cahier des charges complet et validé par le client.</li>
+</ul>
+</li>
+<li>
+<p><strong>Fin de la phase de conception</strong> (5 octobre) :</p>
+<ul>
+<li>Critères de validation : maquettes haute fidélité validées par le client.</li>
+</ul>
+</li>
+<li>
+<p><strong>Fin de la phase de développement</strong> (30 novembre) :</p>
+<ul>
+<li>Critères de validation : version bêta fonctionnelle du site.</li>
+</ul>
+</li>
+<li>
+<p><strong>Fin de la phase de tests</strong> (21 décembre) :</p>
+<ul>
+<li>Critères de validation : correction des bugs majeurs, validation des tests utilisateurs.</li>
+</ul>
+</li>
+<li>
+<p><strong>Déploiement final</strong> (28 décembre) :</p>
+<ul>
+<li>Critères de validation : site en ligne, accessible et fonctionnel.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="63-livrables">6.3 Livrables<a href="#63-livrables" class="hash-link" aria-label="Lien direct vers 6.3 Livrables" title="Lien direct vers 6.3 Livrables">​</a></h4>
+<p><strong>But</strong> : Lister les livrables attendus à chaque étape pour garantir la qualité et la progression du projet.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Livrables par phase</strong> :</p>
+<ul>
+<li>Détails des documents, prototypes, et versions du site à livrer à la fin de chaque phase.</li>
+</ul>
+</li>
+<li>
+<p><strong>Formats de livraison</strong> :</p>
+<ul>
+<li>Définir les formats de livraison (documents PDF, fichiers source, accès au site de test).</li>
+</ul>
+</li>
+<li>
+<p><strong>Responsabilités</strong> :</p>
+<ul>
+<li>Indiquer qui est responsable de chaque livrable (équipe interne, prestataire externe).</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les livrables attendus incluent :</p><ol>
+<li>
+<p><strong>Phase d&#x27;analyse</strong> :</p>
+<ul>
+<li>Document de spécifications fonctionnelles et techniques (PDF).</li>
+<li>Cahier des charges validé.</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de conception</strong> :</p>
+<ul>
+<li>Maquettes haute fidélité des pages principales (fichiers PSD ou Sketch).</li>
+<li>Prototype interactif (outil de prototypage).</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de développement</strong> :</p>
+<ul>
+<li>Version bêta du site (hébergée sur un serveur de test).</li>
+<li>Code source (dépôt Git).</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de tests</strong> :</p>
+<ul>
+<li>Rapports de tests (PDF).</li>
+<li>Liste des bugs et correctifs appliqués.</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase de déploiement</strong> :</p>
+<ul>
+<li>Site web en production (URL finale).</li>
+<li>Documentation utilisateur (PDF).</li>
+<li>Formation des administrateurs du site.</li>
+</ul>
+</li>
+</ol></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-budget">7. Budget<a href="#7-budget" class="hash-link" aria-label="Lien direct vers 7. Budget" title="Lien direct vers 7. Budget">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="71-estimation-globale">7.1 Estimation Globale<a href="#71-estimation-globale" class="hash-link" aria-label="Lien direct vers 7.1 Estimation Globale" title="Lien direct vers 7.1 Estimation Globale">​</a></h4>
+<p><strong>But</strong> : Fournir une estimation budgétaire globale pour le projet web, incluant tous les coûts prévus.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li><strong>Budget total</strong> :<!-- -->
+<ul>
+<li>Indiquer le montant total estimé pour la réalisation du projet.</li>
+</ul>
+</li>
+<li><strong>Marge de contingence</strong> :<!-- -->
+<ul>
+<li>Prévoir une marge pour les imprévus et les ajustements nécessaires au cours du projet (généralement entre 10% et 20% du budget total).</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>L&#x27;estimation budgétaire globale pour le projet est de 50 000 EUR. Cette estimation inclut une marge de contingence de 10% pour couvrir les imprévus et les ajustements nécessaires, portant le budget total à 55 000 EUR.</p></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="72-détails-des-coûts">7.2 Détails des Coûts<a href="#72-détails-des-coûts" class="hash-link" aria-label="Lien direct vers 7.2 Détails des Coûts" title="Lien direct vers 7.2 Détails des Coûts">​</a></h4>
+<p><strong>But</strong> : Décomposer les coûts par poste pour fournir une vision détaillée des dépenses prévues.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Développement</strong> :</p>
+<ul>
+<li>Coût des développeurs (tarif horaire ou forfait).</li>
+<li>Licences pour les outils de développement et les frameworks.</li>
+</ul>
+</li>
+<li>
+<p><strong>Design</strong> :</p>
+<ul>
+<li>Coût des designers (tarif horaire ou forfait).</li>
+<li>Licences pour les outils de design (Adobe Creative Suite, Sketch).</li>
+<li>Achats d&#x27;images, d&#x27;icônes et de typographies.</li>
+</ul>
+</li>
+<li>
+<p><strong>Hébergement</strong> :</p>
+<ul>
+<li>Coût de l&#x27;hébergement web (mensuel ou annuel).</li>
+<li>Coût des services supplémentaires (CDN, sauvegardes).</li>
+</ul>
+</li>
+<li>
+<p><strong>Maintenance</strong> :</p>
+<ul>
+<li>Coût de la maintenance régulière (mise à jour, correction de bugs).</li>
+<li>Coût du support technique (forfait mensuel ou annuel).</li>
+</ul>
+</li>
+<li>
+<p><strong>Autres coûts</strong> :</p>
+<ul>
+<li>Formation des administrateurs.</li>
+<li>Marketing et promotion.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les détails des coûts par poste sont les suivants :</p><ol>
+<li>
+<p><strong>Développement</strong> :</p>
+<ul>
+<li>Coût des développeurs : 25 000 EUR (tarif horaire de 50 EUR, estimé à 500 heures de travail).</li>
+<li>Licences pour les outils de développement : 1 000 EUR.</li>
+</ul>
+</li>
+<li>
+<p><strong>Design</strong> :</p>
+<ul>
+<li>Coût des designers : 10 000 EUR (tarif horaire de 40 EUR, estimé à 250 heures de travail).</li>
+<li>Licences pour les outils de design : 500 EUR.</li>
+<li>Achats d&#x27;images et d&#x27;icônes : 500 EUR.</li>
+</ul>
+</li>
+<li>
+<p><strong>Hébergement</strong> :</p>
+<ul>
+<li>Coût de l&#x27;hébergement web : 2 000 EUR par an.</li>
+<li>Coût des services supplémentaires (CDN, sauvegardes) : 500 EUR par an.</li>
+</ul>
+</li>
+<li>
+<p><strong>Maintenance</strong> :</p>
+<ul>
+<li>Coût de la maintenance régulière : 5 000 EUR par an.</li>
+<li>Coût du support technique : 1 000 EUR par an.</li>
+</ul>
+</li>
+<li>
+<p><strong>Autres coûts</strong> :</p>
+<ul>
+<li>Formation des administrateurs : 2 000 EUR.</li>
+<li>Marketing et promotion : 3 000 EUR.</li>
+</ul>
+</li>
+</ol><p><strong><em>Total détaillé</em></strong> : 50 000 EUR.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>remarque</div><div class="admonitionContent_BuS1"><p>En fournissant une estimation budgétaire globale et des détails des coûts par poste, on assure une gestion financière transparente et permet une meilleure planification des ressources nécessaires pour la réalisation du projet web.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-risques-et-contraintes">8. Risques et Contraintes<a href="#8-risques-et-contraintes" class="hash-link" aria-label="Lien direct vers 8. Risques et Contraintes" title="Lien direct vers 8. Risques et Contraintes">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="81-identification-des-risques">8.1 Identification des Risques<a href="#81-identification-des-risques" class="hash-link" aria-label="Lien direct vers 8.1 Identification des Risques" title="Lien direct vers 8.1 Identification des Risques">​</a></h4>
+<p><strong>But</strong> : Lister les principaux risques qui pourraient affecter le projet et proposer des stratégies pour les atténuer.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Risques liés au planning</strong> :</p>
+<ul>
+<li>Retards dans les livrables.</li>
+<li>Dépassements de délais.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Planification réaliste, marges de sécurité dans le planning, suivi régulier.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques techniques</strong> :</p>
+<ul>
+<li>Problèmes de compatibilit é avec les technologies choisies.</li>
+<li>Bugs imprévus.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Tests rigoureux, sélection prudente des technologies, mises à jour régulières.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques financiers</strong> :</p>
+<ul>
+<li>Dépassement du budget.</li>
+<li>Changements de scope imprévus.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Suivi strict du budget, communication transparente, gestion rigoureuse des changements.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques de sécurité</strong> :</p>
+<ul>
+<li>Vulnérabilités du site.</li>
+<li>Attaques de type DDoS.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Implémentation de bonnes pratiques de sécurité, audits de sécurité réguliers, utilisation de pare-feu.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les principaux risques identifiés pour le projet sont :</p><ol>
+<li>
+<p><strong>Risques liés au planning</strong> :</p>
+<ul>
+<li>Retards dans les livrables en raison de la complexité du développement.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Planifier avec des marges de sécurité, organiser des réunions de suivi hebdomadaires.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques techniques</strong> :</p>
+<ul>
+<li>Bugs imprévus lors de l&#x27;intégration des différentes fonctionnalités.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Effectuer des tests unitaires et d&#x27;intégration réguliers.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques financiers</strong> :</p>
+<ul>
+<li>Dépassement du budget en raison de l&#x27;ajout de nouvelles fonctionnalités.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Suivre strictement le budget initial et valider tout ajout de fonctionnalité avec une estimation des coûts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Risques de sécurité</strong> :</p>
+<ul>
+<li>Vulnérabilités dans le code source du site.</li>
+<li><strong>Stratégies d&#x27;atténuation</strong> : Réaliser des audits de sécurité et implémenter les recommandations.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="82-contraintes-techniques">8.2 Contraintes Techniques<a href="#82-contraintes-techniques" class="hash-link" aria-label="Lien direct vers 8.2 Contraintes Techniques" title="Lien direct vers 8.2 Contraintes Techniques">​</a></h4>
+<p><strong>But</strong> : Identifier les contraintes techniques prévisibles qui pourraient impacter le projet.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Compatibilité des navigateurs</strong> :</p>
+<ul>
+<li>S&#x27;assurer que le site fonctionne sur les principaux navigateurs web.</li>
+</ul>
+</li>
+<li>
+<p><strong>Performances</strong> :</p>
+<ul>
+<li>Assurer un temps de chargement rapide et une bonne réactivité du site.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intégration de systèmes tiers</strong> :</p>
+<ul>
+<li>Compatibilité avec les API et les services externes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Capacités du serveur</strong> :</p>
+<ul>
+<li>Limites de l&#x27;hébergement choisi en termes de trafic et de stockage.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les contraintes techniques identifiées pour le projet sont :</p><ol>
+<li>
+<p><strong>Compatibilité des navigateurs</strong> :</p>
+<ul>
+<li>Le site doit être compatible avec les versions récentes de Chrome, Firefox, Safari, et Edge.</li>
+<li><strong>Solution</strong> : Utiliser des frameworks modernes et effectuer des tests de compatibilité.</li>
+</ul>
+</li>
+<li>
+<p><strong>Performances</strong> :</p>
+<ul>
+<li>Le site doit avoir un temps de chargement inférieur à 2 secondes sur une connexion standard.</li>
+<li><strong>Solution</strong> : Optimiser les images, utiliser des techniques de lazy loading et un CDN.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intégration de systèmes tiers</strong> :</p>
+<ul>
+<li>Le site doit s&#x27;intégrer avec des API tierces pour les paiements et les services de marketing.</li>
+<li><strong>Solution</strong> : Utiliser des bibliothèques éprouvées pour l&#x27;intégration des API et effectuer des tests de connexion.</li>
+</ul>
+</li>
+<li>
+<p><strong>Capacités du serveur</strong> :</p>
+<ul>
+<li>L&#x27;hébergement choisi doit supporter un trafic mensuel de 100 000 visites et offrir un stockage suffisant pour le contenu multimédia.</li>
+<li><strong>Solution</strong> : Choisir un hébergeur fiable avec des options de scalabilité.</li>
+</ul>
+</li>
+</ol></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="83-contraintes-légales">8.3 Contraintes Légales<a href="#83-contraintes-légales" class="hash-link" aria-label="Lien direct vers 8.3 Contraintes Légales" title="Lien direct vers 8.3 Contraintes Légales">​</a></h4>
+<p><strong>But</strong> : Détailer les contraintes légales qui s&#x27;appliquent au projet pour assurer la conformité.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>RGPD</strong> :</p>
+<ul>
+<li>Conformité au Règlement Général sur la Protection des Données pour les utilisateurs de l&#x27;UE.</li>
+</ul>
+</li>
+<li>
+<p><strong>Copyright</strong> :</p>
+<ul>
+<li>Respect des droits d&#x27;auteur pour les contenus utilisés sur le site (textes, images, vidéos).</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessibilité</strong> :</p>
+<ul>
+<li>Respect des normes d&#x27;accessibilité web (WCAG).</li>
+</ul>
+</li>
+<li>
+<p><strong>E-commerce</strong> (si applicable) :</p>
+<ul>
+<li>Conformité avec les régulations locales concernant la vente en ligne.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les contraintes légales identifiées pour le projet sont :</p><ol>
+<li>
+<p><strong>RGPD</strong> :</p>
+<ul>
+<li>Collecter et traiter les données personnelles des utilisateurs en conformité avec le RGPD.</li>
+<li><strong>Solution</strong> : Implémenter une politique de confidentialité claire, obtenir le consentement des utilisateurs pour la collecte de données.</li>
+</ul>
+</li>
+<li>
+<p><strong>Copyright</strong> :</p>
+<ul>
+<li>Utiliser uniquement des contenus pour lesquels les droits d&#x27;utilisation ont été obtenus.</li>
+<li><strong>Solution</strong> : Acheter des licences pour les images et les vidéos, vérifier les droits des textes utilisés.</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessibilité</strong> :</p>
+<ul>
+<li>Respecter les normes WCAG 2.1 pour garantir l&#x27;accessibilité du site aux personnes en situation de handicap.</li>
+<li><strong>Solution</strong> : Effectuer des audits d&#x27;accessibilité et implémenter les recommandations.</li>
+</ul>
+</li>
+<li>
+<p><strong>E-commerce</strong> :</p>
+<ul>
+<li>Respecter les régulations locales concernant les ventes en ligne, y compris les obligations en matière de facturation et de protection des consommateurs.</li>
+<li><strong>Solution</strong> : Travailler avec des experts en régulation e-commerce pour s&#x27;assurer de la conformité.</li>
+</ul>
+</li>
+</ol></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>remarque</div><div class="admonitionContent_BuS1"><p>En identifiant les risques et les contraintes dès le début du projet, on peut élaborer des stratégies pour les atténuer et assurer une meilleure gestion du projet, en évitant les problèmes potentiels et en respectant les obligations légales et techniques.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-annexes">9. Annexes<a href="#9-annexes" class="hash-link" aria-label="Lien direct vers 9. Annexes" title="Lien direct vers 9. Annexes">​</a></h3>
+<p><strong>But</strong> : Inclure toute documentation supplémentaire pertinente pour soutenir et détailler les informations présentées dans le cahier des charges. Cela peut inclure des études de marché, des maquettes, des résultats de tests utilisateurs, etc.</p>
+<p><strong>Contenu détaillé</strong> :</p>
+<ul>
+<li>
+<p><strong>Études de marché</strong> :</p>
+<ul>
+<li>Rapports et analyses sur le marché cible, les tendances actuelles, et la concurrence.</li>
+</ul>
+</li>
+<li>
+<p><strong>Maquettes et prototypes</strong> :</p>
+<ul>
+<li>Maquettes basse et haute fidélité des pages du site.</li>
+<li>Prototypes interactifs pour démontrer le flux utilisateur.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests utilisateurs</strong> :</p>
+<ul>
+<li>Résultats des tests utilisateurs, incluant les retours et les recommandations.</li>
+<li>Scénarios de tests utilisés et les méthodologies employées.</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentation technique</strong> :</p>
+<ul>
+<li>Spécifications techniques détaillées.</li>
+<li>Diagrammes d&#x27;architecture du système.</li>
+</ul>
+</li>
+<li>
+<p><strong>Références et inspirations</strong> :</p>
+<ul>
+<li>Exemples de sites web similaires ou références visuelles et fonctionnelles qui ont inspiré le projet.</li>
+</ul>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Exemple</strong> :</div><div class="admonitionContent_BuS1"><p>Les annexes incluent :</p><ol>
+<li>
+<p><strong>Études de marché</strong> :</p>
+<ul>
+<li>Rapport complet sur le marché cible des utilisateurs du site, y compris les segments démographiques et comportementaux (PDF, 20 pages).</li>
+<li>Analyse de la concurrence, avec une comparaison des fonctionnalités et des designs des sites concurrents (PDF, 10 pages).</li>
+</ul>
+</li>
+<li>
+<p><strong>Maquettes et prototypes</strong> :</p>
+<ul>
+<li>Maquettes basse fidélité des principales pages du site (fichiers PNG).</li>
+<li>Maquettes haute fidélité détaillées, incluant les variations pour mobile et tablette (fichiers PSD).</li>
+<li>Prototype interactif démontrant le flux utilisateur principal (lien vers un outil de prototypage comme InVision).</li>
+</ul>
+</li>
+<li>
+<p><strong>Tests utilisateurs</strong> :</p>
+<ul>
+<li>Résultats des tests utilisateurs réalisés avec 20 participants, incluant les points positifs, les problèmes rencontrés, et les suggestions d&#x27;amélioration (PDF, 15 pages).</li>
+<li>Scénarios de tests utilisateurs utilisés pour évaluer l&#x27;expérience utilisateur (document Word, 5 pages).</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentation technique</strong> :</p>
+<ul>
+<li>Spécifications techniques détaillées pour l&#x27;intégration des API et des services tiers (PDF, 8 pages).</li>
+<li>Diagramme d&#x27;architecture du système, montrant les composants principaux et leurs interactions (fichier Visio ou PNG).</li>
+</ul>
+</li>
+<li>
+<p><strong>Références et inspirations</strong> :</p>
+<ul>
+<li>Liste des sites web de référence qui ont inspiré le design et les fonctionnalités du projet, avec des captures d&#x27;écran et des notes explicatives (PDF, 10 pages).</li>
+</ul>
+</li>
+</ol></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>remarque</div><div class="admonitionContent_BuS1"><p>En incluant ces annexes, on fournit des informations complémentaires cruciales pour la compréhension et la réalisation du projet. Ces documents permettent de soutenir les décisions prises et de fournir une base solide pour le développement et la conception du site web.</p></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Lien direct vers Conclusion" title="Lien direct vers Conclusion">​</a></h2>
+<p>Je précise, qu&#x27;il s&#x27;agit là d&#x27;un <strong><em>CDC ponctués d&#x27;exemples</em></strong> !! Chaque Cahier des Charges peut être différent en fonction de la volonté des clients, des technologies utilisées, des besoins etc...Mais avec tout ça, tu devrais pouvoir constituer un Cahier des Charges précis et solide ! <!-- -->😉</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags :</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/mycelium/docs/tags/cahier-des-charges">Cahier des Charges</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Outils/Projets/Creation-Cahier-des-charges.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Éditer cette page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Pages de documentation"><a class="pagination-nav__link pagination-nav__link--prev" href="/mycelium/docs/category/projets"><div class="pagination-nav__sublabel">Précédent</div><div class="pagination-nav__label">Projets</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/mycelium/docs/Outils/Projets/Les-side-projects"><div class="pagination-nav__sublabel">Suivant</div><div class="pagination-nav__label">L&#x27;univers des side-projects</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a><ul><li><a href="#quest-ce-quun-cahier-des-charges-cdc-" class="table-of-contents__link toc-highlight">Qu&#39;est-ce qu&#39;un Cahier des Charges (CDC) ?</a></li><li><a href="#pourquoi-est-il-important-" class="table-of-contents__link toc-highlight">Pourquoi est-il important ?</a></li></ul></li><li><a href="#structure-dun-cahier-des-charges" class="table-of-contents__link toc-highlight">Structure d&#39;un Cahier des Charges</a><ul><li><a href="#1-présentation-du-projet" class="table-of-contents__link toc-highlight">1. Présentation du Projet</a></li><li><a href="#2-objectifs-du-projet" class="table-of-contents__link toc-highlight">2. Objectifs du Projet</a></li><li><a href="#3-description-fonctionnelle" class="table-of-contents__link toc-highlight">3. Description Fonctionnelle</a></li><li><a href="#4-description-technique" class="table-of-contents__link toc-highlight">4. Description Technique</a></li><li><a href="#5-exigences-uxui" class="table-of-contents__link toc-highlight">5. Exigences UX/UI</a></li><li><a href="#6-planification-et-délais" class="table-of-contents__link toc-highlight">6. Planification et Délais</a></li><li><a href="#7-budget" class="table-of-contents__link toc-highlight">7. Budget</a></li><li><a href="#8-risques-et-contraintes" class="table-of-contents__link toc-highlight">8. Risques et Contraintes</a></li><li><a href="#9-annexes" class="table-of-contents__link toc-highlight">9. Annexes</a></li></ul></li><li><a href="#conclusion" class="table-of-contents__link toc-highlight">Conclusion</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Réseaux</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.com/invite/8965nuC3HM" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://whatsapp.com/channel/0029VaZwOjRIXnlifbrBE83N" target="_blank" rel="noopener noreferrer" class="footer__link-item">Chaîne WhatsApp<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Mentions légales</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/mycelium/mentions-legales">Mentions légales</a></li></ul></div><div class="col footer__col"><div class="footer__title">Plus</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/mycelium/blog">La vie des Dev</a></li></ul></div><div class="col footer__col"><div class="footer__title">Collaborateurs</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/christian-humbert-developpeur-web/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Chrsitian HUMBERT<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 by Christian HUMBERT, Créateur de Mycelium</div></div></div></footer></div>
+</body>
+</html>
