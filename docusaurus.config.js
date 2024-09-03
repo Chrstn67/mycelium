@@ -72,10 +72,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      tableOfContents: {
-        minHeadingLevel: 2,
-        maxHeadingLevel: 6,
-      },
       docs: {
         sidebar: {
           hideable: true,
@@ -101,11 +97,30 @@ const config = {
             label: "Qui suis-je ?",
             position: "left",
           },
+
           {
-            to: "/docs/category/outils",
             label: "Boîte à outils",
             position: "left",
+            items: [
+              {
+                to: "/docs/category/mécanique",
+                label: "Mécanique",
+              },
+              {
+                to: "/docs/category/productivité",
+                label: "Productivité",
+              },
+              {
+                to: "/docs/category/projets",
+                label: "Projets",
+              },
+              {
+                to: "/docs/category/réseaux",
+                label: "Réseaux",
+              },
+            ],
           },
+
           {
             label: "Cours",
             position: "left",
