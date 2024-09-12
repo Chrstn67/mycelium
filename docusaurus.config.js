@@ -191,14 +191,14 @@ const config = {
                 to: "/docs/category/définitions-html",
                 label: "HTML",
               },
-              {
-                to: "/docs/category/définitions-css",
-                label: "CSS",
-              },
-              {
-                to: "/docs/category/définitions-js",
-                label: "JS",
-              },
+              // {
+              //   to: "/docs/category/définitions-css",
+              //   label: "CSS",
+              // },
+              // {
+              //   to: "/docs/category/définitions-js",
+              //   label: "JS",
+              // },
             ],
           },
 
