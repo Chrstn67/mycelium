@@ -182,6 +182,26 @@ const config = {
               },
             ],
           },
+
+          {
+            label: "Définitions",
+            position: "left",
+            items: [
+              {
+                to: "/docs/category/définitions-html",
+                label: "HTML",
+              },
+              {
+                to: "/docs/category/définitions-css",
+                label: "CSS",
+              },
+              {
+                to: "/docs/category/définitions-js",
+                label: "JS",
+              },
+            ],
+          },
+
           {
             to: "/blog",
             label: "La vie des Dev",

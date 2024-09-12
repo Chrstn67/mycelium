@@ -25,7 +25,7 @@ Commence par créer un compte sur [**GitHub**](https://github.com/). Ce compte t
 
 **Git** est l'outil qui te permet de gérer les versions de ton code. Pour l'utiliser, il faut d'abord l'installer sur ton ordinateur. Voici comment procéder selon ton système d'exploitation :
 
-- **Windows** : Télécharge le programme d'installation depuis le [site officiel de Git](https://git-scm.com/download/win). Suis les instructions pour l'installer. Pendant l’installation, tu pourras configurer certaines options comme l'éditeur de texte par défaut (souvent `vim` ou `nano`), et choisir d'ajouter **Git** à ton _PATH_, ce qui te permettra de l'utiliser depuis n'importe quel terminal.
+- **Windows** : Télécharge le programme d'installation depuis le [site officiel de Git](https://git-scm.com/download/win). Suis les instructions pour l'installer. Pendant l’installation, tu pourras configurer certaines options ; prend le temps de bien les lire et les comprendre. Ajoute ensuite **Git** à ton _PATH des variables d'environnement_, ce qui te permettra de l'utiliser depuis n'importe quel terminal.
 
 - **macOS** : Ouvre l'application Terminal et tape `git --version`. Si **Git** n'est pas installé, macOS te proposera de l'installer automatiquement. Sinon, tu peux l'installer via [Homebrew](https://brew.sh/) en tapant `brew install git`.
 
@@ -172,9 +172,7 @@ Le clonage d’un dépôt te permet de récupérer une copie complète du projet
 git clone git@github.com:utilisateur/nom-du-depot.git
 ```
 
-- \*\*`utilisateur/nom
-
--du-depot.git`** : Remplace `utilisateur`par le nom d'utilisateur du propriétaire du dépôt et`nom-du-depot` par le nom du dépôt que tu veux cloner.
+- **`utilisateur/nom-du-depot.git`** : Remplace `utilisateur` par le nom d'utilisateur du propriétaire du dépôt et `nom-du-depot` par le nom du dépôt que tu veux cloner.
 
 Le dépôt sera téléchargé dans un dossier local, et tu pourras commencer à travailler dessus.
 

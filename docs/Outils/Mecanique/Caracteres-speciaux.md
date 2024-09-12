@@ -78,14 +78,22 @@ Le `é` majuscule, `ç` majuscule, et d'autres caractères spéciaux peuvent êt
         <td class="table-data">Alt + 0198</td>
       </tr>
       <tr>
+        <td class="table-data">æ</td>
+        <td class="table-data">Alt + 145</td>
+      </tr>
+      <tr>
         <td class="table-data">Œ</td>
-        <td class="table-data">Alt + 0140</td>
+        <td class="table-data">Alt + 0140</td> 
+      </tr>
+       <tr>
+        <td class="table-data">œ</td>
+        <td class="table-data">Alt + 0156</td> 
       </tr>
     </tbody>
   </table>
 </div>
 
-## Pourquoi ces raccourcis fonctionnent ?
+## Comment ces raccourcis fonctionnent ?
 
 Ces raccourcis fonctionnent en utilisant le codage **ASCII étendu** (_American Standard Code for Information Interchange_). L'**ASCII** est un standard qui attribue un code numérique à chaque caractère, ce qui permet à l'ordinateur de traiter et d'afficher du texte. Les caractères que nous utilisons souvent, comme les lettres et les chiffres, ont des codes **ASCII** basiques (de 0 à 127). Cependant, pour les caractères spéciaux et accentués, on utilise l'**ASCII** étendu (de 128 à 255).
 
@@ -105,3 +113,5 @@ Pour taper un caractère spécial en majuscule, tu dois :
 - Si tu n'as pas de pavé numérique (comme sur certains ordinateurs portables), tu dois activer la fonction "_-_" ou utiliser un clavier externe.
 - Il est aussi possible d'insérer ces caractères spéciaux via des méthodes comme l'outil de caractère spécial de Windows, mais les raccourcis `Alt` sont souvent plus rapides.
   :::
+
+##### [Télécharge ce cours en PDF](Caracteres-speciaux.pdf)
