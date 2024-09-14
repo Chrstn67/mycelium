@@ -114,9 +114,10 @@ Ce sont des ressources que j'apprécie et que je consulte souvent. Il y en a cer
 
 Liste carrément non-exhaustive :
 
+- [Ram Maheshwari](https://www.linkedin.com/in/rammcodes/)
+- [Théo Lefèvre](https://www.linkedin.com/in/theodorelefevre/)
 - [Jonathan Marco](https://www.jojotique.fr/)
 - [François Duval](https://www.linkedin.com/in/francois-duval-freelance/)
-- [Ram Maheshwari](https://www.linkedin.com/in/rammcodes/)
 - [Benjamin Code](https://www.youtube.com/c/BenjaminCode)
 - ...
 
@@ -167,6 +168,8 @@ Tu peux aussi envoyer un message à un dev qui t'inspire, lui demander conseil, 
 | **Reste focus sur ton domaine**                  | Essaie de rester sur ton domaine de prédilection, ne parle pas d'autre chose (si tu es dev, parle de dev ou du web, pas du séquoia géant de Californie)                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Évite les mythos et les 'personnal branding'** | "_Aujourd'hui, j'ai fait un constat flippant : Je suis trop sur mon téléphone_"; "_Hier, il m'est arrivé un truc incroyable : J'ai pris le bus pour la première fois_"; "_Il y a deux jours j'ai mis au point un truc révolutionnaire : l'eau chaude_"; "_Dans 3 jours, je pars voyage de noces sur la Lune_"; "_Si tu ne gagnes pas 10000€ par mois, t'as raté ta vie !_"... Tout ça, **on s'en BA-LAN-CE !! Et ça ne reflète absolument pas la réalité des choses !** Mise à part faire culpabiliser les autres, tu ne gagneras pas grand-chose à raconter des bobards... |
 | **Poste des projets**                            | Si tu peux éviter de poster tes _portfolios_, des _TodoList_ et des projets vus et re-re-re-re-vus... C'est bien aussi, des projets persos sur les meilleurs joueurs de curling du monde... Un peu de variété, une innovation dans ton projet... C'est ça qu'on attend !! Prend UNE problématique, et décortique ton process, comment tu résouds tes bugs... Ne vise pas que le projet donc, mais analyse-le plus finement avec le contexte, le fonctionnement de ton code, etc...                                                                                          |
+
+Pour plus d'infos, regarde par [ici](https://chrstn67.github.io/mycelium/docs/Outils/Reseaux/Utilisation-LinkedIn).
 
 ## Conclusion
 
