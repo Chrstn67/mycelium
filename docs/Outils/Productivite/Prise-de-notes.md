@@ -70,7 +70,7 @@ Il existe deux types principaux de listes en Markdown : les listes à puces et l
 
 #### Le code
 
-Pour insérer du code dans tes notes, tu peux utiliser des balises de code inline ou des blocs de code :
+Pour insérer du code dans tes notes, tu peux utiliser des balises de _code inline_ ou des _blocs de code_, en ouvrant 3 backticks (AltGr+7), spécifie le nom du langage, et referme avec 3 backticks :
 
 - Bloc de code :
 
@@ -103,6 +103,16 @@ Utilise un séparateur pour diviser les sections de tes notes :
 ```
 ---
 ```
+
+#### Les checkboxes
+
+Pour avoir des cases à cocher comme dans un formulaire :
+
+```markdown
+- [ ] Proposition 1
+```
+
+- [ ] Proposition 1
 
 ### Quel outil pour rédiger en Mardown ?
 

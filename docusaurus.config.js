@@ -260,7 +260,7 @@ const config = {
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} by Christian HUMBERT, Créateur de Mycelium`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Christian HUMBERT, Créateur du site Mycelium`,
       },
       prism: {
         theme: prismThemes.github,

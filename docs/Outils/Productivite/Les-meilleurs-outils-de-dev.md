@@ -104,7 +104,7 @@ Ce sont des ressources que j'apprécie et que je consulte souvent. Il y en a cer
 
 ### Documentation
 
-- [MDZ](https://developer.mozilla.org/fr)
+- [MDN](https://developer.mozilla.org/fr)
 - [DevDocs](https://devdocs.io/)
 - [WebDev](https://web.dev/)
 - [10015.io](https://10015.io/)

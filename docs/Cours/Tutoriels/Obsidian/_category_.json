@@ -1,11 +1,11 @@
 {
-  "position": 3,
-  "label": "Projets",
+  "position": 5.1,
+  "label": "Tutos Obsidian",
 
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Gestion de Projets"
+    "title": "Listes des Tutos Obsidian"
   },
   "customProps": {
     "description": ""
