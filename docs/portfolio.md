@@ -15,7 +15,7 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
     📖 <a class="link" href="https://www.linkedin.com/pulse/lhistoire-de-mon-premier-projet-web-et-mes-d%C3%A9buts-dans-humbert-yqxwe/">L'histoire de mon premier projet web (et de mes débuts dans le dev)</a>
   </h5>
 
-  <img class="profile-image" src="https://media.licdn.com/dms/image/D4E03AQG37et6KTEyfA/profile-displayphoto-shrink_800_800/0/1718639795142?e=1726099200&v=beta&t=3_w5y0IZhe9jJr3hFZ2pu5H5PqgWZR14fvsBVLU1hQE" alt="Photo de profil" width="200" height="200" />
+  <img class="profile-image" src="https://media.licdn.com/dms/image/v2/D4E03AQG37et6KTEyfA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718639795147?e=1743033600&v=beta&t=zjNzM0ZjkL_Aa3cEiLdEMYk9LUEyiT2aA71nvBPSERA" alt="Photo de profil" width="200" height="200" />
 
   <h2 class="section-title">Langues</h2>
 <div class="table-container">
@@ -123,6 +123,15 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
   </div>
   <h2 class="section-title">Formation</h2>
 
+  <h3 class="subsection-title">Décembre 2024 - Juillet 2025 : Brevet d'Aptitude aux Fonctions d'Animateur (en collectif de mineurs)</h3>
+ <div class="listing">
+  <ul class="list">
+    <li class="list-item">Conception, animation et analyse d'activités adaptées</li>
+    <li class="list-item">Gestion de groupe</li>
+    <li class="list-item">Travail d'équipe</li>
+  </ul>
+</div>
+
   <h3 class="subsection-title">Novembre 2022 - Mai 2023 : Développeur Web & Web Mobile, O'Clock, Téléprésentiel</h3>
  <div class="listing">
   <ul class="list">
@@ -165,45 +174,8 @@ tags: [JavaScript, React, SCSS, Frontend, Développeur Web, Enseignant]
   </div>
   <h2 class="section-title">Parcours professionnel</h2>
 
-  <h3 class="subsection-title">2024 - Présent : Auto-entrepreneur, Enseignant chez Les Sherpas et Créateur de contenu web</h3>
+  <h3 class="subsection-title">Août 2024 - Janvier 2025 : Auto-entrepreneur, Enseignant chez Les Sherpas</h3>
 
-  <!-- <h4 class="sub-subsection-title">Matières enseignées</h4> -->
-<div class="table-container">
-  <table class="table">
-    <thead>
-      <tr>
-        <th class="table-header">Matière</th>
-        <th class="table-header">Classes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="table-data">Informatique</td>
-        <td class="table-data">Classes élémentaires à Adultes apprenants</td>
-      </tr>
-      <tr>
-        <td class="table-data">Maths</td>
-        <td class="table-data">Du CP à la 3ème</td>
-      </tr>
-      <tr>
-        <td class="table-data">Français</td>
-        <td class="table-data">Du CP à la 3ème</td>
-      </tr>
-      <tr>
-        <td class="table-data">Expression Orale</td>
-        <td class="table-data">Classes élémentaires à Adultes apprenants</td>
-      </tr>
-      <tr>
-        <td class="table-data">Espagnol</td>
-        <td class="table-data">Du CP à la 3ème</td>
-      </tr>
-      <tr>
-        <td class="table-data">Sciences de la Vie de la Terre</td>
-        <td class="table-data">Du CP à la 3ème</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
   <h3 class="subsection-title">2022 - Présent : Développeur Web et Web Mobile</h3>
 
   <p class="paragraph">
