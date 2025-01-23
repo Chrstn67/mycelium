@@ -1,0 +1,12 @@
+{
+  "label": "Applications",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Articles traitant du fonctionnement d'une application"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

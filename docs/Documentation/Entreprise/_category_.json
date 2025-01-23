@@ -1,0 +1,12 @@
+{
+  "label": "Le monde de l'entreprise",
+
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Articles traitant du monde de l'entreprise"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
