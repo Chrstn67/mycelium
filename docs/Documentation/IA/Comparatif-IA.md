@@ -1,0 +1,698 @@
+---
+tags: [Intelligence Artificielle, IA, ChatGPT, Mistral AI, DeepSeek, Perplexity]
+---
+
+# Comparatif de 4 IA
+
+Découvre un comparatif du rendu de 4 IA présentes sur le marché, **_concernant le code_**.
+
+## HTML-CSS : Le test du 8 de trèfle
+
+Dans cette section, l'objectif est de confronter 4 IA présentes sur le marché et de voir leur manière de coder, et donc par extention, de voir le visuel final.
+
+À la base, un vrai 8 de trèfle ressemble à ceci:
+
+![8 de trèfle classique](https://upload.wikimedia.org/wikipedia/commons/8/88/08_of_clubs.svg)
+
+Voici le prompt :
+
+> _Je veux que tu me codes en HTML/CSS Nested, le 8 de trèfle d'une carte à jouer, exactement avec le même positionnement des formes des cartes classiques._
+
+> **NB : Il s'agit du premiet jet de la demande : Je n'ai pas demandé à l'IA d'améliorer le résultat si cela ne me convient pas.**
+
+### ChatGPT
+
+:::info[]
+ChatGPT, développé par OpenAI, est un modèle de langage polyvalent avec 175 milliards de paramètres. Il excelle dans la génération de texte élaboré et nuancé, ce qui le rend particulièrement efficace pour :
+
+- L'assistance à la rédaction créative
+- La composition d'emails et d'essais
+- La programmation informatique
+
+Cependant, ChatGPT peut parfois fournir des réponses biaisées ou incorrectes et a tendance à spéculer au-delà de sa base de connaissances.
+:::
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/PwYVEKV)
+
+#### Code HTML
+
+```html
+<body>
+  <div class="card">
+    <div class="symbol top-left">8♣</div>
+    <div class="symbol bottom-right">8♣</div>
+    <div class="middle">
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+      <div class="symbol">♣</div>
+    </div>
+  </div>
+</body>
+```
+
+#### Code CSS
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.symbol {
+  font-size: 32px;
+  position: absolute;
+}
+.top-left,
+.bottom-right {
+  font-size: 24px;
+}
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  width: 80%;
+  height: 80%;
+  justify-items: center;
+  align-items: center;
+}
+```
+
+![8 de Trèfle réalisé par ChatGPT](./Images/8-trefle_ChatGPT.png)
+
+:::note[Obseravtion et analyse du visuel]
+✅ **_Points positifs_** :
+
+- Le cadre général de la carte est bien défini.
+- La disposition du "8♣" en haut à gauche et en bas à droite est correcte.
+
+❌ **_Problèmes_** :
+
+- Gros défaut : il n'y a qu'un seul trèfle au centre ! Le rendu est donc complètement erroné par rapport à une vraie carte (l'inspecteur indique pourtant que les 8 trèfles existent).
+- Les trèfles censés être là ne sont pas visibles à cause d’un problème de positionnement CSS.
+
+💡 **_Améliorations possibles_** :
+
+- Répartir les trèfles en suivant le design d’une vraie carte.
+
+:::
+
+### Mistral AI
+
+:::info[]
+MistralAI, créé par une startup française, se distingue par son approche axée sur la précision et l'éthique. Ses caractéristiques principales sont :
+
+- Un modèle plus compact avec 7 milliards de paramètres
+- Des réponses concises, logiques et basées sur des faits
+- Une excellente compréhension du contexte
+- Une grande précision factuelle, idéale pour les requêtes académiques ou médicales
+- Un fort accent sur la sécurité et l'éthique
+
+MistralAI propose des modèles puissants comme Nemo (12 milliards de paramètres) développé avec NVIDIA, ainsi que Mistral Large 2 pour les tâches complexes.
+:::
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/NPKoMVG)
+
+#### Code HTML
+
+```html
+<body>
+  <div class="card">
+    <div class="suit">♣</div>
+    <div class="number">8</div>
+    <div class="center-suits">
+      <div class="center-suit">
+        <div class="suit">♣</div>
+        <div class="suit">♣</div>
+      </div>
+      <div class="center-suit">
+        <div class="suit">♣</div>
+        <div class="suit">♣</div>
+      </div>
+      <div class="center-suit">
+        <div class="suit">♣</div>
+        <div class="suit">♣</div>
+      </div>
+      <div class="center-suit">
+        <div class="suit">♣</div>
+        <div class="suit">♣</div>
+      </div>
+    </div>
+    <div class="number">8</div>
+    <div class="suit">♣</div>
+  </div>
+</body>
+```
+
+#### Code CSS
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.suit {
+  font-size: 24px;
+  color: black;
+}
+.number {
+  font-size: 24px;
+  color: black;
+}
+.center-suits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.center-suit {
+  display: flex;
+  gap: 10px;
+}
+```
+
+![8 de Trèfle réalisé par Mistral AI](./Images/8-trefle_MistralAI.png)
+
+:::note[Obseravtion et analyse du visuel]
+✅ **_Points positifs_** :
+
+- On retrouve 8 trèfles au centre de la carte, et l'indication en haut et en bas.
+
+❌ **_Problèmes_** :
+
+- L'indication n'est pas située en haut à gauche et en bas à droite de la carte.
+
+💡 **_Améliorations possibles_** :
+
+- Ajuster la position des trèfles avec plus de précision en CSS.
+
+:::
+
+### Perplexity
+
+:::info[]
+Perplexity se positionne comme un moteur de recherche augmenté par l'intelligence artificielle. Ses principales caractéristiques sont :
+
+- La capacité d'explorer le web en temps réel pour fournir des informations actualisées
+- Une recherche conversationnelle permettant de poser des questions complexes
+- La personnalisation de l'expérience en fonction des recherches précédentes de l'utilisateur
+- L'intégration avec d'autres outils et plateformes
+- Un apprentissage continu pour améliorer ses réponses
+
+:::
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/azoXKZj)
+
+#### Code HTML
+
+```html
+<body>
+  <div class="card">
+    <div class="corner top-left">
+      <span class="number">8</span>
+      <span class="suit">♣</span>
+    </div>
+    <div class="suits">
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+      <span class="suit">♣</span>
+    </div>
+    <div class="corner bottom-right">
+      <span class="number">8</span>
+      <span class="suit">♣</span>
+    </div>
+  </div>
+</body>
+```
+
+#### Code CSS
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  .card {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #000;
+    position: relative;
+    font-family: Arial, sans-serif;
+
+    .corner {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 24px;
+
+      &.top-left {
+        top: 10px;
+        left: 10px;
+      }
+
+      &.bottom-right {
+        bottom: 10px;
+        right: 10px;
+        transform: rotate(180deg);
+      }
+
+      .number {
+        font-weight: bold;
+      }
+
+      .suit {
+        font-size: 28px;
+      }
+    }
+
+    .suits {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .suit {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(3),
+        &:nth-child(4) {
+          transform: translateY(-30px);
+        }
+
+        &:nth-child(5),
+        &:nth-child(6) {
+          transform: translateY(30px);
+        }
+      }
+    }
+  }
+}
+```
+
+![8 de Trèfle réalisé avec ChatGPT](./Images/8-trefle_Perplexity.png)
+
+:::note[Obseravtion et analyse du visuel]
+✅ **_Points positifs_** :
+
+- La disposition des trèfles est relativement correcte : 4 trèfles en haut, 4 en bas, séparés par un espace.
+- Les coins affichent bien le chiffre "8" et le symbole "♣", ce qui est fidèle aux cartes classiques.
+
+❌ **_Problèmes_** :
+
+- L'espacement entre les trèfles n'est pas exactement comme sur une vraie carte.
+
+💡 **_Améliorations possibles_** :
+
+- Ajuster la position des trèfles avec plus de précision en CSS.
+
+:::
+
+### DeepSeek
+
+:::info[]
+DeepSeek est une plateforme d'intelligence artificielle chinoise open source qui propose un modèle de langage innovant, DeepSeek-V3, avec 671 milliards de paramètres. Utilisant une architecture Mixture-of-Experts (MoE), ce modèle se distingue par sa capacité à traiter des tâches complexes, son support multilingue et son intégration flexible. Entraîné sur 14,8 trillions de jetons pour un coût de 5,58 millions de dollars, DeepSeek vise à offrir une alternative performante et plus abordable aux solutions propriétaires comme ChatGPT, en permettant aux entreprises de créer des interactions homme-machine plus naturelles et efficaces.
+:::
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/yyBZqrm)
+
+#### Code HTML
+
+```html
+<body>
+  <div class="card">
+    <div class="corner top-left">8</div>
+    <div class="corner bottom-right">8</div>
+    <div class="suit">
+      <div class="row">
+        <div class="club">♣</div>
+      </div>
+      <div class="row">
+        <div class="club">♣</div>
+        <div class="club">♣</div>
+      </div>
+      <div class="row">
+        <div class="club">♣</div>
+      </div>
+      <div class="row">
+        <div class="club">♣</div>
+        <div class="club">♣</div>
+      </div>
+      <div class="row">
+        <div class="club">♣</div>
+      </div>
+    </div>
+  </div>
+</body>
+```
+
+#### Code CSS
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.corner {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.suit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.suit .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suit .row .club {
+  font-size: 30px;
+  color: black;
+}
+
+.suit .row .club:nth-child(2) {
+  margin: 0 20px;
+}
+```
+
+![8 de Trèfle réalisé par DeepSeek](./Images/8-trefle_DeepSeek.png)
+
+:::note[Obseravtion et analyse du visuel]
+✅ **_Points positifs_** :
+
+Je cherche...
+
+❌ **_Problèmes_** :
+
+- L'alignement des trèfles n'est pas parfait : ils semblent plus éparpillés et mal espacés.
+- Il y a 7 trèfles de placés.
+
+💡 **_Améliorations possibles_** :
+
+- Ajuster les espacements verticaux et horizontaux des trèfles.
+- Affiner le style des coins pour coller au design des vraies cartes.
+
+:::
+
+## JS : Le test du Compteur
+
+Dans cette section, l'objectif est de confronter ces 4 mêmes IA et de voir leur manière de coder en JS. Bien que le visuel soit présent, il va s'agir de regarder le code JS.
+
+Voici le prompt :
+
+> _Je veux que tu me codes en HTML-CSS Nested-JS, un compteur._
+
+> **NB : Il s'agit du premier jet de la demande : Je n'ai pas demandé à l'IA d'améliorer le résultat si cela ne me convient pas. De plus, n'oublie pas de jeter un oeil au code HTML disponible sur CodePen.**
+
+### ChatGPT
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/QwLojwa)
+
+```js
+let count = 0;
+
+function changeCount(value) {
+  count += value;
+  document.getElementById("count").textContent = count;
+}
+
+function resetCount() {
+  count = 0;
+  document.getElementById("count").textContent = count;
+}
+```
+
+:::note[Obseravtion et analyse]
+✅ **_Points positifs_** :
+
+- La fonction `resetCount()` permet de réinitialiser correctement le compteur.
+- Le principe du compteur est simple et fonctionnel.
+- Le code est cours et facilement traduisible
+
+❌ **_Problèmes_** :
+
+- L'evènement `onClick` est gérée dans le code HTML, ce qui n'est pas très optimisé pour les navigateurs.
+- Manipulation directe du DOM répétitive
+
+💡 **_Améliorations possibles_** :
+
+- Gérer l'évènement dans le code JS.
+- Factoriser le code redondant
+
+:::
+
+### Mistral AI
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/JoPzYYg)
+
+```js
+document.addEventListener("DOMContentLoaded", () => {
+  const counterValue = document.getElementById("counter-value");
+  const incrementBtn = document.getElementById("increment-btn");
+  const decrementBtn = document.getElementById("decrement-btn");
+  const resetBtn = document.getElementById("reset-btn");
+
+  let count = 0;
+
+  incrementBtn.addEventListener("click", () => {
+    count++;
+    counterValue.textContent = count;
+  });
+
+  decrementBtn.addEventListener("click", () => {
+    count--;
+    counterValue.textContent = count;
+  });
+
+  resetBtn.addEventListener("click", () => {
+    count = 0;
+    counterValue.textContent = count;
+  });
+});
+```
+
+:::note[Obseravtion et analyse]
+✅ **_Points positifs_** :
+
+- Utilisation de `addEventListener()` pour les événements de clic, ce qui permet une interaction avec le compteur.
+- Structure du code claire et logique.
+- Les évènements sont gérés dans le code JS.
+- Présence d’un bouton Reset
+
+❌ **_Problèmes_** :
+
+...
+
+💡 **_Améliorations possibles_** :
+
+...
+
+:::
+
+### Perplexity
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/MYgxaKq)
+
+```js
+let count = 0;
+const countDisplay = document.getElementById("count");
+const decrementBtn = document.getElementById("decrement");
+const incrementBtn = document.getElementById("increment");
+
+function updateDisplay() {
+  countDisplay.textContent = count;
+}
+
+decrementBtn.addEventListener("click", function () {
+  count--;
+  updateDisplay();
+});
+
+incrementBtn.addEventListener("click", function () {
+  count++;
+  updateDisplay();
+});
+```
+
+:::note[Obseravtion et analyse]
+✅ **_Points positifs_** :
+
+- Code concis et efficace.
+- La logique du compteur est simple et bien implémentée.
+
+❌ **_Problèmes_** :
+
+- L'interaction avec le compteur est bonne, mais le code pourrait bénéficier de plus de modularité pour gérer différentes actions.
+
+💡 **_Améliorations possibles_** :
+
+- Ajouter un reset pour revenir à zéro.
+
+:::
+
+### DeepSeek
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/jENJbMx)
+
+```js
+const counterValue = document.getElementById("counter-value");
+const incrementButton = document.getElementById("increment");
+const decrementButton = document.getElementById("decrement");
+
+let count = 0;
+
+function updateCounter() {
+  counterValue.textContent = count;
+}
+
+incrementButton.addEventListener("click", () => {
+  count++;
+  updateCounter();
+});
+
+decrementButton.addEventListener("click", () => {
+  count--;
+  updateCounter();
+});
+
+updateCounter();
+```
+
+:::note[Obseravtion et analyse]
+✅ **_Points positifs_** :
+
+- Code fonctionnel avec mise à jour du compteur à chaque clic.
+- Code bien factorisé avec `updateCounter()`
+- Utilisation claire des événements pour l'incrémentation et la décrémentation.
+
+❌ **_Problèmes_** :
+
+- L'initialisation de l'affichage du compteur pourrait être améliorée en ajoutant une logique de réinitialisation.
+
+💡 **_Améliorations possibles_** :
+
+- Ajouter un bouton pour réinitialiser le compteur à zéro.
+
+  :::
+
+## BILAN
+
+:::warning[RAPPEL / DISCALMER]
+Bien que je trouve que chaque IA ait son charme, je donne seulement mon avis du côté frontend du dev !
+:::
+
+Voici un tableau avec une analyse généralisée des capacités de chaque IA pour le HTML, CSS et JS, en prenant en compte les différents critères avec des couleurs correspondant à la performance :
+
+| **Critères**             | **ChatGPT**                                      | **Mistral AI**                                           | **Perplexity**                                                          | **DeepSeek**                                                                    |
+| ------------------------ | ------------------------------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **HTML (Structure)**     | 🟢 Bonne organisation générale                   | 🟢 Bonne gestion des éléments                            | 🟠 Placement imprécis                                                   | 🟡 Manque de rigueur dans le rendu demandé                                      |
+| **CSS (Positionnement)** | 🟡 Positionnement correct mais améliorable       | 🟡 Possibles problèmes d'alignement ou de positionnement | 🟡 Espacement incorrect et souvent peu voire pas d'imagination de style | 🔴 Espacement rarement respecté et très inégal. Très sobre dans le rendu visuel |
+| **JS (Fonctionnalité)**  | 🔴 Gestion d'événements directement dans le HTML | 🟢 Bonne gestion des événements avec `addEventListener`  | 🟡 Logique bonne mais manque parfois de modularité                      | 🟡 Logique claire mais imparfaite                                               |
+| **Clarté du code**       | 🟢 Code clair et compréhensible                  | 🟢 Bonnes pratiques d'organisation                       | 🟢 Code propre                                                          | 🟢 Code propre                                                                  |
+
+### Conclusion :
+
+🥇 **Meilleure IA** : **Mistral AI** 🥇
+
+**Pourquoi** : Bien que certains éléments de positionnement CSS soient problématiques, _Mistral AI_ fait le travail dans la gestion des événements JavaScript et offre une structure plus intéressante sur lesquelles réfléchir.
+
+**Moins bonne IA : DeepSeek** 🔴
+
+**Pourquoi** : L'IA présente de (trop) nombreuses erreurs de positionnement, bien que les résultats JS soient intéressants à exploiter...
+
+Les autres IA (_ChatGPT_ et _Perplexity_) sont solides selon ce que l'on recherche mais présentent des faiblesses dans certains domaines spécifiques.

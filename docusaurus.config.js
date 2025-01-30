@@ -164,6 +164,10 @@ const config = {
                 label: "Articles généraux",
               },
               {
+                to: "/docs/category/applications",
+                label: "Applications",
+              },
+              {
                 to: "/docs/category/liste-des-langages",
                 label: "Liste des langages",
               },
