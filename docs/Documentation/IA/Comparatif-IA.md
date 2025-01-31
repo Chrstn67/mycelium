@@ -919,6 +919,8 @@ function reset() {
 
 :::warning[RAPPEL / DISCALMER]
 Bien que je trouve que chaque IA ait son charme, je donne seulement mon avis du côté frontend du dev !
+
+De plus, il est important de rappeler que _les IAs sont des outils_. Il faut donc les traiter en tant que tel.
 :::
 
 Voici un tableau avec une analyse généralisée des capacités de chaque IA pour le HTML, CSS et JS, en prenant en compte les différents critères avec des couleurs correspondant à la performance :
