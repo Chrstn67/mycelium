@@ -1,10 +1,19 @@
 ---
-tags: [Intelligence Artificielle, IA, ChatGPT, Mistral AI, DeepSeek, Perplexity]
+tags:
+  [
+    Intelligence Artificielle,
+    IA,
+    ChatGPT,
+    Mistral AI,
+    DeepSeek,
+    Perplexity,
+    ClaudeAI,
+  ]
 ---
 
 # Comparatif de 4 IA
 
-Découvre un comparatif du rendu de 4 IA présentes sur le marché, **_concernant le code_**.
+Découvre un comparatif du rendu de 5 IA présentes sur le marché, **_concernant le code_** (_ChatGPT_, _MistralAI_, _Perplexity_, _DeepSeek_, _ClaudeAI_).
 
 ## HTML-CSS : Le test du 8 de trèfle
 
@@ -115,6 +124,7 @@ body {
 
 ❌ **_Problèmes_** :
 
+- Le CSS nested n'est pas mis en place
 - Gros défaut : il n'y a qu'un seul trèfle au centre ! Le rendu est donc complètement erroné par rapport à une vraie carte (l'inspecteur indique pourtant que les 8 trèfles existent).
 - Les trèfles censés être là ne sont pas visibles à cause d’un problème de positionnement CSS.
 
@@ -224,6 +234,7 @@ body {
 
 ❌ **_Problèmes_** :
 
+- Le CSS nested n'est pas mis en place
 - L'indication n'est pas située en haut à gauche et en bas à droite de la carte.
 
 💡 **_Améliorations possibles_** :
@@ -479,6 +490,7 @@ Je cherche...
 
 ❌ **_Problèmes_** :
 
+- Le CSS nested n'est pas mis en place
 - L'alignement des trèfles n'est pas parfait : ils semblent plus éparpillés et mal espacés.
 - Il y a 7 trèfles de placés.
 
@@ -486,6 +498,195 @@ Je cherche...
 
 - Ajuster les espacements verticaux et horizontaux des trèfles.
 - Affiner le style des coins pour coller au design des vraies cartes.
+
+:::
+
+### ClaudeAI
+
+:::info[]
+Claude est un assistant virtuel développé par Anthropic, une entreprise d'IA basée à San Francisco. Il s'agit d'un grand modèle de langage entraîné sur de vastes corpus de textes, capable de générer du texte, répondre à des questions et effectuer diverses tâches linguistiques. Claude se distingue par ses capacités de raisonnement, son sens de l'éthique et sa volonté affichée d'être honnête et bienveillant. Contrairement à certains concurrents, Claude refuse d'effectuer des tâches illégales ou non éthiques et admet volontiers ses limites. Bien que ses capacités précises évoluent, Claude est généralement considéré comme l'un des assistants IA les plus avancés disponibles publiquement.
+:::
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/gbYEzae)
+
+#### HTML
+
+```html
+<body>
+  <div class="card">
+    <div class="number top-left">8♣</div>
+    <div class="number bottom-right">8♣</div>
+
+    <!-- Les 8 trèfles -->
+    <div class="club-symbol club1">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club2">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club3">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club4">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club5">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club6">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club7">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+    <div class="club-symbol club8">
+      <div class="club">
+        <div class="stem"></div>
+      </div>
+    </div>
+  </div>
+</body>
+```
+
+#### CSS
+
+```css
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.number {
+  position: absolute;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.club {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: black;
+}
+
+.club::before,
+.club::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+}
+
+.club::before {
+  left: -8px;
+  top: 8px;
+}
+
+.club::after {
+  right: -8px;
+  top: 8px;
+}
+
+.stem {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background: black;
+  bottom: -15px;
+  left: 11px;
+  transform: rotate(45deg);
+}
+
+/* Positions des trèfles */
+.club1 {
+  top: 50px;
+  left: 40px;
+}
+.club2 {
+  top: 50px;
+  right: 40px;
+}
+.club3 {
+  top: 130px;
+  left: 40px;
+}
+.club4 {
+  top: 130px;
+  right: 40px;
+}
+.club5 {
+  bottom: 130px;
+  left: 40px;
+}
+.club6 {
+  bottom: 130px;
+  right: 40px;
+}
+.club7 {
+  bottom: 50px;
+  left: 40px;
+}
+.club8 {
+  bottom: 50px;
+  right: 40px;
+}
+
+.club-symbol {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+```
+
+![8 de Trèfle réalisé par ClaudeAI](./Images/8-trefle_ClaudeAI.png)
+
+:::note[Obseravtion et analyse du visuel]
+✅ **_Points positifs_** :
+
+- Le symbole est placé correctemnt en haut à gauche et en bas à droite
+
+❌ **_Problèmes_** :
+
+- Il y a 6 gros symboles noirs qui s'affichent et disposé de manière assez brouillonne (L'IA a tenté de dessiner les trèfles en CSS)
+
+💡 **_Améliorations possibles_** :
+
+- Utiliser des émojis de trèfles plutôt que le dessins réalisé en CSS
 
 :::
 
@@ -670,6 +871,50 @@ updateCounter();
 
   :::
 
+### ClaudeAI
+
+[Regarde le rendu sur CodePen](https://codepen.io/Chrstn67/pen/ZYzPoOE)
+
+```js
+let count = 0;
+const counterElement = document.getElementById("counter");
+
+function updateDisplay() {
+  counterElement.textContent = count;
+}
+
+function increment() {
+  count++;
+  updateDisplay();
+}
+
+function decrement() {
+  count--;
+  updateDisplay();
+}
+
+function reset() {
+  count = 0;
+  updateDisplay();
+}
+```
+
+:::note[Obseravtion et analyse]
+✅ **_Points positifs_** :
+
+- Structure du code claire et logique.
+- Présence d’un bouton Reset
+
+❌ **_Problèmes_** :
+
+- L'evènement `onClick` est gérée dans le code HTML, ce qui n'est pas très optimisé pour les navigateurs.
+
+💡 **_Améliorations possibles_** :
+
+- Gérer l'évènement dans le code JS.
+
+:::
+
 ## BILAN
 
 :::warning[RAPPEL / DISCALMER]
@@ -678,12 +923,12 @@ Bien que je trouve que chaque IA ait son charme, je donne seulement mon avis du 
 
 Voici un tableau avec une analyse généralisée des capacités de chaque IA pour le HTML, CSS et JS, en prenant en compte les différents critères avec des couleurs correspondant à la performance :
 
-| **Critères**             | **ChatGPT**                                      | **Mistral AI**                                           | **Perplexity**                                                          | **DeepSeek**                                                                    |
-| ------------------------ | ------------------------------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **HTML (Structure)**     | 🟢 Bonne organisation générale                   | 🟢 Bonne gestion des éléments                            | 🟠 Placement imprécis                                                   | 🟡 Manque de rigueur dans le rendu demandé                                      |
-| **CSS (Positionnement)** | 🟡 Positionnement correct mais améliorable       | 🟡 Possibles problèmes d'alignement ou de positionnement | 🟡 Espacement incorrect et souvent peu voire pas d'imagination de style | 🔴 Espacement rarement respecté et très inégal. Très sobre dans le rendu visuel |
-| **JS (Fonctionnalité)**  | 🔴 Gestion d'événements directement dans le HTML | 🟢 Bonne gestion des événements avec `addEventListener`  | 🟡 Logique bonne mais manque parfois de modularité                      | 🟡 Logique claire mais imparfaite                                               |
-| **Clarté du code**       | 🟢 Code clair et compréhensible                  | 🟢 Bonnes pratiques d'organisation                       | 🟢 Code propre                                                          | 🟢 Code propre                                                                  |
+| **Critères**             | **ChatGPT**                                      | **Mistral AI**                                           | **Perplexity**                                                          | **DeepSeek**                                                                    | **ClaudeAi**                                     |
+| ------------------------ | ------------------------------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **HTML (Structure)**     | 🟢 Bonne organisation générale                   | 🟢 Bonne gestion des éléments                            | 🟠 Placement imprécis                                                   | 🟡 Manque de rigueur dans le rendu demandé                                      | 🟢 Code structuré et classifié                   |
+| **CSS (Positionnement)** | 🟡 Positionnement correct mais améliorable       | 🟡 Possibles problèmes d'alignement ou de positionnement | 🟡 Espacement incorrect et souvent peu voire pas d'imagination de style | 🔴 Espacement rarement respecté et très inégal. Très sobre dans le rendu visuel | 🟢🟡🔴 Privilégie "l'artisanat" du code          |
+| **JS (Fonctionnalité)**  | 🔴 Gestion d'événements directement dans le HTML | 🟢 Bonne gestion des événements avec `addEventListener`  | 🟡 Logique bonne mais manque parfois de modularité                      | 🟡 Logique claire mais imparfaite                                               | 🔴 Gestion d'événements directement dans le HTML |
+| **Clarté du code**       | 🟢 Code clair et compréhensible                  | 🟢 Bonnes pratiques d'organisation                       | 🟢 Code propre                                                          | 🟢 Code propre                                                                  | 🟢 Code propre                                   |
 
 ### Conclusion :
 
@@ -691,8 +936,8 @@ Voici un tableau avec une analyse généralisée des capacités de chaque IA pou
 
 **Pourquoi** : Bien que certains éléments de positionnement CSS soient problématiques, _Mistral AI_ fait le travail dans la gestion des événements JavaScript et offre une structure plus intéressante sur lesquelles réfléchir.
 
-**Moins bonne IA : DeepSeek** 🔴
+**Moins bonne IA : DeepSeek** & **ClaudeAI**🔴
 
-**Pourquoi** : L'IA présente de (trop) nombreuses erreurs de positionnement, bien que les résultats JS soient intéressants à exploiter...
+**Pourquoi** : Ces IA présentent de (trop) nombreuses erreurs de positionnement, bien que les résultats JS soient intéressants à exploiter...
 
 Les autres IA (_ChatGPT_ et _Perplexity_) sont solides selon ce que l'on recherche mais présentent des faiblesses dans certains domaines spécifiques.
