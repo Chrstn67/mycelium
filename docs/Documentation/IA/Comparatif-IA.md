@@ -15,6 +15,15 @@ tags:
 
 Découvre un comparatif du rendu de 5 IA présentes sur le marché, **_concernant le code_** (_ChatGPT_, _MistralAI_, _Perplexity_, _DeepSeek_, _ClaudeAI_).
 
+:::warning[RAPPEL / DISCALMER]
+
+Dans tous les cas, une IA peut être très utile quand on souhaite pousser les raisonnements encore plus loin. **Dans tous les codes présents, il ne s'agit que du premier jet d'une demande**. Bien-sûr, j'aurais pu aller plus loin, mais ce n'était pas mon objectif dans cet exercice.
+
+De plus, il est important de rappeler que _les IAs sont des outils_. Il faut donc les traiter en tant que tel.
+
+Il m'arrive d'utiliser régulièrement 3 d'entre elles, et chacune m'aide d'une façon plus précise que l'autre.
+:::
+
 ## HTML-CSS : Le test du 8 de trèfle
 
 Dans cette section, l'objectif est de confronter 4 IA présentes sur le marché et de voir leur manière de coder, et donc par extention, de voir le visuel final.
@@ -26,8 +35,6 @@ Dans cette section, l'objectif est de confronter 4 IA présentes sur le marché 
 Voici le prompt :
 
 > _Je veux que tu me codes en HTML/CSS Nested, le 8 de trèfle d'une carte à jouer, exactement avec le même positionnement des formes des cartes classiques._
-
-> **NB : Il s'agit du premiet jet de la demande : Je n'ai pas demandé à l'IA d'améliorer le résultat si cela ne me convient pas.**
 
 ### ChatGPT
 
@@ -698,7 +705,7 @@ Voici le prompt :
 
 > _Je veux que tu me codes en HTML-CSS Nested-JS, un compteur._
 
-> **NB : Il s'agit du premier jet de la demande : Je n'ai pas demandé à l'IA d'améliorer le résultat si cela ne me convient pas. De plus, n'oublie pas de jeter un oeil au code HTML disponible sur CodePen.**
+> **NB : N'oublie pas de jeter un oeil au code HTML disponible sur CodePen.**
 
 ### ChatGPT
 
@@ -916,12 +923,6 @@ function reset() {
 :::
 
 ## BILAN
-
-:::warning[RAPPEL / DISCALMER]
-Bien que je trouve que chaque IA ait son charme, je donne seulement mon avis du côté frontend du dev !
-
-De plus, il est important de rappeler que _les IAs sont des outils_. Il faut donc les traiter en tant que tel.
-:::
 
 Voici un tableau avec une analyse généralisée des capacités de chaque IA pour le HTML, CSS et JS, en prenant en compte les différents critères avec des couleurs correspondant à la performance :
 
