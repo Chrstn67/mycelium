@@ -2,11 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chrstn67.github.io/mycelium/blog</id>
     <title>Mycelium Blog</title>
-    <updated>2024-07-21T00:00:00.000Z</updated>
+    <updated>2025-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chrstn67.github.io/mycelium/blog"/>
     <subtitle>Mycelium Blog</subtitle>
     <icon>https://chrstn67.github.io/mycelium/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Entrevue avec Gabrielle CISELA]]></title>
+        <id>https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA</id>
+        <link href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA"/>
+        <updated>2025-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Un parcours inspirant et atypique... Une expérience ponctuée de concours... Le profil intrigant de Gabrielle CISELA mérite qu'on en parle...]]></summary>
+        <content type="html"><![CDATA[<p>Un parcours inspirant et atypique... Une expérience ponctuée de concours... Le profil intrigant de Gabrielle CISELA mérite qu'on en parle...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gabrielle-raconte-nous-un-peu-ton-parcours-scolaire-puis-comment-tu-as-découvert-les-métiers-de-linformatique-et-du-dev-">Gabrielle, raconte-nous un peu ton parcours scolaire, puis comment tu as découvert les métiers de l'informatique et du dev ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#gabrielle-raconte-nous-un-peu-ton-parcours-scolaire-puis-comment-tu-as-d%C3%A9couvert-les-m%C3%A9tiers-de-linformatique-et-du-dev-" class="hash-link" aria-label="Lien direct vers Gabrielle, raconte-nous un peu ton parcours scolaire, puis comment tu as découvert les métiers de l'informatique et du dev ?" title="Lien direct vers Gabrielle, raconte-nous un peu ton parcours scolaire, puis comment tu as découvert les métiers de l'informatique et du dev ?">​</a></h2>
+<p>Alors au départ, je voulais être comédienne (oui, rien à voir je sais 😅).</p>
+<p>Je faisais partie d’une troupe de théâtre et j’ai même eu la chance de faire deux stages dans ce milieu, à France 3 et à Provence Studio. Mais avec la pandémie et la fermeture des cinémas et des théâtres, j’ai commencé à réfléchir à d’autres options…</p>
+<p>C’est pendant des vacances chez ma tante, qui est développeuse web, que j’ai découvert l’informatique. Et là, ça a été une vraie révélation !</p>
+<p>En seconde, j’ai donc choisi la spécialité NSI. J’ai commencé à coder un peu en Python, puis à toucher au web avec les bases en HTML/CSS.</p>
+<p>J’ai eu envie d’en apprendre plus, alors j’ai pris l’initiative de faire trois stages d’observation en informatique, pendant les vacances scolaires. Ça m'a fait découvrir à la fois le front-end et un peu le monde du back-end. Ces expériences m’ont vraiment permis de mieux comprendre les différents aspects du métier, et surtout, elles ont confirmé mon envie de poursuivre dans cette voie.</p>
+<p>Aujourd’hui, je suis en deuxième année de BUT Informatique, parcours développeur fullstack à La Rochelle.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="avant-daller-plus-loin-parlons-un-peu-side-project--avec-quel-projet-sérieux-tu-as-commencé-le-dev-">Avant d'aller plus loin, parlons un peu side-project : avec quel projet ''sérieux'' tu as commencé le dev ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#avant-daller-plus-loin-parlons-un-peu-side-project--avec-quel-projet-s%C3%A9rieux-tu-as-commenc%C3%A9-le-dev-" class="hash-link" aria-label="Lien direct vers Avant d'aller plus loin, parlons un peu side-project : avec quel projet ''sérieux'' tu as commencé le dev ?" title="Lien direct vers Avant d'aller plus loin, parlons un peu side-project : avec quel projet ''sérieux'' tu as commencé le dev ?">​</a></h2>
+<p>Je dirais que mes premiers projets "sérieux", ce sont ceux qu’on m’a confiés pendant mes stages en entreprise. C’est là que j’ai vraiment commencé à toucher à des missions concrètes.</p>
+<p>Le gros plus, c’est que j’étais entourée d’autres développeurs, donc en cas de blocage, j’avais toujours quelqu’un à qui poser mes questions. C’était formateur, et ça m’a donné encore plus envie de progresser.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cest-la-suite-de-ton-parcours-qui-a-attiré-mon-attention-récemment-tu-as-participé-à-plusieurs-concours-et-tu-es-très-jeune-on-sattendrait-donc-à-avoir-de-lexpérience-pour-participer-à-cela-pourquoi-avoir-décider-dy-participer-">C'est la suite de ton parcours qui a attiré mon attention... Récemment, tu as participé à plusieurs concours et tu es très jeune. On s'attendrait donc à avoir de l'expérience pour participer à cela. Pourquoi avoir décider d'y participer ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#cest-la-suite-de-ton-parcours-qui-a-attir%C3%A9-mon-attention-r%C3%A9cemment-tu-as-particip%C3%A9-%C3%A0-plusieurs-concours-et-tu-es-tr%C3%A8s-jeune-on-sattendrait-donc-%C3%A0-avoir-de-lexp%C3%A9rience-pour-participer-%C3%A0-cela-pourquoi-avoir-d%C3%A9cider-dy-participer-" class="hash-link" aria-label="Lien direct vers C'est la suite de ton parcours qui a attiré mon attention... Récemment, tu as participé à plusieurs concours et tu es très jeune. On s'attendrait donc à avoir de l'expérience pour participer à cela. Pourquoi avoir décider d'y participer ?" title="Lien direct vers C'est la suite de ton parcours qui a attiré mon attention... Récemment, tu as participé à plusieurs concours et tu es très jeune. On s'attendrait donc à avoir de l'expérience pour participer à cela. Pourquoi avoir décider d'y participer ?">​</a></h2>
+<p>Je suis curieuse de nature ; j’ai rapidement découvert plein d’opportunités pour les étudiants, notamment des ateliers et ces fameux concours.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quel-était-ton-premier-concours--tu-y-a-été-seule-">Quel était ton premier concours ? Tu y a été seule ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#quel-%C3%A9tait-ton-premier-concours--tu-y-a-%C3%A9t%C3%A9-seule-" class="hash-link" aria-label="Lien direct vers Quel était ton premier concours ? Tu y a été seule ?" title="Lien direct vers Quel était ton premier concours ? Tu y a été seule ?">​</a></h2>
+<p>L’un des premiers auxquels j’ai participé, c’était le <em><em>Tech Startup Weekend</em></em> organisé par <em><em>OpenCampusInov</em></em>, sur le thème des entreprises et du digital. On peut s'y inscrire seul ou en équipe, avec ou sans idée de projet. De mon côté, on y est allés à trois, avec une idée en tête : créer une plateforme de freelances en équipe, spécialisée dans l'informatique.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="en-quoi-consistent-ils--quels-sont-les-critères-de-sélection-dévaluation--quest-ce-quon-attend-des-candidats--le-temps-imparti--est-ce-quon-part-avec-des-handicaps-des-challenges-">En quoi consistent-ils ? Quels sont les critères de sélection, d'évaluation ? Qu'est-ce qu'on attend des candidats ? Le temps imparti ? Est-ce qu'on part avec des ''handicaps'', des challenges ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#en-quoi-consistent-ils--quels-sont-les-crit%C3%A8res-de-s%C3%A9lection-d%C3%A9valuation--quest-ce-quon-attend-des-candidats--le-temps-imparti--est-ce-quon-part-avec-des-handicaps-des-challenges-" class="hash-link" aria-label="Lien direct vers En quoi consistent-ils ? Quels sont les critères de sélection, d'évaluation ? Qu'est-ce qu'on attend des candidats ? Le temps imparti ? Est-ce qu'on part avec des ''handicaps'', des challenges ?" title="Lien direct vers En quoi consistent-ils ? Quels sont les critères de sélection, d'évaluation ? Qu'est-ce qu'on attend des candidats ? Le temps imparti ? Est-ce qu'on part avec des ''handicaps'', des challenges ?">​</a></h2>
+<p>Le principe du concours est simple mais intense : on a 48h non-stop pour construire un projet, de l’idée jusqu’à une présentation finale devant un jury.</p>
+<p>Il faut donc s’organiser vite :</p>
+<ul>
+<li>répartir les rôles,</li>
+<li>prioriser les tâches,</li>
+<li>avancer efficacement.</li>
+</ul>
+<p>J’ai souvent pris naturellement le rôle de cheffe de projet. J’arrive à repérer les points forts de chacun, à répartir les missions, et à faire en sorte que tout le monde avance dans la même direction.</p>
+<p>À la fin, le jury évalue les projets sur trois critères :</p>
+<ul>
+<li>le maquettage (la présentation visuelle de l’idée),</li>
+<li>la validation client (est-ce que le projet répond à un vrai besoin),</li>
+<li>le business model (comment le projet pourrait devenir rentable).</li>
+</ul>
+<p>L’un des moments les plus marquant de l'événement, c’est le pitch final : il faut présenter son projet, devant un public et un jury.
+C’est souvent un moment stressant pour beaucoup de développeurs. Mais, grâce à mes expériences en théâtre, je suis plutôt à l’aise sur scene (meme si le trac est toujours présent au fond), donc j’ai souvent pitché les produits lors des concours suivants.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mentalement-cest-rude-non-">Mentalement, c'est rude, non ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#mentalement-cest-rude-non-" class="hash-link" aria-label="Lien direct vers Mentalement, c'est rude, non ?" title="Lien direct vers Mentalement, c'est rude, non ?">​</a></h2>
+<p>Ce qu’il y a de plus dur dans ce genre d’événement, c’est pas seulement de coder ou de designer, c’est de faire comprendre l’idée en 5 minutes, de convaincre qu’elle est utile et qu’elle a de la valeur. Tu peux avoir un super projet, mais si tu ne sais pas l’expliquer… ça passe à côté...</p>
+<p>Lors de ce premier week-end, on a bossé nuit et jour à la bibliothèque universitaire pendant 48h (on a dormi quand même on a pas encore trouver de solution sans sommeil).</p>
+<p>On était l’équipe la plus jeune, la moins nombreuse, et clairement la moins expérimentée. Et pourtant… notre projet a été plébiscité à l’unanimité par le jury !! C’était incroyable !! Ce moment-là, ça a vraiment été un déclic. Depuis, j’ai voulu continuer l’aventure. J’ai donc participé à plusieurs autres concours :</p>
+<ul>
+<li><strong>Startup Weekend La Rochelle 2023</strong> et <strong>2024</strong>, où notre équipe a fini 1ère 🎉</li>
+<li><strong>La Nuit de l’Info 2023</strong> : on est arrivés 3e sur un des challenges</li>
+<li><strong>La Nuit de l’Info 2024</strong></li>
+<li><strong>Startup Weekend de Niort 2024</strong> : on est arrivés 1er</li>
+<li><strong>Les 24h de l’Info 2024</strong> : 3e prix cybersécurité et 7e au classement général</li>
+<li><strong>Hackathon de Namur 2025</strong> : on a reçu le prix technique.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="impressionnat--bravo--quest-ce-que-la-participation-à-ces-concours-ta-apprisapporté-">Impressionnat ! Bravo !! Qu'est-ce que la participation à ces concours t'a appris/apporté ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#impressionnat--bravo--quest-ce-que-la-participation-%C3%A0-ces-concours-ta-apprisapport%C3%A9-" class="hash-link" aria-label="Lien direct vers Impressionnat ! Bravo !! Qu'est-ce que la participation à ces concours t'a appris/apporté ?" title="Lien direct vers Impressionnat ! Bravo !! Qu'est-ce que la participation à ces concours t'a appris/apporté ?">​</a></h2>
+<p>Participer à tous ces concours m’a énormément apporté, à la fois techniquement et humainement.</p>
+<p>J'ai encore mieux compris ce que signifie travailler en équipe, tenir un rythme soutenu, pitcher, gérer un projet de A à Z...</p>
+<p>Et surtout, ils m’ont fait découvrir le monde de la gestion de projet. A partir de là, je sais que je veux devenir chef de projet informatique ou encore mieux entrepreneure d’une boîte dans la tech.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="as-tu-acquis-de-nouvelles-compétences-et-connaissances--lequelles-et-comment-tu-les-mets-en-pratique-dans-ta-vie-de-dev-aujourdhui-">As-tu acquis de nouvelles compétences et connaissances ? Lequelles et comment tu les mets en pratique dans ta vie de dev aujourd'hui ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#as-tu-acquis-de-nouvelles-comp%C3%A9tences-et-connaissances--lequelles-et-comment-tu-les-mets-en-pratique-dans-ta-vie-de-dev-aujourdhui-" class="hash-link" aria-label="Lien direct vers As-tu acquis de nouvelles compétences et connaissances ? Lequelles et comment tu les mets en pratique dans ta vie de dev aujourd'hui ?" title="Lien direct vers As-tu acquis de nouvelles compétences et connaissances ? Lequelles et comment tu les mets en pratique dans ta vie de dev aujourd'hui ?">​</a></h2>
+<p>J’ai toujours été celle qui pitchait les projets devant le jury, et même si ce n’est pas un exercice évident pour tout le monde, ça m’a permis de progresser à l’oral, de mieux structurer mes idées et de m’exprimer avec plus d’aisance.</p>
+<p>Ensuite, j’ai compris l’importance du réseau. Grâce à tous ces événements, j’ai rencontré plein de personnes du monde de l'informatique et de l’entrepreneuriat. Et, sous les conseils de ma mère (merci Maman 💓), j’ai créé mon compte LinkedIn dès mes débuts pour commencer à construire ce réseau, qui aujourd’hui me sert énormément.</p>
+<p>Ces concours m'ont aussi permis de réaliser que je voulais aller plus loin : devenir entrepreneure !</p>
+<p>C’est pourquoi, à la fin de ma première année, j’ai décidé de suivre en parallèle de mon BUT Informatique un D2E (Diplôme Étudiant-Entrepreneur). Avec Mathéo, qui fait partie de mon équipe depuis nos débuts en concours, on a décidé de s’associer pour lancer un projet concret, prévu pour septembre 2025.</p>
+<p>Sur le plan des compétences, chaque concours m’a permis d’apprendre une variété de choses, comme :</p>
+<ul>
+<li>L’utilisation de Figma pour la création de maquettes (au début, c’était un vrai défi, mais à force de pratique, c’est devenu un outil que j’utilise régulièrement aujourd’hui).</li>
+<li>La gestion de projet, l'organisation, le travail sous pression en équipe.</li>
+<li>Transformer une idée en quelque chose de présentable et fonctionnel en très peu de temps et en se posant les bonnes questions</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cest-super-intense--tu-es-une-surdouée-de-linformatique--faut-il-avoir-un-gros-niveau-pour-participer-à-ces-concours--ou-est-ce-que-tu-as-une-facilité-naturelle-dans-ce-domaine-">C'est super intense ! Tu es une 'surdouée' de l'informatique ! Faut-il avoir un gros niveau pour participer à ces concours ? Ou est-ce que tu as une facilité naturelle dans ce domaine ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#cest-super-intense--tu-es-une-surdou%C3%A9e-de-linformatique--faut-il-avoir-un-gros-niveau-pour-participer-%C3%A0-ces-concours--ou-est-ce-que-tu-as-une-facilit%C3%A9-naturelle-dans-ce-domaine-" class="hash-link" aria-label="Lien direct vers C'est super intense ! Tu es une 'surdouée' de l'informatique ! Faut-il avoir un gros niveau pour participer à ces concours ? Ou est-ce que tu as une facilité naturelle dans ce domaine ?" title="Lien direct vers C'est super intense ! Tu es une 'surdouée' de l'informatique ! Faut-il avoir un gros niveau pour participer à ces concours ? Ou est-ce que tu as une facilité naturelle dans ce domaine ?">​</a></h2>
+<p>Oh non, pas du tout ! Moi-même, je ne fais pas partie des "surdoués" de ma formation. Ce qui fait vraiment la différence, ce n’est pas le niveau que tu as au départ, c’est ta motivation, ta détermination, et parfois un petit côté obstiné et borné (dans le bon sens 😅) pour ne rien lâcher même quand c’est dur.</p>
+<p>Ce que les concours m’ont appris, c’est que l’envie de finir et de présenter un projet concret, tel que tu l’as en tête, te pousse à te dépasser et à aller au maximum de tes capacités. Même si tu ne connais pas tout au début, tu apprends tellement vite en très peu de temps. Et c’est justement cette dynamique qui fait progresser.</p>
+<p>Participer à un concours, je pesne que ce n'est pas une question d’avoir un grand “niveau”, c’est une question de volonté, d’envie de se challenger, et de sortir de sa zone de confort. Et je pense que c’est aussi ce qui m’a permis de beaucoup apprendre, plus rapidement qu’en restant dans un cadre classique de cours.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="passionnant--et-aujourdhui-à-plus-ou-moins-long-terme--quels-projets-est-sont-sur-le-feu-">Passionnant ! Et aujourd'hui, à plus ou moins long terme ? Quel(s) projet(s) est (sont) sur le feu ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#passionnant--et-aujourdhui-%C3%A0-plus-ou-moins-long-terme--quels-projets-est-sont-sur-le-feu-" class="hash-link" aria-label="Lien direct vers Passionnant ! Et aujourd'hui, à plus ou moins long terme ? Quel(s) projet(s) est (sont) sur le feu ?" title="Lien direct vers Passionnant ! Et aujourd'hui, à plus ou moins long terme ? Quel(s) projet(s) est (sont) sur le feu ?">​</a></h2>
+<p>Mon plus gros projet actuel est la création de mon entreprise.</p>
+<p>Aujourd’hui, mon projet le plus important, c’est clairement la création de notre start-up, avec mon associé Mathéo. Même si ce n’est pas moi qui m’occupe directement du développement (c’est lui le dev principal en React), je suis responsable de toute la gestion de projet : organisation, pilotage, vision, stratégie… et la viabilité de l’entreprise. Ce projet m’apprend énormément au quotidien : comment cadrer un besoin, fixer des objectifs réalistes, construire une roadmap, comprendre les attentes clients, etc.
+Ce projet me tient à cœur. Le but est de devenir un tiers de confiance entre les agences web et les clients. On avance bien, et on vise un lancement en septembre 2025 !
+C'est la continuité du 1er projet réalisé en <strong>Startup weekend</strong>, même si depuis il a beaucoup
+changé</p>
+<p>C’est une vraie mise en pratique de tout ce que j’ai appris à travers mes concours, mes stages et mes études.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dautres-projets-">D'autres projets ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#dautres-projets-" class="hash-link" aria-label="Lien direct vers D'autres projets ?" title="Lien direct vers D'autres projets ?">​</a></h2>
+<p>À court terme, mon prochain projet, c’est mon stage au L3i à La Rochelle. Je contribuerais au développement d’un bateau autonome, avec notamment une récupération des données en direct du bateau. Ça mélange ma passion de la voile avec celle de l'informatique, c'est juste incroyable !!</p>
+<p>L’année prochaine, je pars en Erasmus en Pologne pendant 6 mois.</p>
+<p>Et une fois mon BUT Informatique terminé, j’aimerais partir à l’étranger pour poursuivre en école d’ingénieur. Je ne sais pas encore exactement où, mais la Suisse et la Norvège m’attirent beaucoup. J’ai envie de continuer à apprendre dans un environnement international, tout en me spécialisant encore plus dans le développement et le management de projet informatique.</p>
+<p>Et bien sûr, je compte continuer à participer à des concours, des conférences, et tout ce qui me permet de rester dans le mouvement. La création de réseau est devenue super importante pour moi. C’est en rencontrant des gens, en échangeant, qu’on apprend le plus.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quels-sont-tes-astuces-et-les-conseils-que-tu-donnerais-à-quelquun-qui-débute-le-dev-">Quels sont tes astuces et les conseils que tu donnerais à quelqu'un qui débute le dev ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#quels-sont-tes-astuces-et-les-conseils-que-tu-donnerais-%C3%A0-quelquun-qui-d%C3%A9bute-le-dev-" class="hash-link" aria-label="Lien direct vers Quels sont tes astuces et les conseils que tu donnerais à quelqu'un qui débute le dev ?" title="Lien direct vers Quels sont tes astuces et les conseils que tu donnerais à quelqu'un qui débute le dev ?">​</a></h2>
+<p>Le conseil primordiale que je donnerai ?</p>
+<p>Je dirais que ma première astuce, c’est la gestion du temps et la priorisation des tâches, que ce soit en concours ou dans la vie de tous les jours. Savoir organiser sa journée permet de gagner du temps tout en se faisant plaisir et sans s’épuiser.</p>
+<p>Quand j’ai commencé à apprendre à coder, Udemy a été la toute première plateforme sur laquelle je me suis formée. En tant que débutant, c’est super compliqué de savoir par où commencer. On est vite perdu, tout semble infaisable. Mais ce que j’ai compris avec le temps, c’est que le métier de développeur, c’est justement ça : rendre faisable ce qui paraît impossible au départ. Et avec de la curiosité, de la persévérance, on finit par y arriver. Un conseil simple mais essentiel : <em>toujours diviser une grosse tâche en petites étapes</em>. Ça rend tout plus clair et plus atteignable.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tes-outils-de-travail-préférés-">Tes outils de travail préférés ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#tes-outils-de-travail-pr%C3%A9f%C3%A9r%C3%A9s-" class="hash-link" aria-label="Lien direct vers Tes outils de travail préférés ?" title="Lien direct vers Tes outils de travail préférés ?">​</a></h2>
+<p>Mes incontournables :</p>
+<ul>
+<li>Stack Overflow (mon sauveur dès que je bloque),</li>
+<li>Git (indispensable pour versionner ses projets),</li>
+<li>Bien sûr, YouTube/Udemy/OpenClassroom, où on trouve des pépites de tutos
+gratuits.</li>
+<li>Et l’IA, ça permet de bien débloquer quand on est coincé, tout en trouvant des solutions différentes. Il faut juste toujours repasser derrière pour comprendre ce qu’il fait et enlever les bouts codes inutiles qui sont tout de même ajoutés.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="merci-de-têtre-prêtée-au-jeu-et-pour-le-temps-que-tu-as-pris-un-dernier-mot-">Merci de t'être prêtée au jeu et pour le temps que tu as pris. Un dernier mot ?<a href="https://chrstn67.github.io/mycelium/blog/inteview-de-Gabrielle-CISELA#merci-de-t%C3%AAtre-pr%C3%AAt%C3%A9e-au-jeu-et-pour-le-temps-que-tu-as-pris-un-dernier-mot-" class="hash-link" aria-label="Lien direct vers Merci de t'être prêtée au jeu et pour le temps que tu as pris. Un dernier mot ?" title="Lien direct vers Merci de t'être prêtée au jeu et pour le temps que tu as pris. Un dernier mot ?">​</a></h2>
+<p>Mon conseil pour les débutants en dev :</p>
+<p>Participez à des concours, hackathons, ou événements tech !</p>
+<p>C’est là que j’ai le plus appris. Ces moments te poussent à donner le meilleur de toi-même, à apprendre vite, à sortir de ta zone de confort.
+Et surtout, tu rencontres plein de personnes inspirantes. C’est motivant, concret, intense… et tellement formateur !</p>]]></content>
+        <author>
+            <name>Christian HUMBERT</name>
+            <uri>https://www.linkedin.com/in/christian-humbert-developpeur-web/</uri>
+        </author>
+        <author>
+            <name>Gabrielle Cisela</name>
+            <uri>https://www.linkedin.com/in/gabrielle-ciesla-b226b8237/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Entrevue avec Gauthier DANIELS]]></title>
         <id>https://chrstn67.github.io/mycelium/blog/inteview-de-Gauthier-DANIELS</id>
