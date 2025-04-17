@@ -74,6 +74,47 @@ On était l’équipe la plus jeune, la moins nombreuse, et clairement la moins 
 - **Les 24h de l’Info 2024** : 3e prix cybersécurité et 7e au classement général
 - **Hackathon de Namur 2025** : on a reçu le prix technique.
 
+## Tu peux nous détailler ces concours ?
+
+#### Startup Weekend La Rochelle 2023 et 2024
+
+Notre équipe a terminé 1ère les deux années.
+
+- **Objectif** : Créer une startup en un week-end. Les critères d'évaluation sont la maquette, la validation client et le business model.
+- **Réalisations** :
+  - **2023** : Une plateforme de freelances en équipe, pour permettre à des indépendants de se regrouper sur des projets communs.
+  - **2024** : Un jeu sérieux en réalité virtuelle, destiné aux personnes en situation de mal-être ou de stress au travail, avec pour objectif de sensibiliser et offrir un espace immersif de prévention.
+
+#### La Nuit de l'Info 2023-2024
+
+Concours national où, pendant une nuit, on doit répondre à un thème principal ainsi qu'à des challenges bonus.
+
+- **2023** : J'ai développé une API météo.
+- **2024** : J'ai conçu une barre de recherche intelligente capable de comprendre et utiliser des emojis.
+
+#### Startup Weekend Niort 2024
+
+Là encore, nous avons terminé 1ers.
+
+- **Objectif** : Même principe, créer une startup en un week-end avec maquette, validation client et business model.
+- **Réalisation** : Une application mobile pour redynamiser la ville de Niort et attirer plus d'étudiants. Elle propose des événements géolocalisés, des parcours, et un système de badges à débloquer en réalisant des activités.
+
+#### Les 24h de l'Info 2024
+
+Nous avons remporté le 3e prix en cybersécurité et terminé 7e au classement général.
+
+- **Épreuves** :
+  - **Algorithme** : Traitement de données pour identifier des rectangles formés par 8 points partageant les mêmes coordonnées.
+  - **Web** : Jeu interactif sur une carte où il fallait remplir des missions en manipulant routes et superpositions.
+  - **Cybersécurité** : Une sorte de "back room" où il fallait s'échapper en résolvant des énigmes liées à la sécurité informatique.
+
+#### Hackathon de Namur 2025
+
+Nous avons reçu le prix technique.
+
+- **Objectif** : Créer une solution digitale pour promouvoir la ville de Namur, candidate au titre de capitale européenne de la culture 2030.
+- **Réalisation** : Une application mobile qui propose des parcours personnalisés en fonction des centres d'intérêt et du temps disponible. Chaque parcours est guidé par GPS et accompagné de contenus explicatifs. Les utilisateurs peuvent aussi collectionner des badges en terminant les visites.
+
 ## Impressionnat ! Bravo !! Qu'est-ce que la participation à ces concours t'a appris/apporté ?
 
 Participer à tous ces concours m’a énormément apporté, à la fois techniquement et humainement.
