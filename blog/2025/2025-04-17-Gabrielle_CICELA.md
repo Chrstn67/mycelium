@@ -2,8 +2,7 @@
 slug: inteview-de-Gabrielle-CISELA
 title: Entrevue avec Gabrielle CISELA
 authors: [chumbert, gcisela]
-# tags:
-#   [Jury TP, SolidJS, JavaScript, Laravel, PHP, Ruby, Java, RPG Maker VX, Vike]
+tags: [Concours]
 hide_table_of_contents: false
 ---
 
